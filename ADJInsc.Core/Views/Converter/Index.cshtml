@@ -1,0 +1,31 @@
+﻿@model List<ADJInsc.Core.FastExcel.ExcelModel>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Index</h1>
+
+<body>
+    @using (Html.BeginForm("Index", "Converter", FormMethod.Post))
+    {
+        <input type="submit" value="Get Users" />
+    }
+    @if (Model.Count() > 0)
+    {
+        <hr />
+        <table cellpadding="0" cellspacing="0" border="1">
+            <tr>
+                <th>Name</th>
+                <th>Phone</th>
+                <th>Email</th>
+            </tr>
+            @foreach (var user in Model)
+            {
+                <tr>
+                   
+                </tr>
+            }
+        </table>
+    }
+</body>

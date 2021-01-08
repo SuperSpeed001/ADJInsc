@@ -1,0 +1,152 @@
+﻿@model ADJInsc.Models.ViewModels.LoginViewModel
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Login</title>
+</head>
+<body>
+  
+
+    <div class="modal fade in" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="gridSystemModalLabel">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Login</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body card">
+
+                    <form asp-action="Login">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                        <div class="form-group">
+                           
+                            <input asp-for="Email" class="form-control"  placeholder="Login Username" id="inputUserName"/>
+                            <span asp-validation-for="Email" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Password" class="control-label"></label>
+                            <input asp-for="Password" class="form-control" placeholder="Login Password"
+                                   type="password" id="inputPassword"/>
+                            <span asp-validation-for="Password" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" value="Create" class="btn btn-primary" />
+                        </div>
+                    </form>
+
+
+                </div>
+                <div class="modal-footer">
+                    <button id="loginClic" type="submit" class="btn btn-primary">Iniciar</button>
+                    <button type="button" id="btnHideModal" class="btn btn-outline-info">
+                        Cerrar
+                    </button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+
+</html>
+
+@section scripts {
+
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+
+    <style type="text/css">
+        .span3 {
+            position: relative;
+            height: 200px;
+            overflow: auto;
+        }
+
+        .card-body {
+            padding-bottom: 0rem;
+        }
+    </style>
+
+
+    <script type="text/javascript">
+        $(function () {
+            $("#loginModal").modal();
+        });
+
+        $(function () {
+            $("#btnLogin").click(function () {
+                $("#AjaxLoaderLogin").show("fast");
+                $("#loginModal").modal('show');
+            });
+
+            $("#btnHideModal").click(function () {
+                $("#loginModal").modal('hide');
+            });
+        });
+
+        $(function () {
+            var userName = $("#inputUserName").val();
+            var userPassword = $("#inputPassword").val();
+
+            if (userName.length > 4 && password.length > 4) {
+                $.ajax({
+                        url: '@Url.Action("BuscarPersona", "Login")',
+                    data: {
+                        userName: userName,
+                        userPassword: userPassword
+                        },
+                        type: "post", // Verbo HTTP
+                        timeout: 1500 // adjust the limit. currently its 15 seconds
+                })
+                    .done(function (result) {
+                        // $("#modalAgregarTitular").show();
+                        if (result != null) {
+
+                            if (result == "NoExiste") {
+                                console.log("NoExiste");
+                            } else {
+                                console.log("Si Cargar");
+                            }
+
+                            //$("#tablaFamilia").show();
+                            $("#formTitular").show();
+                            // Actualiza el resultado HTML
+                            $("#tablaFamilia").html(result);
+
+                            // Un pequeño esfecto especial ;)
+                            $("#PostList .row").first().hide();
+                            $("#PostList .row").first().slideToggle("fast");
+
+                            $("#AjaxLoader").hide("slow");
+
+                            $("#btnCreate").prop("disabled", false);
+                            $("#modeloClick").prop("disabled", false);
+                        }
+                    })
+                    .fail(function (xhr, status, error) {
+
+                        $("#ErrorAlert").show("slow").delay(2000).hide("slow");
+
+                        $("#AjaxLoader").hide("slow");
+
+                    })
+                    // Hacer algo siempre, haya sido exitosa o no.
+                    .always(function () {
+
+                    });
+
+            }
+
+        });
+    </script>
+}

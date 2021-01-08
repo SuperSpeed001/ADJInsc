@@ -1,0 +1,454 @@
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\ADJInsc.Models.dll.config
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\ADJInsc.Models.dll
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\ADJInsc.Models.pdb
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.Bcl.HashCode.dll
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.Data.SqlClient.dll
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.EntityFrameworkCore.Design.dll
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.EntityFrameworkCore.dll
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.Extensions.Configuration.Binder.dll
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.Extensions.Configuration.dll
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.Extensions.Logging.dll
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.Extensions.Options.dll
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.Identity.Client.dll
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.IdentityModel.Logging.dll
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.IdentityModel.Protocols.dll
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.IdentityModel.Tokens.dll
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Newtonsoft.Json.dll
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\System.Buffers.dll
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\System.Collections.Immutable.dll
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\System.IdentityModel.Tokens.Jwt.dll
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\System.Memory.dll
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\System.Numerics.Vectors.dll
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.Bcl.HashCode.xml
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.Data.SqlClient.pdb
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.Data.SqlClient.xml
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.EntityFrameworkCore.xml
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.xml
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.EntityFrameworkCore.Design.xml
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.EntityFrameworkCore.Relational.xml
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.xml
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.Extensions.Caching.Abstractions.xml
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.Extensions.Caching.Memory.xml
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.Extensions.Configuration.xml
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.Extensions.Configuration.Binder.xml
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.Extensions.Logging.xml
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.Extensions.Options.xml
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.Identity.Client.xml
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.xml
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.IdentityModel.Logging.xml
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.IdentityModel.Protocols.xml
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.IdentityModel.Protocols.OpenIdConnect.xml
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.IdentityModel.Tokens.xml
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Newtonsoft.Json.xml
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\System.Buffers.xml
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\System.Collections.Immutable.xml
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\System.IdentityModel.Tokens.Jwt.xml
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\System.Memory.xml
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\System.Numerics.Vectors.xml
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\de\Microsoft.Data.SqlClient.resources.dll
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\es\Microsoft.Data.SqlClient.resources.dll
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\fr\Microsoft.Data.SqlClient.resources.dll
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\it\Microsoft.Data.SqlClient.resources.dll
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\ja\Microsoft.Data.SqlClient.resources.dll
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\ko\Microsoft.Data.SqlClient.resources.dll
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\ru\Microsoft.Data.SqlClient.resources.dll
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\Projects\ADJInsc\ADJInsc.Models\obj\Debug\ADJInsc.Models.csproj.CoreCompileInputs.cache
+C:\Projects\ADJInsc\ADJInsc.Models\obj\Debug\ADJInsc.Models.csproj.CopyComplete
+C:\Projects\ADJInsc\ADJInsc.Models\obj\Debug\ADJInsc.Models.dll
+C:\Projects\ADJInsc\ADJInsc.Models\obj\Debug\ADJInsc.Models.pdb
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.DiaSymReader.Native.x86.dll
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Antiforgery.dll
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Authentication.Abstractions.dll
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Authentication.Core.dll
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Authorization.dll
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Authorization.Policy.dll
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Cors.dll
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.DataProtection.Abstractions.dll
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.DataProtection.dll
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Diagnostics.Abstractions.dll
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Hosting.Abstractions.dll
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Html.Abstractions.dll
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Http.dll
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Http.Extensions.dll
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Http.Features.dll
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.JsonPatch.dll
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Localization.dll
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Mvc.Abstractions.dll
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Mvc.ApiExplorer.dll
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Mvc.Core.dll
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Mvc.Cors.dll
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Mvc.DataAnnotations.dll
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Mvc.dll
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Mvc.Formatters.Json.dll
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Mvc.Localization.dll
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Mvc.Razor.dll
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Mvc.RazorPages.dll
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Mvc.TagHelpers.dll
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Mvc.ViewFeatures.dll
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Razor.dll
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Razor.Language.dll
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Razor.Runtime.dll
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.ResponseCaching.Abstractions.dll
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Routing.Abstractions.dll
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Routing.dll
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.WebUtilities.dll
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.CodeAnalysis.CSharp.dll
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.CodeAnalysis.dll
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.CodeAnalysis.Razor.dll
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.Extensions.DependencyModel.dll
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.Extensions.FileProviders.Composite.dll
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.Extensions.Localization.Abstractions.dll
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.Extensions.Localization.dll
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.Extensions.ObjectPool.dll
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.Extensions.WebEncoders.dll
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.Net.Http.Headers.dll
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.Win32.Registry.dll
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Newtonsoft.Json.Bson.dll
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\System.Reflection.Metadata.dll
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\System.Security.AccessControl.dll
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\System.Security.Cryptography.Xml.dll
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\System.Security.Permissions.dll
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\System.Security.Principal.Windows.dll
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\System.Text.Encoding.CodePages.dll
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\System.Text.Encodings.Web.dll
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\System.Web.Helpers.dll
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\System.Web.Mvc.dll
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\System.Web.Razor.dll
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\System.Web.WebPages.dll
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Antiforgery.xml
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Authentication.Abstractions.xml
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Authentication.Core.xml
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Authorization.xml
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Authorization.Policy.xml
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Cors.xml
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Cryptography.Internal.xml
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.DataProtection.xml
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.DataProtection.Abstractions.xml
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Diagnostics.Abstractions.xml
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Hosting.Abstractions.xml
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Hosting.Server.Abstractions.xml
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Html.Abstractions.xml
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Http.xml
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Http.Abstractions.xml
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Http.Extensions.xml
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Http.Features.xml
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.JsonPatch.xml
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Localization.xml
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Mvc.xml
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Mvc.Abstractions.xml
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Mvc.ApiExplorer.xml
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Mvc.Core.xml
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Mvc.Cors.xml
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Mvc.DataAnnotations.xml
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Mvc.Formatters.Json.xml
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Mvc.Localization.xml
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Mvc.Razor.xml
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Mvc.Razor.Extensions.xml
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Mvc.RazorPages.xml
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Mvc.TagHelpers.xml
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Mvc.ViewFeatures.xml
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Razor.xml
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Razor.Language.xml
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Razor.Runtime.xml
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.ResponseCaching.Abstractions.xml
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Routing.xml
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Routing.Abstractions.xml
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.WebUtilities.xml
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.CodeAnalysis.pdb
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.CodeAnalysis.xml
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.CodeAnalysis.CSharp.pdb
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.CodeAnalysis.CSharp.xml
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.CodeAnalysis.Razor.xml
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.xml
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.Extensions.FileProviders.Composite.xml
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.Extensions.FileSystemGlobbing.xml
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.Extensions.Hosting.Abstractions.xml
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.Extensions.Localization.xml
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.Extensions.Localization.Abstractions.xml
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.Extensions.ObjectPool.xml
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.Extensions.WebEncoders.xml
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Microsoft.Net.Http.Headers.xml
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\Newtonsoft.Json.Bson.xml
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\System.Reflection.Metadata.xml
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\System.Text.Encodings.Web.xml
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\System.Web.Helpers.xml
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\System.Web.Mvc.xml
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\System.Web.Razor.xml
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\System.Web.WebPages.xml
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\es\System.Web.Helpers.resources.dll
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\es\System.Web.Mvc.resources.dll
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\es\System.Web.Razor.resources.dll
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\es\System.Web.WebPages.resources.dll
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\es\System.Web.WebPages.Deployment.resources.dll
+C:\Projects\ADJInsc\ADJInsc.Models\bin\Debug\es\System.Web.WebPages.Razor.resources.dll
+C:\Projects\ADJInsc\ADJInsc.Models\obj\Debug\ADJInsc.Models.csprojAssemblyReference.cache
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.DiaSymReader.Native.x86.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\ADJInsc.Models.dll.config
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\ADJInsc.Models.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\ADJInsc.Models.pdb
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Antiforgery.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Authentication.Abstractions.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Authentication.Core.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Authorization.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Authorization.Policy.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Cors.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.DataProtection.Abstractions.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.DataProtection.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Diagnostics.Abstractions.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Hosting.Abstractions.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Html.Abstractions.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Http.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Http.Extensions.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Http.Features.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.JsonPatch.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Localization.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Mvc.Abstractions.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Mvc.ApiExplorer.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Mvc.Core.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Mvc.Cors.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Mvc.DataAnnotations.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Mvc.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Mvc.Formatters.Json.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Mvc.Localization.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Mvc.Razor.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Mvc.RazorPages.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Mvc.TagHelpers.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Mvc.ViewFeatures.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Razor.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Razor.Language.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Razor.Runtime.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.ResponseCaching.Abstractions.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Routing.Abstractions.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Routing.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.WebUtilities.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.Bcl.HashCode.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.CodeAnalysis.CSharp.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.CodeAnalysis.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.CodeAnalysis.Razor.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.Data.SqlClient.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.EntityFrameworkCore.Design.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.EntityFrameworkCore.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.Extensions.Configuration.Binder.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.Extensions.Configuration.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.Extensions.DependencyModel.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.Extensions.FileProviders.Composite.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.Extensions.Localization.Abstractions.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.Extensions.Localization.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.Extensions.Logging.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.Extensions.ObjectPool.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.Extensions.Options.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.Extensions.WebEncoders.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.Identity.Client.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.IdentityModel.Logging.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.IdentityModel.Protocols.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.IdentityModel.Tokens.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.Net.Http.Headers.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.Win32.Registry.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Newtonsoft.Json.Bson.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Newtonsoft.Json.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\System.Buffers.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\System.Collections.Immutable.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\System.IdentityModel.Tokens.Jwt.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\System.Memory.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\System.Numerics.Vectors.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\System.Reflection.Metadata.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\System.Security.AccessControl.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\System.Security.Cryptography.Xml.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\System.Security.Permissions.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\System.Security.Principal.Windows.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\System.Text.Encoding.CodePages.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\System.Text.Encodings.Web.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\System.Web.Helpers.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\System.Web.Mvc.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\System.Web.Razor.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\System.Web.WebPages.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Antiforgery.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Authentication.Abstractions.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Authentication.Core.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Authorization.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Authorization.Policy.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Cors.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Cryptography.Internal.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.DataProtection.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.DataProtection.Abstractions.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Diagnostics.Abstractions.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Hosting.Abstractions.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Hosting.Server.Abstractions.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Html.Abstractions.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Http.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Http.Abstractions.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Http.Extensions.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Http.Features.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.JsonPatch.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Localization.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Mvc.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Mvc.Abstractions.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Mvc.ApiExplorer.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Mvc.Core.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Mvc.Cors.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Mvc.DataAnnotations.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Mvc.Formatters.Json.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Mvc.Localization.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Mvc.Razor.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Mvc.Razor.Extensions.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Mvc.RazorPages.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Mvc.TagHelpers.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Mvc.ViewFeatures.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Razor.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Razor.Language.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Razor.Runtime.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.ResponseCaching.Abstractions.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Routing.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.Routing.Abstractions.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.AspNetCore.WebUtilities.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.Bcl.HashCode.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.CodeAnalysis.pdb
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.CodeAnalysis.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.CodeAnalysis.CSharp.pdb
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.CodeAnalysis.CSharp.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.CodeAnalysis.Razor.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.Data.SqlClient.pdb
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.Data.SqlClient.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.EntityFrameworkCore.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.EntityFrameworkCore.Design.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.EntityFrameworkCore.Relational.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.Extensions.Caching.Abstractions.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.Extensions.Caching.Memory.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.Extensions.Configuration.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.Extensions.Configuration.Binder.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.Extensions.FileProviders.Composite.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.Extensions.FileSystemGlobbing.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.Extensions.Hosting.Abstractions.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.Extensions.Localization.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.Extensions.Localization.Abstractions.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.Extensions.Logging.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.Extensions.ObjectPool.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.Extensions.Options.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.Extensions.WebEncoders.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.Identity.Client.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.IdentityModel.Logging.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.IdentityModel.Protocols.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.IdentityModel.Protocols.OpenIdConnect.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.IdentityModel.Tokens.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Microsoft.Net.Http.Headers.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Newtonsoft.Json.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\Newtonsoft.Json.Bson.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\System.Buffers.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\System.Collections.Immutable.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\System.IdentityModel.Tokens.Jwt.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\System.Memory.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\System.Numerics.Vectors.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\System.Reflection.Metadata.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\System.Text.Encodings.Web.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\System.Web.Helpers.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\System.Web.Mvc.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\System.Web.Razor.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\System.Web.WebPages.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\de\Microsoft.Data.SqlClient.resources.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\es\Microsoft.Data.SqlClient.resources.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\fr\Microsoft.Data.SqlClient.resources.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\it\Microsoft.Data.SqlClient.resources.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\ja\Microsoft.Data.SqlClient.resources.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\ko\Microsoft.Data.SqlClient.resources.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\ru\Microsoft.Data.SqlClient.resources.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\es\System.Web.Helpers.resources.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\es\System.Web.Mvc.resources.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\es\System.Web.Razor.resources.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\es\System.Web.WebPages.resources.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\es\System.Web.WebPages.Deployment.resources.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\bin\Debug\es\System.Web.WebPages.Razor.resources.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\obj\Debug\ADJInsc.Models.csproj.CoreCompileInputs.cache
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\obj\Debug\ADJInsc.Models.csproj.CopyComplete
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\obj\Debug\ADJInsc.Models.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\obj\Debug\ADJInsc.Models.pdb
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Models\obj\Debug\ADJInsc.Models.csprojAssemblyReference.cache

@@ -1,0 +1,111 @@
+﻿@model List<ADJInsc.Web.Models.GrupoFamiliarViewModel>
+
+<form>
+    <h2> Titular</h2>
+    <div class="form-group">
+        <div class="form-row">
+            <div class="form-group col-md-4">
+                <label for="inputNombre">Nombre</label>
+                <input type="text" class="form-control"  id="inputNombre" placeholder="Nombre">
+            </div>
+            <div class="form-group col-md-4">
+                <label for="inputApellido">Apellido</label>
+                <input type="text" class="form-control" id="inputApellido" placeholder="Apellido">
+            </div>            
+            <div class="form-group col-md-2">
+                <label for="inputEmail">Email</label>
+                <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+            </div>
+        </div>
+        <div class="form-group row-cols-2">
+            <label for="inputAddress">Dirección</label>
+            <input type="text" multiple class="form-control" id="inputAddress" placeholder="Dirección">
+        </div>
+        <div class="form-row">
+            <div class="form-group col-md-4">
+                <label for="inputBarrio">Barrio</label>
+                <input type="text" class="form-control" id="inputBarrio" placeholder="Barrio">
+            </div>
+            <div class="form-group col-md-4">
+                <label for="inputLocalidad">Localidad</label>
+                <input type="text" class="form-control" id="inputLocalidad" placeholder="Localidad">
+            </div>
+            <div class="form-group col-md-2">
+                <label for="inputDepartamento">Departamento</label>
+                <input type="text" class="form-control" id="inputDepartamento" placeholder="Departamento">
+            </div>
+        </div>                
+    </div>
+</form>
+<div class="row">
+    <h3>@ViewData["Titulo"] </h3>
+    <div class=" span3 col-12 table-wrapper-scroll-y my-custom-scrollbar">
+        <table id="tablaTurnos" class="table table-striped table-responsive-lg" cellspacing="0"
+               width="100%">
+            <!--table table-sm table-striped table-hover border-bottom table table-bordered mb-0-->
+            <thead>
+                <tr class="d-none d-lg-table-cell table-light">                
+
+                    <th>
+                        @Html.DisplayNameFor(model => model[0].PersonaNombre)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model[0].PersonaApellido)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model[0].PersonaDni)
+                    </th>
+                    <th>
+
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                @if (Model.Count > 0)
+                {
+                    foreach (var item in Model)
+                    {
+                <tr>
+                    
+                    <td >
+                        @Html.DisplayFor(modelItem => item.PersonaNombre)
+                    </td>
+
+                    <td>
+                        @Html.DisplayFor(modelItem => item.PersonaApellido)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.PersonaDni)
+                    </td>
+                    <!-- <td>
+         <div class="input-group">
+             <div class="input-group-prepend">
+                 <div class="input-group-text">
+                     <input type="radio" id="" name="groupRadio" aria-label="Radio button for following text input">
+                 </div>
+             </div>
+
+         </div>
+     </td>
+     <td class=" th-md custom-control custom-checkbox text-center d-none d-md-table-cell">
+         <input id="" type="checkbox" asp-for="" onClick="ActivarCasilla(this);">
+     </td>-->
+                    <td>
+                        
+                    </td>
+                </tr>
+                    }
+                }
+                else
+                {
+                    <tr>
+                        <td colspan="6" class="text-center">
+                            No hay turnos para esta fecha
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+

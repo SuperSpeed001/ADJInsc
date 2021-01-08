@@ -1,0 +1,160 @@
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\appsettings.Development.json
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\appsettings.json
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\ADJInsc.Core.Api.exe
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\ADJInsc.Core.Api.deps.json
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\ADJInsc.Core.Api.runtimeconfig.json
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\ADJInsc.Core.Api.runtimeconfig.dev.json
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\ADJInsc.Core.Api.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\ADJInsc.Core.Api.pdb
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\MailKit.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\MimeKit.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\BouncyCastle.Crypto.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\ADJInsc.Models.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\ADJInsc.Models.pdb
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\ADJInsc.Models.dll.config
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Api\obj\Release\netcoreapp3.1\ADJInsc.Core.Api.csprojAssemblyReference.cache
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Api\obj\Release\netcoreapp3.1\ADJInsc.Core.Api.AssemblyInfoInputs.cache
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Api\obj\Release\netcoreapp3.1\ADJInsc.Core.Api.AssemblyInfo.cs
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Api\obj\Release\netcoreapp3.1\ADJInsc.Core.Api.csproj.CoreCompileInputs.cache
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Api\obj\Release\netcoreapp3.1\ADJInsc.Core.Api.MvcApplicationPartsAssemblyInfo.cache
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Api\obj\Release\netcoreapp3.1\ADJInsc.Core.Api.RazorTargetAssemblyInfo.cache
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Api\obj\Release\netcoreapp3.1\ADJInsc.Core.Api.csproj.CopyComplete
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Api\obj\Release\netcoreapp3.1\staticwebassets\ADJInsc.Core.Api.StaticWebAssets.Manifest.cache
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Api\obj\Release\netcoreapp3.1\staticwebassets\ADJInsc.Core.Api.StaticWebAssets.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Api\obj\Release\netcoreapp3.1\ADJInsc.Core.Api.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Api\obj\Release\netcoreapp3.1\ADJInsc.Core.Api.pdb
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Api\obj\Release\netcoreapp3.1\ADJInsc.Core.Api.genruntimeconfig.cache
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\System.Net.Http.Json.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\System.Text.Json.dll
+C:\Projects\ADJInsc\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\appsettings.Development.json
+C:\Projects\ADJInsc\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\appsettings.json
+C:\Projects\ADJInsc\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\Properties\launchSettings.json
+C:\Projects\ADJInsc\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\ADJInsc.Core.Api.exe
+C:\Projects\ADJInsc\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\ADJInsc.Core.Api.deps.json
+C:\Projects\ADJInsc\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\ADJInsc.Core.Api.runtimeconfig.json
+C:\Projects\ADJInsc\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\ADJInsc.Core.Api.runtimeconfig.dev.json
+C:\Projects\ADJInsc\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\ADJInsc.Core.Api.dll
+C:\Projects\ADJInsc\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\ADJInsc.Core.Api.pdb
+C:\Projects\ADJInsc\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\MailKit.dll
+C:\Projects\ADJInsc\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Projects\ADJInsc\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Projects\ADJInsc\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Projects\ADJInsc\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Projects\ADJInsc\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Projects\ADJInsc\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Projects\ADJInsc\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Projects\ADJInsc\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Projects\ADJInsc\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Projects\ADJInsc\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Projects\ADJInsc\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Projects\ADJInsc\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Projects\ADJInsc\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Projects\ADJInsc\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Projects\ADJInsc\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Projects\ADJInsc\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Projects\ADJInsc\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Projects\ADJInsc\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Projects\ADJInsc\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Projects\ADJInsc\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Projects\ADJInsc\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Projects\ADJInsc\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Projects\ADJInsc\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Projects\ADJInsc\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Projects\ADJInsc\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\MimeKit.dll
+C:\Projects\ADJInsc\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Projects\ADJInsc\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\BouncyCastle.Crypto.dll
+C:\Projects\ADJInsc\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Projects\ADJInsc\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Projects\ADJInsc\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Projects\ADJInsc\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Projects\ADJInsc\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Projects\ADJInsc\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\System.Net.Http.Json.dll
+C:\Projects\ADJInsc\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Projects\ADJInsc\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Projects\ADJInsc\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\System.Text.Json.dll
+C:\Projects\ADJInsc\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Projects\ADJInsc\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Projects\ADJInsc\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Projects\ADJInsc\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Projects\ADJInsc\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Projects\ADJInsc\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Projects\ADJInsc\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Projects\ADJInsc\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Projects\ADJInsc\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Projects\ADJInsc\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Projects\ADJInsc\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\ADJInsc.Models.dll
+C:\Projects\ADJInsc\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\ADJInsc.Models.pdb
+C:\Projects\ADJInsc\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\ADJInsc.Models.dll.config
+C:\Projects\ADJInsc\ADJInsc.Core.Api\obj\Release\netcoreapp3.1\ADJInsc.Core.Api.csprojAssemblyReference.cache
+C:\Projects\ADJInsc\ADJInsc.Core.Api\obj\Release\netcoreapp3.1\ADJInsc.Core.Api.AssemblyInfoInputs.cache
+C:\Projects\ADJInsc\ADJInsc.Core.Api\obj\Release\netcoreapp3.1\ADJInsc.Core.Api.AssemblyInfo.cs
+C:\Projects\ADJInsc\ADJInsc.Core.Api\obj\Release\netcoreapp3.1\ADJInsc.Core.Api.csproj.CoreCompileInputs.cache
+C:\Projects\ADJInsc\ADJInsc.Core.Api\obj\Release\netcoreapp3.1\ADJInsc.Core.Api.MvcApplicationPartsAssemblyInfo.cache
+C:\Projects\ADJInsc\ADJInsc.Core.Api\obj\Release\netcoreapp3.1\ADJInsc.Core.Api.RazorTargetAssemblyInfo.cache
+C:\Projects\ADJInsc\ADJInsc.Core.Api\obj\Release\netcoreapp3.1\ADJInsc.Core.Api.csproj.CopyComplete
+C:\Projects\ADJInsc\ADJInsc.Core.Api\obj\Release\netcoreapp3.1\staticwebassets\ADJInsc.Core.Api.StaticWebAssets.Manifest.cache
+C:\Projects\ADJInsc\ADJInsc.Core.Api\obj\Release\netcoreapp3.1\staticwebassets\ADJInsc.Core.Api.StaticWebAssets.xml
+C:\Projects\ADJInsc\ADJInsc.Core.Api\obj\Release\netcoreapp3.1\ADJInsc.Core.Api.dll
+C:\Projects\ADJInsc\ADJInsc.Core.Api\obj\Release\netcoreapp3.1\ADJInsc.Core.Api.pdb
+C:\Projects\ADJInsc\ADJInsc.Core.Api\obj\Release\netcoreapp3.1\ADJInsc.Core.Api.genruntimeconfig.cache
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Api\obj\Release\netcoreapp3.1\ADJInsc.Core.Api.MvcApplicationPartsAssemblyInfo.cs
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\Microsoft.DiaSymReader.Native.x86.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\ADJInsc.Core.Logica.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\ADJInsc.Core.Logica.pdb
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Api\obj\Release\netcoreapp3.1\scopedcss\bundle\ADJInsc.Core.Api.styles.css

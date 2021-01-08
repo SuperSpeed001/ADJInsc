@@ -1,0 +1,57 @@
+﻿@model ADJInsc.Models.ViewModels.UsuarioTitularViewModel
+
+
+
+<div id="formTitular">
+    <div class="form-group card border-info">
+        <h3 class="card-header text-light bg-info"> Titular</h3>
+        <div class="form-group card-body">
+
+            @if (string.IsNullOrEmpty(Model.InsNombre))
+            {
+                <!--  <div class="form-group col-md-6">
+              <input type="text" class="form-control" id="inputNombre" placeholder="Nombre" value="">
+          </div>
+          <div class="form-group col-md-6">
+              <input type="text" class="form-control" id="inputApellido" placeholder="Apellido" value="">
+          </div>
+          -->
+            }
+            else
+            {
+                <div class="form-group col-md-6">
+                    <input type="text" class="form-control" id="inputNombre" placeholder="Nombre" value="@Model.InsNombre">
+                </div>
+            }
+
+            <div class="form-group col-md-6">
+                @Html.DropDownListFor(x => Model.InsTipflia, Model.TipoFamiliaList ?? new List<SelectListItem>(), "----Selecciona Estado Civil----", htmlAttributes: new { @class = "form-control", id = "ddTipoFamiliaId" })
+            </div>
+        </div>
+    </div>
+    <div class="form-group card border-info">
+        <h5 class="card-header text-light bg-info"> Registro de Usuario</h5>
+        <div class="form-row card-body">
+            <div class="form-group col-md-6">
+                <input type="text" class="form-control" id="inputUser" placeholder="Usuario" value="@Model.Usuario">
+            </div>
+            <div class="form-group col-md-6">
+                <input type="email" class="form-control" id="inputEmail" placeholder="Email" value="@Model.InsEmail">
+            </div>
+            <div class="form-group col-md-6">
+                <input type="password" class="form-control" id="inputContraseña" placeholder="Contraseña" value="@Model.Clave">
+                <span class="fa fa-eye-slash icon" id="mostrar"> <span id="pwdtxt" style="cursor:pointer;">Mostrar contraseña</span></span>
+            </div>
+            <div class="form-group col-md-6">
+                <input type="password" class="form-control" id="inputRepetirContraseña" placeholder="Repetir Contraseña">
+                <span class="fa fa-eye-slash icon" id="mostrarRe"> <span id="pwdtxtRe" style="cursor:pointer;">Mostrar contraseña</span></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <input id="btnCreate" disabled="disabled" type="submit" value="Generar Ficha" class="btn btn-primary" />
+        </div>
+    </div>
+</div>

@@ -1,0 +1,118 @@
+﻿@model ADJInsc.Models.ViewModels.LoginViewModel
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Login</title>
+</head>
+<body>
+
+
+    <div class="modal fade in" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="gridSystemModalLabel">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Login</h5>
+                </div>
+                <div class="modal-body card">
+                    @if (Model.Password == "1")
+                    {
+                        <p>Usuario ya registrado, debe ingresar con el siguiente correo</p>
+                        <form asp-controller="Bandeja" asp-action="Login">
+                            <div class="modal-body card">
+
+                                <div class="form-group ">
+                                    <input class="form-control" type="email"
+                                           placeholder="Correo" id="inputUserName" name="inputUserName" value="@Model.Email" />
+                                </div>
+                                <div class="form-group ">
+                                    <input class="form-control" placeholder="Contraseña"
+                                           type="password" id="inputPassword" name="inputPassword" />
+                                </div>
+
+                            </div>
+                            <div class="modal-footer">
+                                <button id="loginClic" type="submit" class="btn btn-primary">Iniciar</button>
+                                <button type="button" id="btnHideModal" class="btn btn-outline-info">
+                                    Cerrar
+                                </button>
+                            </div>
+                        </form>
+                    }
+                    else
+                    {
+                        if (Model.Password == "2")
+                        {
+
+                            <div>
+                                <div class="modal-body card">
+
+
+                                    <h3>
+                                        Debe ingresar al correo con el que se inscribió el cual es @Model.Email para validar Datos
+                                    </h3>
+                                </div>
+                                <div class="modal-footer">
+
+                                    <button type="button" id="btnHideModal" class="btn btn-outline-info">
+                                        Volver
+                                    </button>
+                                </div>
+                            </div>
+
+
+                        }
+
+                    }
+
+
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+
+</html>
+
+@section scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+
+    <style type="text/css">
+        .span3 {
+            position: relative;
+            height: 200px;
+            overflow: auto;
+        }
+
+        .card-body {
+            padding-bottom: 0rem;
+        }
+    </style>
+
+    <script type="text/javascript">
+        $(function () {
+            $("#loginModal").modal();
+        });
+
+        $(function () {
+
+            $("#btnLogin").click(function () {
+                $("#AjaxLoaderLogin").show("fast");
+                $("#loginModal").modal('show');
+            });
+
+            $("#btnHideModal").click(function () {
+                $("#loginModal").modal('hide');
+                history.back();
+            });
+        });
+
+
+    </script>
+}

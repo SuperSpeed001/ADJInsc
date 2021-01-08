@@ -1,0 +1,193 @@
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\obj\Debug\netcoreapp3.1\ADJInsc.Core.Logica.csprojAssemblyReference.cache
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\obj\Debug\netcoreapp3.1\ADJInsc.Core.Logica.AssemblyInfoInputs.cache
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\obj\Debug\netcoreapp3.1\ADJInsc.Core.Logica.AssemblyInfo.cs
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\obj\Debug\netcoreapp3.1\ADJInsc.Core.Logica.dll
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\obj\Debug\netcoreapp3.1\ADJInsc.Core.Logica.pdb
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.DiaSymReader.Native.x86.dll
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\ADJInsc.Core.Logica.deps.json
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\ADJInsc.Core.Logica.dll
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\ADJInsc.Core.Logica.pdb
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\ADJInsc.Models.dll
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.ViewFeatures.dll
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.Core.dll
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.Formatters.Json.dll
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.Abstractions.dll
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Html.Abstractions.dll
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Localization.Abstractions.dll
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Routing.Abstractions.dll
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.DataAnnotations.dll
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Diagnostics.Abstractions.dll
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Antiforgery.dll
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.DataProtection.Abstractions.dll
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.WebUtilities.dll
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.DataProtection.dll
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.Extensions.WebEncoders.dll
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Routing.dll
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.Abstractions.dll
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.Net.Http.Headers.dll
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Http.dll
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authorization.dll
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Hosting.Abstractions.dll
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Http.Extensions.dll
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authorization.Policy.dll
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.ResponseCaching.Abstractions.dll
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.Core.dll
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.Extensions.ObjectPool.dll
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Localization.dll
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.Win32.Registry.dll
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\System.Security.Cryptography.Xml.dll
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\System.Security.Principal.Windows.dll
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\ADJInsc.Models.pdb
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\ADJInsc.Models.dll.config
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.ViewFeatures.xml
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.xml
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.xml
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.xml
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.Core.xml
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.Formatters.Json.xml
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.Abstractions.xml
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Newtonsoft.Json.xml
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Http.Abstractions.xml
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Html.Abstractions.xml
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Localization.Abstractions.xml
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Routing.Abstractions.xml
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.DataAnnotations.xml
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Diagnostics.Abstractions.xml
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Antiforgery.xml
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.DataProtection.Abstractions.xml
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.WebUtilities.xml
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.xml
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.DataProtection.xml
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.Extensions.WebEncoders.xml
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.xml
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.xml
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.xml
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.xml
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.xml
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.xml
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.pdb
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.xml
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Routing.xml
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.Abstractions.xml
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.Net.Http.Headers.xml
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Http.xml
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.xml
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authorization.xml
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Hosting.Abstractions.xml
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Http.Extensions.xml
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authorization.Policy.xml
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.ResponseCaching.Abstractions.xml
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.Core.xml
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.xml
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.Extensions.ObjectPool.xml
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Localization.xml
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.xml
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.xml
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.xml
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.xml
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.xml
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.xml
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.xml
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.xml
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Hosting.Server.Abstractions.xml
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\de\Microsoft.Data.SqlClient.resources.dll
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\es\Microsoft.Data.SqlClient.resources.dll
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\fr\Microsoft.Data.SqlClient.resources.dll
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\it\Microsoft.Data.SqlClient.resources.dll
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\ja\Microsoft.Data.SqlClient.resources.dll
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\ko\Microsoft.Data.SqlClient.resources.dll
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\ru\Microsoft.Data.SqlClient.resources.dll
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\obj\Debug\netcoreapp3.1\ADJInsc.Core.Logica.csproj.CopyComplete
+C:\Projects\ADJInsc\ADJInsc.Core.Logica\obj\Debug\netcoreapp3.1\ADJInsc.Core.Logica.csproj.CoreCompileInputs.cache
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.DiaSymReader.Native.x86.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\ADJInsc.Core.Logica.deps.json
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\ADJInsc.Core.Logica.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\ADJInsc.Core.Logica.pdb
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\ADJInsc.Models.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\ADJInsc.Models.pdb
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\ADJInsc.Models.dll.config
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.pdb
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\de\Microsoft.Data.SqlClient.resources.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\es\Microsoft.Data.SqlClient.resources.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\fr\Microsoft.Data.SqlClient.resources.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\it\Microsoft.Data.SqlClient.resources.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\ja\Microsoft.Data.SqlClient.resources.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\ko\Microsoft.Data.SqlClient.resources.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\ru\Microsoft.Data.SqlClient.resources.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Logica\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Logica\obj\Debug\netcoreapp3.1\ADJInsc.Core.Logica.csprojAssemblyReference.cache
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Logica\obj\Debug\netcoreapp3.1\ADJInsc.Core.Logica.AssemblyInfoInputs.cache
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Logica\obj\Debug\netcoreapp3.1\ADJInsc.Core.Logica.AssemblyInfo.cs
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Logica\obj\Debug\netcoreapp3.1\ADJInsc.Core.Logica.csproj.CoreCompileInputs.cache
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Logica\obj\Debug\netcoreapp3.1\ADJInsc.Core.Logica.csproj.CopyComplete
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Logica\obj\Debug\netcoreapp3.1\ADJInsc.Core.Logica.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core.Logica\obj\Debug\netcoreapp3.1\ADJInsc.Core.Logica.pdb

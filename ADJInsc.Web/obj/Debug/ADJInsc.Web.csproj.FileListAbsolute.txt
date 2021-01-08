@@ -1,0 +1,247 @@
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\ADJInsc.Web.dll.config
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\ADJInsc.Web.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\ADJInsc.Web.pdb
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\roslyn\csc.exe
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\roslyn\csc.exe.config
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\roslyn\csc.rsp
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\roslyn\csi.exe
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\roslyn\csi.exe.config
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\roslyn\csi.rsp
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\roslyn\System.Buffers.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\roslyn\System.Collections.Immutable.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\roslyn\System.Memory.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\roslyn\System.Numerics.Vectors.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\roslyn\System.Reflection.Metadata.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\roslyn\vbc.exe
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\roslyn\vbc.exe.config
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\roslyn\vbc.rsp
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\roslyn\VBCSCompiler.exe
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\roslyn\VBCSCompiler.exe.config
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\Antlr3.Runtime.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\Microsoft.Identity.Client.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\Microsoft.Web.Infrastructure.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\Newtonsoft.Json.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\System.Numerics.Vectors.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\System.Web.Helpers.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\System.Web.Mvc.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\System.Web.Optimization.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\System.Web.Razor.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\System.Web.WebPages.Deployment.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\System.Web.WebPages.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\System.Web.WebPages.Razor.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\WebGrease.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\Microsoft.Identity.Client.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\Newtonsoft.Json.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\System.Numerics.Vectors.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\System.Web.Helpers.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\System.Web.Mvc.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\System.Web.Optimization.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\System.Web.Razor.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\System.Web.WebPages.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\System.Web.WebPages.Deployment.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\System.Web.WebPages.Razor.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\Antlr3.Runtime.pdb
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\es\System.Web.Helpers.resources.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\es\System.Web.Mvc.resources.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\es\System.Web.Optimization.resources.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\es\System.Web.Razor.resources.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\es\System.Web.WebPages.resources.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\obj\Debug\ADJInsc.Web.csprojAssemblyReference.cache
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\obj\Debug\ADJInsc.Web.csproj.CoreCompileInputs.cache
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\obj\Debug\ADJInsc.Web.csproj.CopyComplete
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\obj\Debug\ADJInsc.Web.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\obj\Debug\ADJInsc.Web.pdb
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\ADJInsc.Models.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\Microsoft.EntityFrameworkCore.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\System.Threading.Tasks.Extensions.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\Microsoft.Bcl.HashCode.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\System.Collections.Immutable.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\Microsoft.Extensions.DependencyInjection.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\Microsoft.Extensions.Logging.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\Microsoft.Extensions.Caching.Memory.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\Microsoft.Extensions.Options.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\System.Memory.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\System.Buffers.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\ADJInsc.Models.pdb
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\ADJInsc.Models.dll.config
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\Microsoft.EntityFrameworkCore.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\Microsoft.EntityFrameworkCore.Relational.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\System.Threading.Tasks.Extensions.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\Microsoft.Extensions.Caching.Abstractions.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\Microsoft.EntityFrameworkCore.Abstractions.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\Microsoft.Bcl.HashCode.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\System.Collections.Immutable.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\Microsoft.Extensions.DependencyInjection.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\Microsoft.Extensions.Logging.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\Microsoft.Extensions.Caching.Memory.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\Microsoft.Extensions.Options.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\System.Memory.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\System.Buffers.xml
+C:\Projects\ADJInsc\ADJInsc.Web\bin\ADJInsc.Web.dll.config
+C:\Projects\ADJInsc\ADJInsc.Web\bin\ADJInsc.Web.dll
+C:\Projects\ADJInsc\ADJInsc.Web\bin\ADJInsc.Web.pdb
+C:\Projects\ADJInsc\ADJInsc.Web\bin\roslyn\csc.exe
+C:\Projects\ADJInsc\ADJInsc.Web\bin\roslyn\csc.exe.config
+C:\Projects\ADJInsc\ADJInsc.Web\bin\roslyn\csc.rsp
+C:\Projects\ADJInsc\ADJInsc.Web\bin\roslyn\csi.exe
+C:\Projects\ADJInsc\ADJInsc.Web\bin\roslyn\csi.exe.config
+C:\Projects\ADJInsc\ADJInsc.Web\bin\roslyn\csi.rsp
+C:\Projects\ADJInsc\ADJInsc.Web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Projects\ADJInsc\ADJInsc.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Projects\ADJInsc\ADJInsc.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Projects\ADJInsc\ADJInsc.Web\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Projects\ADJInsc\ADJInsc.Web\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Projects\ADJInsc\ADJInsc.Web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Projects\ADJInsc\ADJInsc.Web\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Projects\ADJInsc\ADJInsc.Web\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Projects\ADJInsc\ADJInsc.Web\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Projects\ADJInsc\ADJInsc.Web\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Projects\ADJInsc\ADJInsc.Web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Projects\ADJInsc\ADJInsc.Web\bin\roslyn\System.Buffers.dll
+C:\Projects\ADJInsc\ADJInsc.Web\bin\roslyn\System.Collections.Immutable.dll
+C:\Projects\ADJInsc\ADJInsc.Web\bin\roslyn\System.Memory.dll
+C:\Projects\ADJInsc\ADJInsc.Web\bin\roslyn\System.Numerics.Vectors.dll
+C:\Projects\ADJInsc\ADJInsc.Web\bin\roslyn\System.Reflection.Metadata.dll
+C:\Projects\ADJInsc\ADJInsc.Web\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+C:\Projects\ADJInsc\ADJInsc.Web\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Projects\ADJInsc\ADJInsc.Web\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Projects\ADJInsc\ADJInsc.Web\bin\roslyn\vbc.exe
+C:\Projects\ADJInsc\ADJInsc.Web\bin\roslyn\vbc.exe.config
+C:\Projects\ADJInsc\ADJInsc.Web\bin\roslyn\vbc.rsp
+C:\Projects\ADJInsc\ADJInsc.Web\bin\roslyn\VBCSCompiler.exe
+C:\Projects\ADJInsc\ADJInsc.Web\bin\roslyn\VBCSCompiler.exe.config
+C:\Projects\ADJInsc\ADJInsc.Web\bin\ADJInsc.Models.dll
+C:\Projects\ADJInsc\ADJInsc.Web\bin\Antlr3.Runtime.dll
+C:\Projects\ADJInsc\ADJInsc.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Projects\ADJInsc\ADJInsc.Web\bin\Microsoft.Identity.Client.dll
+C:\Projects\ADJInsc\ADJInsc.Web\bin\Microsoft.Web.Infrastructure.dll
+C:\Projects\ADJInsc\ADJInsc.Web\bin\Newtonsoft.Json.dll
+C:\Projects\ADJInsc\ADJInsc.Web\bin\System.Numerics.Vectors.dll
+C:\Projects\ADJInsc\ADJInsc.Web\bin\System.Web.Helpers.dll
+C:\Projects\ADJInsc\ADJInsc.Web\bin\System.Web.Mvc.dll
+C:\Projects\ADJInsc\ADJInsc.Web\bin\System.Web.Optimization.dll
+C:\Projects\ADJInsc\ADJInsc.Web\bin\System.Web.Razor.dll
+C:\Projects\ADJInsc\ADJInsc.Web\bin\System.Web.WebPages.Deployment.dll
+C:\Projects\ADJInsc\ADJInsc.Web\bin\System.Web.WebPages.dll
+C:\Projects\ADJInsc\ADJInsc.Web\bin\System.Web.WebPages.Razor.dll
+C:\Projects\ADJInsc\ADJInsc.Web\bin\WebGrease.dll
+C:\Projects\ADJInsc\ADJInsc.Web\bin\Microsoft.EntityFrameworkCore.dll
+C:\Projects\ADJInsc\ADJInsc.Web\bin\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Projects\ADJInsc\ADJInsc.Web\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Projects\ADJInsc\ADJInsc.Web\bin\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Projects\ADJInsc\ADJInsc.Web\bin\System.Threading.Tasks.Extensions.dll
+C:\Projects\ADJInsc\ADJInsc.Web\bin\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Projects\ADJInsc\ADJInsc.Web\bin\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Projects\ADJInsc\ADJInsc.Web\bin\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Projects\ADJInsc\ADJInsc.Web\bin\Microsoft.Bcl.HashCode.dll
+C:\Projects\ADJInsc\ADJInsc.Web\bin\System.Collections.Immutable.dll
+C:\Projects\ADJInsc\ADJInsc.Web\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Projects\ADJInsc\ADJInsc.Web\bin\Microsoft.Extensions.DependencyInjection.dll
+C:\Projects\ADJInsc\ADJInsc.Web\bin\Microsoft.Extensions.Logging.dll
+C:\Projects\ADJInsc\ADJInsc.Web\bin\Microsoft.Extensions.Caching.Memory.dll
+C:\Projects\ADJInsc\ADJInsc.Web\bin\Microsoft.Extensions.Options.dll
+C:\Projects\ADJInsc\ADJInsc.Web\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Projects\ADJInsc\ADJInsc.Web\bin\System.Memory.dll
+C:\Projects\ADJInsc\ADJInsc.Web\bin\System.Buffers.dll
+C:\Projects\ADJInsc\ADJInsc.Web\bin\ADJInsc.Models.pdb
+C:\Projects\ADJInsc\ADJInsc.Web\bin\ADJInsc.Models.dll.config
+C:\Projects\ADJInsc\ADJInsc.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Projects\ADJInsc\ADJInsc.Web\bin\Microsoft.Identity.Client.xml
+C:\Projects\ADJInsc\ADJInsc.Web\bin\Newtonsoft.Json.xml
+C:\Projects\ADJInsc\ADJInsc.Web\bin\System.Numerics.Vectors.xml
+C:\Projects\ADJInsc\ADJInsc.Web\bin\System.Web.Helpers.xml
+C:\Projects\ADJInsc\ADJInsc.Web\bin\System.Web.Mvc.xml
+C:\Projects\ADJInsc\ADJInsc.Web\bin\System.Web.Optimization.xml
+C:\Projects\ADJInsc\ADJInsc.Web\bin\System.Web.Razor.xml
+C:\Projects\ADJInsc\ADJInsc.Web\bin\System.Web.WebPages.xml
+C:\Projects\ADJInsc\ADJInsc.Web\bin\System.Web.WebPages.Deployment.xml
+C:\Projects\ADJInsc\ADJInsc.Web\bin\System.Web.WebPages.Razor.xml
+C:\Projects\ADJInsc\ADJInsc.Web\bin\Antlr3.Runtime.pdb
+C:\Projects\ADJInsc\ADJInsc.Web\bin\Microsoft.EntityFrameworkCore.xml
+C:\Projects\ADJInsc\ADJInsc.Web\bin\Microsoft.EntityFrameworkCore.Relational.xml
+C:\Projects\ADJInsc\ADJInsc.Web\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Projects\ADJInsc\ADJInsc.Web\bin\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Projects\ADJInsc\ADJInsc.Web\bin\System.Threading.Tasks.Extensions.xml
+C:\Projects\ADJInsc\ADJInsc.Web\bin\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Projects\ADJInsc\ADJInsc.Web\bin\Microsoft.Extensions.Caching.Abstractions.xml
+C:\Projects\ADJInsc\ADJInsc.Web\bin\Microsoft.EntityFrameworkCore.Abstractions.xml
+C:\Projects\ADJInsc\ADJInsc.Web\bin\Microsoft.Bcl.HashCode.xml
+C:\Projects\ADJInsc\ADJInsc.Web\bin\System.Collections.Immutable.xml
+C:\Projects\ADJInsc\ADJInsc.Web\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Projects\ADJInsc\ADJInsc.Web\bin\Microsoft.Extensions.DependencyInjection.xml
+C:\Projects\ADJInsc\ADJInsc.Web\bin\Microsoft.Extensions.Logging.xml
+C:\Projects\ADJInsc\ADJInsc.Web\bin\Microsoft.Extensions.Caching.Memory.xml
+C:\Projects\ADJInsc\ADJInsc.Web\bin\Microsoft.Extensions.Options.xml
+C:\Projects\ADJInsc\ADJInsc.Web\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Projects\ADJInsc\ADJInsc.Web\bin\System.Memory.xml
+C:\Projects\ADJInsc\ADJInsc.Web\bin\System.Buffers.xml
+C:\Projects\ADJInsc\ADJInsc.Web\bin\es\System.Web.Helpers.resources.dll
+C:\Projects\ADJInsc\ADJInsc.Web\bin\es\System.Web.Mvc.resources.dll
+C:\Projects\ADJInsc\ADJInsc.Web\bin\es\System.Web.Optimization.resources.dll
+C:\Projects\ADJInsc\ADJInsc.Web\bin\es\System.Web.Razor.resources.dll
+C:\Projects\ADJInsc\ADJInsc.Web\bin\es\System.Web.WebPages.resources.dll
+C:\Projects\ADJInsc\ADJInsc.Web\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Projects\ADJInsc\ADJInsc.Web\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Projects\ADJInsc\ADJInsc.Web\obj\Debug\ADJInsc.Web.csprojAssemblyReference.cache
+C:\Projects\ADJInsc\ADJInsc.Web\obj\Debug\ADJInsc.Web.csproj.CoreCompileInputs.cache
+C:\Projects\ADJInsc\ADJInsc.Web\obj\Debug\ADJInsc.Web.csproj.CopyComplete
+C:\Projects\ADJInsc\ADJInsc.Web\obj\Debug\ADJInsc.Web.dll
+C:\Projects\ADJInsc\ADJInsc.Web\obj\Debug\ADJInsc.Web.pdb
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\Microsoft.Data.SqlClient.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\Microsoft.IdentityModel.Protocols.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\Microsoft.IdentityModel.Tokens.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\Microsoft.IdentityModel.Logging.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\Microsoft.EntityFrameworkCore.SqlServer.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\Microsoft.Data.SqlClient.pdb
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\Microsoft.Data.SqlClient.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\Microsoft.IdentityModel.Protocols.OpenIdConnect.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\Microsoft.IdentityModel.Protocols.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\Microsoft.IdentityModel.Tokens.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\Microsoft.IdentityModel.JsonWebTokens.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\Microsoft.IdentityModel.Logging.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\de\Microsoft.Data.SqlClient.resources.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\es\Microsoft.Data.SqlClient.resources.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\fr\Microsoft.Data.SqlClient.resources.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\it\Microsoft.Data.SqlClient.resources.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\ja\Microsoft.Data.SqlClient.resources.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\ko\Microsoft.Data.SqlClient.resources.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\ru\Microsoft.Data.SqlClient.resources.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Web\bin\zh-Hant\Microsoft.Data.SqlClient.resources.dll

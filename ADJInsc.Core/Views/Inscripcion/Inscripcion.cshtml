@@ -1,0 +1,183 @@
+﻿<p>
+    <h2>Sistema de Inscripción / Actualización</h2>
+</p>
+
+<div style="float:right;">
+    <img id="AjaxLoaderLogin" alt="Enviando ..." style="display:none; width:50px; height:50px;" src="~/image/loader.gif" />
+    <button class="btn btn-outline-danger float-sm-right" id="btnLogin">Ingresar con Usuario y Clave</button>
+</div>
+<div method="post" class="form-inline">
+
+    @Html.AntiForgeryToken()
+    <!--<form>-->
+
+    <form asp-controller="Inscripcion" asp-action="BuscarPersona">
+        <div class="form-row ">
+            <input type="number" class="form-control mb-2 mr-sm-2" id="dniInput" placeholder="Ingrese D.N.I." name="numDni">
+
+            <div class="form-group mb-2 mr-sm-2 ">
+                <img id="AjaxLoader" alt="Enviando ..." style="display:none; width:50px; height:50px;" src="~/image/loader.gif" />
+                <button id="btnBuscar" class="btn btn-info">
+                    Buscar Titular
+                </button>
+            </div>
+
+        </div>
+    </form>
+
+</div>
+
+<div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="gridSystemModalLabel">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Login</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <form asp-controller="Bandeja" asp-action="Login">
+                <div class="modal-body card">
+
+                    <div class="form-group ">
+                        <input class="form-control" type="email"
+                               placeholder="Correo" id="inputUserName" name="inputUserName" />
+                    </div>
+                    <div class="form-group ">
+                        <input class="form-control" placeholder="Contraseña"
+                               type="password" id="inputPassword" name="inputPassword" />
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <button id="loginClic" type="submit" class="btn btn-primary">Iniciar</button>
+                    <button type="button" id="btnHideModal" class="btn btn-outline-info">
+                        Cerrar
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</div>
+
+@section scripts {
+
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+
+    <style type="text/css">
+        .span3 {
+            position: relative;
+            height: 200px;
+            overflow: auto;
+        }
+
+        .card-body {
+            padding-bottom: 0rem;
+        }
+    </style>
+
+
+    <script type="text/javascript">
+
+        $(function () {
+            $("#btnLogin").click(function () {
+               // $("#AjaxLoaderLogin").show("fast");
+                $("#loginModal").modal('show');
+            });
+
+            $("#btnHideModal").click(function () {
+                $("#loginModal").modal('hide');
+                $.ajax({
+                        url: '@Url.Action("GetLogin", "Inscripcion")',
+                        data: {
+                            userName: userName,
+                            userPassword: userPassword
+                        },
+                        type: "post", // Verbo HTTP
+                        timeout: 1500,
+
+                    }).done(function (data) {
+
+                    }).fail(function () {
+
+                    });
+            });
+        });
+
+      
+
+        $(function () {
+            $("#btnBuscar").click(function (e) {
+
+                var numeroDni = $("#dniInput").val();
+                $("#AjaxLoader").show("fast");
+
+                if (numeroDni.length > 6) {
+
+                    $("#AjaxLoader").delay(2000).hide("slow");
+
+
+                } else {
+
+                    e.preventDefault();
+                    e.stopPropagation();
+
+                    bootbox.alert({
+                        size: "small",
+                        title: "I.V.U.J.",
+                        message: "Debes ingresar un Dni correcto",
+                        callback: function () {
+                            $("#AjaxLoader").hide("slow");
+                        }
+                    });
+
+                }
+            });
+        });
+    </script>
+}
+
+
+
+
+<!--   Funciones
+
+
+function ValidarUsuario() {
+
+             var usuario = $("#inputUser").val();
+             var email = $("#inputEmail").val();
+
+             if (usuario.length > 5 && email.length > 5) {
+                 $.ajax({
+                     url: '@Url.Action("ValidarDatos", "Home")',
+                     data: {
+                         usuario: usuario,
+                         email: email
+                     },
+                     type: "get",
+                     timeout: 15000
+
+                 }).done(function (result) {
+                     if (result === "OK") {
+                         $("#inputContraseña").prop("disabled", false);
+                         $("#inputRepetirContraseña").prop("disabled", false);
+                     } else {
+                         if (result === "pass") {
+
+                         } else {
+                             bootbox.alert({
+                                 size: "small",
+                                 title: "I.V.U.J.",
+                                 message: result,
+                                 callback: function () { }
+                             });
+                         }
+                     }
+
+                 });
+             }
+
+        }
+-->

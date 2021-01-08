@@ -1,0 +1,495 @@
+﻿@model ADJInsc.Models.ViewModels.InscViewModel
+<!--https://www.aspsnippets.com/Articles/Editable-Table-MVC-Implement-Insert-Update-Edit-Delete-in-HTML-Table-using-ASPNet-MVC.aspx-->
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div style="float:right;">
+    <form asp-controller="Inscripcion" asp-action="GoHome">
+        <img id="AjaxLoaderLogin" alt="Enviando ..." style="display:none; width:50px; height:50px;" src="~/image/loader.gif" />
+        <button class="btn btn-outline-danger float-sm-right" id="btnLogin">Cerrar sesion</button>
+    </form>
+</div>
+<p>
+    <h2>Sistema de Inscripción / Actualización</h2>
+    <h4>Panel de Control</h4>
+</p>
+
+<form id="formFamilia">
+    <div class="form-group card border-info">
+        <h3 class="card-header text-light bg-info"> Titular</h3>
+        <div class="form-group card-body">
+            <div class="form-group col-md-6">
+                <input type="text" class="form-control" id="inputDni" placeholder="D.N.I." value="@Model.InsNumdoc" disabled>
+            </div>
+            <div class="form-group col-md-6">
+                <input type="text" class="form-control" id="inputNombre" placeholder="Nombre" value="@Model.InsNombre">
+            </div>
+            <div class="form-group col-md-6">
+                <!--    <input type="text" class="form-control" id="inputApellido" placeholder="Apellido" value="@Model">-->
+            </div>
+            <div class="form-group col-md-6">
+                @Html.DropDownListFor(x => Model.InsTipflia, Model.TipoFamiliaList ?? new List<SelectListItem>(), "----Selecciona Estado Civil----", htmlAttributes: new { @class = "form-control", id = "ddTipoFamiliaId" })
+            </div>
+            <div class="form-inline col-md-8">
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="idDis" value="@Model.InsDiscapacitado">
+                    <label class="form-check-label" for="inlineCheckbox1">Discapacidad</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="idMin" value="@Model.InsMinero">
+                    <label class="form-check-label" for="inlineCheckbox2">Minero</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="idVet" value="@Model.InsVeterano">
+                    <label class="form-check-label" for="inlineCheckbox3">Vet. Malvinas</label>
+                </div>
+            </div>
+            <br />
+            <div class="form-inline col-md-6" style="width:auto; margin-bottom:1px;">
+
+
+                Cuit / Cuil
+                <input id="inputCuitUno" type="number" class="form-control" style="width:16%; margin-left:4px;" value="@Model.CuitUno"> -
+                <input type="text" class="form-control" id="inputCuitDos" placeholder="D.N.I." value="@Model.InsNumdoc" disabled style="width:40%"> -
+
+                <input id="inputCuitTres" type="number" class="form-control" style="width:16%" value="@Model.CuitTres">
+
+
+
+            </div>
+        </div>
+    </div>
+
+    <div class="form-group card border-info">
+        <h5 class="card-header text-light bg-info"> Dirección</h5>
+        <div class="form-row card-body">
+            <div class="form-group col-md-12">
+                <input type="text" multiple class="form-control" id="inputAddress" placeholder="Dirección">
+            </div>
+
+            <div class="form-group col-md-4">
+                @Html.DropDownListFor(x => Model.DepartamentoKey, Model.DepartamentosList ?? new List<SelectListItem>(), htmlAttributes: new { @class = "form-control", id = "ddDepartamentoId" })
+
+            </div>
+            <div class="form-group col-md-6">
+                @Html.DropDownListFor(x => Model.LocalidadKey, Model.LocalidadesList ?? new List<SelectListItem>(), htmlAttributes: new { @class = "form-control", id = "ddLocalidadId" })
+            </div>
+        </div>
+    </div>
+
+    <div class="form-group card border-info">
+        <h5 class="card-header text-light bg-info"> Situación Laboral</h5>
+        <div class="form-row card-body">
+            <div class="form-group col-md-12">
+                <input type="text" multiple class="form-control" id="inputLugar" placeholder="Lugar donde trabaja" value="@Model.NombreEmpleo">
+            </div>
+
+            <div class="form-group col-md-4">
+                <label for="ddTipoRevistaId">Tipo de empleo</label>
+                @Html.DropDownListFor(x => Model.TipoRevistaKey, Model.TipoRevistaList ?? new List<SelectListItem>(), htmlAttributes: new { @class = "form-control", id = "ddTipoRevistaId" })
+
+            </div>
+            <div class="form-group col-md-4">
+                <label for="inputIngresoNeto">Ingreso aproximado del grupo familiar</label>
+
+                <input type="number" class="form-control" id="inputIngresoNeto" value="@Model.IngresoNeto">
+            </div>
+        </div>
+    </div>
+
+    <div class="form-group card border-info">
+
+        <h5 class="card-header text-light bg-info">Datos del Grupo Familiar</h5>
+        <div class="card-body">
+            <button type="button" class="btn btn-info float-right" data-toggle="modal" data-target="#modalInicialFamilia">Agregar integrante al grupo familiar <i class="fas fa-plus-circle"></i></button>
+            <div></div>
+            <table id="tablaFamilia" class="table table-striped table-responsive" cellspacing="0" width="100%">
+                <!--table table-sm table-striped table-hover border-bottom table table-bordered mb-0-->
+                <thead>
+                    <tr>
+
+                        <th>
+                            Nombre y Apellido
+                        </th>
+                        <th>
+                            Número de Documento
+                        </th>
+                        <th>
+                            Nacimiento
+                        </th>
+                        <th>
+                            Discapacidad ?
+                        </th>
+                        <th>
+                            Veterano Mal. ?
+                        </th>
+                        <th>
+                            Minero ?
+                        </th>
+                        <th>
+                            Parentesco
+                        </th>
+                        <th>
+                            #
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @if (Model.GrupoFamiliar.Count() > 0)
+                    {
+                        foreach (var item in Model.GrupoFamiliar)
+                        {
+                    <tr>
+                        <td class="valorNombre">
+                            <span>@item.InsNombre</span>
+                            <input type="text" value="@item.InsNombre" style="display:none" />
+                        </td>
+                        <td class="valorDoc">
+                            <span>@item.InsfNumdoc</span>
+                            <input type="text" value="@item.InsfNumdoc" style="display:none" />
+                        </td>
+                        <td class="valorFec">
+                            <span>@item.FechaNacimiento</span>
+                            <input type="date" value="@item.FechaNacimiento" style="display:none" />
+                        </td>
+                        <td class="valorDis">
+                            @if (item.InsfDiscapacitado == 1)
+                            {
+                                <span>Si</span>
+                            }
+                            else
+                            {
+                                <span>No</span>
+                            }
+                        </td>
+                        <td class="valorVet">
+                            @if (item.InsfVeterano == 1)
+                            {
+                                <span>Si</span>
+                            }
+                            else
+                            {
+                                <span>No</span>
+                            }
+                        </td>
+                        <td class="valorMin">
+                            @if (item.InsfMinero == 1)
+                            {
+                                <span>Si</span>
+                            }
+                            else
+                            {
+                                <span>No</span>
+                            }
+                        </td>
+
+                        <td id="valorP">
+                            @Html.DisplayFor(modelItem => item.ParentescoDesc, new { id = "idSoloParentesco" })
+                        </td>
+                        <td>
+                            <a class="btn btn-outline-success Edit" href="javascript:;">Modicicar</a>
+                            <a class="btn btn-outline-success Update" href="javascript:;" style="display:none" data data-toggle="modal" data-target="#modalModificarFamilia">Guardar</a>
+                            <a class="Cancel" href="javascript:;" style="display:none">Cancelar</a>
+                            <a class="btn btn-outline-danger Delete" href="javascript:;">Borrar</a>
+                        </td>
+                        <!-- <td>
+
+        <button id="btnDelete" class="btn btn-outline-danger" data-id="@item.InsfNumdoc" data data-toggle="modal" data-target="#modalBorrar">
+            <i class="fa fa-trash-o fa-lg"></i>
+        </button>
+        <button id="btnModificar" class="btn btn-outline-success" data-id="@item.InsfNumdoc" data data-toggle="modal" data-target="#modalModificarFamilia">
+            <i class="fas fa-user-edit"></i>
+        </button>
+
+    </td>-->
+                    </tr>
+                        }
+                    }
+                    else
+                    {
+                        <tr>
+                            <td>
+                                <p>No hay datos para visualizar.</p>
+                            </td>
+                        </tr>
+
+                    }
+                </tbody>
+            </table>
+            
+        </div>
+
+    </div>
+
+
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <input id="btnCreate" type="submit" value="Actualizar Ficha" class="btn btn-primary" />
+        </div>
+    </div>
+
+
+</form>
+<p></p>
+
+
+<div id="modalInicialFamilia" class="modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Familia</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body card">
+                <div class="card-body">
+                    <input id="modificar" name="modificar" type="hidden" value="0">
+                    <div class="form-group col-md-12 has-success">
+                        <input type="text" class="form-control" id="inputNombreInicial" placeholder="Apellido y Nombre">
+                    </div>
+
+                    <div class="form-group col-md-12 has-success">
+
+                        <input type="number" class="form-control" id="inputDniInicial" placeholder="D.N.I.">
+                    </div>
+                    <div class="form-group col-md-12 has-success">
+                        <label>Fecha de Nacimiento</label>
+                        <input type="date" class="datepicker form-control" id="inputFecNacInicial">
+                        <div class="input-group-addon">
+                            <span class="glyphicon glyphicon-th"></span>
+                        </div>
+                    </div>
+                    <br />
+                    <div class="form-inline col-md-12">
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" id="idDisInicial" value="option3">
+                            <label class="form-check-label" for="idDisInicial">Discapacidad</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" id="idMinInicial" value="option3">
+                            <label class="form-check-label" for="idMinInicial">Minero</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" id="idVetInicial" value="option3">
+                            <label class="form-check-label" for="idVetInicial">Vet. Malvinas</label>
+                        </div>
+                    </div>
+                    <br />
+                    <div class="form-group col-md-12 has-success">
+                        @Html.DropDownListFor(x => Model.ParentescoKey, Model.ParentescoList ?? new List<SelectListItem>(), htmlAttributes: new { @class = "form-control", id = "ddParentescoInicialId" })
+                    </div>
+                </div>
+
+            </div>
+            <div class="modal-footer">
+                <a id="addPersonaInicialModal" class="btn btn-info btnModal" href="#">Cargar y Cerrar</a>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div id="modalBorrar" class="modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Integrante</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body card">
+                <p>Esta seguro que desea borrar Integrante?</p>
+            </div>
+            <div class="modal-footer">
+                <a id="delPersonaModal" class="btn btn-danger btnModal" href="#">Borrar</a>
+                <a id="cancelPersonaModal" class="btn btn-info btnModal" href="#">Cancelar</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+@section scripts {
+
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+
+
+    <script type="text/javascript">
+
+        $(function () {
+            //Remove the dummy row if data present.
+            if ($("#tablaFamilia tr").length > 2) {
+                $("#tablaFamilia tr:eq(1)").remove();
+            } else {
+                var row = $("#tablaFamilia tr:last-child");
+                row.find(".Edit").hide();
+                row.find(".Delete").hide();
+                row.find("span").html('&nbsp;');
+            }
+        });
+
+    $(function () {
+        $("#ddDepartamentoId").on("change", function () {
+
+            CargarDeptoLocalidad();
+        })
+    });
+
+    function CargarDeptoLocalidad() {
+
+        var depto = $("#ddDepartamentoId").val();
+        $.ajax({
+            url: '@Url.Action("GetLocalidadesList", "Bandeja")',
+            data: {
+                // Datos / Parámetros
+                departamentoKey: depto
+            },
+            type: "get",
+            timeout: 1500
+
+        }).done(function (result) {
+            $("#ddLocalidadId").empty();
+            $("#ddLocalidadId").append("<option value> -- Seleccionar Localidad de " + $("#ddDepartamentoId option:selected").text() + " --</option>")
+            // CONSTRUIMOS EL DropDownList A PARTIR DEL RESULTADO Json (data)
+            $.each(result, function (row) {
+                $("#ddLocalidadId").append('<option value="' + row.value + '">' + row.text + '</option>');
+            });
+        });
+    }
+
+        function AppendRow(row, InsfNombre, InsfNumdoc, ParentescoKey, FechaNacimiento,
+            InsfDiscapacitado, InsfMinero, InsfVeterano) {
+            //Bind nombreYApellido.
+            $(".valorNombre", row).find("span").html(InsfNombre);
+            $(".valorNombre", row).find("input").val(InsfNombre);
+
+            //Bind Dni.
+            $(".valorDoc", row).find("span").html(InsfNumdoc);
+            $(".valorDoc", row).find("input").val(InsfNumdoc);
+
+            //Bind Fecha.
+            $(".valorFec", row).find("span").html(FechaNacimiento);
+            $(".valorFec", row).find("input").val(FechaNacimiento);
+
+            //Bind Parentesco.
+            $(".valorFec", row).find("span").html(FechaNacimiento);
+            $(".valorFec", row).find("input").val(FechaNacimiento);
+            $("#tblCustomers").append(row);
+        };
+
+     $(function () {
+         $("#addPersonaInicialModal").click(function (e) {
+
+             var nombreVM = $("#inputNombreInicial").val();
+
+             var dniVM = $("#inputDniInicial").val();
+             var parentescoKey = $("#ddParentescoInicialId").val();
+             var fechaNac = $("#inputFecNacInicial").val();
+
+             var disc = 0;
+             var minero = 0;
+             var veterano = 0;
+
+                if ($("#idDisFamilia").is(':checked')) {
+                    disc = 1;
+                }
+
+                if ($("#idMinFamilia").is(':checked')) {
+                    minero = 1;
+                }
+
+                if ($("#idVetFamilia").is(':checked')) {
+                    veterano = 1;
+                }
+
+                if (!fechaNac) {
+                    $("#inputFecNacInicial").css("border-color", "red");
+                    e.preventDefault();
+                } else {
+                    $("#inputFecNacInicial").css("border-color", "green");
+                }
+
+                if ($("#inputCheck").is(':checked')) {
+                    $("#inputCheck").val('1');
+                } else {
+                    $("#inputCheck").val('0');
+                }
+
+                if (!nombreVM) {
+                    $("#inputNombreInicial").css("border-color", "red");
+                    e.preventDefault();
+                } else {
+                    $("#inputNombreInicial").css("border-color", "green");
+                }
+
+
+                if (dniVM.length > 6) {
+                    $("#inputDniInicial").css("border-color", "green");
+
+                } else {
+                    $("#inputDniInicial").css("border-color", "red");
+                    e.preventDefault();
+                }
+
+                if (nombreVM && dniVM.length > 6 && fechaNac != null) {
+                    $.ajax({
+                        url: '@Url.Action("AgregarPersona", "Bandeja")',
+                        data: {
+                            // Datos / Parámetros
+                            nombre: nombreVM,
+                            dni: dniVM,
+                            parentescoKey: parentescoKey,
+                            modificar: $("#modificar").val(),
+                            fechaNac: fechaNac,
+                            disc: disc, //$("#inputCheck").val(),
+                            minero: minero,
+                            veterano: veterano
+                        },
+                        type: "post",
+                        timeout: 1500
+
+                    })
+                        .done(function (r) {
+                            var row = $("#tablaFamilia tr:last-child");
+                            if ($("#tablaFamilia tr:last-child span").eq(0).html() != "&nbsp;") {
+                                row = row.clone();
+                            }
+                            AppendRow(row, r.InsfNombre, r.InsfNumdoc, r.ParentescoKey, r.FechaNacimiento,
+                                r.InsfDiscapacitado, r.InsfMinero, r.InsfVeterano);
+                            
+
+                            //$("#idFormFamilia").show();
+                            //$("#tablaFamilia").html(result);
+                            //$('#formFamilia').html(result);
+                            $("#inputNombreInicial").val('');
+
+                            $("#inputDniInicial").val('');
+                            $('#inputDniInicial').prop('readonly', false);
+                        })
+                        .fail(function (result) {
+                            bootbox.alert({
+                                size: "small",
+                                title: "I.V.U.J.",
+                                message: "Acaba de ocurrir un problema, lamento los inconvenientes. " + result,
+                                callback: function () {
+                                    location.reload();
+                                }
+                            });
+                        });
+                    $("#modalInicialFamilia").modal('hide');
+
+                }
+
+            });
+     });
+
+
+    </script>
+}

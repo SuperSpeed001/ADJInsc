@@ -1,0 +1,64 @@
+﻿
+@{
+    ViewData["Title"] = "Respuesta";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div id="modalSuccess" class="modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title">Pre Inscripción</h3>                
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body card">
+                <form asp-controller="Bandeja" asp-action="Login">
+                    <div class="modal-body card-header">                         
+                        <p> Se acaban de Validar tus datos!! Ya puedes ingresar tus credenciales</p>
+                    </div>
+                    <div class="modal-body card-body">
+
+                        <div class="form-group ">
+                            <input class="form-control" type="text"
+                                   placeholder="Login Username" id="inputUserName" name="inputUserName" />
+                        </div>
+                        <div class="form-group ">
+                            <input class="form-control" placeholder="Login Password"
+                                   type="password" id="inputPassword" name="inputPassword" />
+                        </div>
+
+                    </div>
+                    <div class="modal-footer">
+                        <button id="loginClic" type="submit" class="btn btn-primary">Iniciar Sesion</button>
+                        
+                            <a class="btn btn-outline-info" href="../Inscripcion" onclick="$('#modalSuccess').modal('hide')">Cerrar e ir a Inicio</a>
+                        
+                    </div>
+                </form>
+            </div>          
+        </div>
+    </div>
+</div>
+
+
+@section scripts {
+
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+
+<script type="text/javascript">
+        $("#modalSuccess").modal('show');
+
+        $(function () {
+
+            $("#btnHideModal").click(function () {
+                $("#modalSuccess").modal('hide');
+                $.ajax({
+                    url: '@Url.Action("Inscripcion", "Inscripcion")'
+                });
+            });
+        });
+</script>
+}

@@ -1,0 +1,88 @@
+﻿@model ADJInsc.Models.ViewModels.InscViewModel
+
+<link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css" />
+@Html.AntiForgeryToken()
+<h3></h3>
+<div id="idFormTablaFamilia">
+
+    <div class="form-group card border-info">
+
+        <h5 class="card-header text-light bg-info">Datos del Grupo Familiar</h5>
+        <div class="card-body">
+            <button type="button" class="btn btn-info float-right" data-toggle="modal" data-target="#modalAgregarFamilia">Agregar integrante al grupo familiar <i class="fas fa-plus-circle"></i></button>
+            <div></div>
+            <table id="tablaFamilia" class="table table-striped table-responsive" cellspacing="0" width="100%">
+                <!--table table-sm table-striped table-hover border-bottom table table-bordered mb-0-->
+                <thead>
+                    <tr>
+
+                        <th>
+                            Nombre y Apellido
+                        </th>
+                        <th>
+                            Número de Documento
+                        </th>
+                        <th>
+                            Parentesco
+                        </th>
+                        <th>
+                            #
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @if (Model.GrupoFamiliar.Count() > 0)
+                    {
+                        foreach (var item in Model.GrupoFamiliar)
+                        {
+                    <tr>
+                        @Html.HiddenFor(modelItem => item.InsfNumdoc, new { id = "idEscondido" })
+                        @Html.HiddenFor(modelItem => item.InsNombre, new { id = "idSoloNombre" })
+                        @Html.HiddenFor(modelItem => item.InsApellido, new { id = "idSoloApellido" })
+                        <td>
+                            @Html.DisplayFor(modelItem => item.InsNombreYApellido)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.InsfNumdoc)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.ParentescoDesc, new { id = "idSoloParentesco" })
+                        </td>
+                        <td>
+
+                            <button id="btnDelete" class="btn btn-outline-danger" data-id="@item.InsfNumdoc" data data-toggle="modal" data-target="#modalBorrar">
+                                <i class="fa fa-trash-o fa-lg"></i>
+                            </button>
+                            <button id="btnModificar" class="btn btn-outline-success" data-id="@item.InsfNumdoc" data data-toggle="modal" data-target="#modalAgregarFamilia">
+                                <i class="fas fa-user-edit"></i>
+                            </button>
+
+                        </td>
+                    </tr>
+                        }
+                    }
+                    else
+                    {
+                        <tr>
+                            <td>
+                                <p>No hay datos para visualizar.</p>
+                            </td>
+                        </tr>
+
+                    }
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+
+    </div>
+
+
+
+    @section scripts {
+
+        @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+
+
+        }

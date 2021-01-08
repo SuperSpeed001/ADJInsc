@@ -1,0 +1,246 @@
+﻿@model ADJInsc.Web.Models.FichaViewModel
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h1>Actualización de Datos</h1>
+<div method="post" class="form-inline">
+
+    @Html.AntiForgeryToken()
+    <div class="form-group mb-4">
+        <p></p>
+        <label>Ingrese Dni</label>
+
+    </div>
+    <div class="form-group mx-sm-3 mb-4">
+        <p></p>
+        <input type="number" class="form-control" id="dniInput" placeholder="Documento">
+    </div>
+
+    <div class="form-group mb-4 float-right">
+        <img id="AjaxLoader" alt="Enviando ..." style="display:none; width:50px; height:50px;" src="~/wwwroot/image/loader.gif" />
+
+        <button id="SubmitBtn" class="btn btn-info">
+            Obtener Datos
+        </button>
+        <div>
+
+        </div>
+    </div>
+
+</div>
+<p></p>
+<div>
+
+</div>
+<div>
+
+    <div style="display:none" id="tablaTurnos">
+        @Html.Partial("_DatosPartial", Model.GrupoFamiliar)
+
+    </div>
+
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <input id="btnCreate" disabled="disabled" type="submit" value="Crear Turno" class="btn btn-primary" />
+        </div>
+    </div>
+</div>
+
+<div id="modalError" class="modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Turno</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+
+                <h2 id="h2Error"></h2>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary btnModal" data-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+@section scripts {
+
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <script src="~/Scripts/jquery-3.4.1.min.js"></script>
+
+    <script src="~/Scripts/jquery.validate.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.js"></script>
+    <script src="~/Scripts/jquery.unobtrusive-ajax.min.js"></script>
+
+    <script src="~/Scripts/bootstrap.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="~/Scripts/bootbox/bootbox.min.js"></script>
+    <style type="text/css">
+        .span3 {
+            position: relative;
+            height: 200px;
+            overflow: auto;
+        }
+
+        .multi-line {
+            height: 5em;
+            width: 25em;
+        }
+    </style>
+
+
+    <script type="text/javascript">
+
+        $(function() {
+
+                $("#SubmitBtn").click(function (e) {
+
+                        e.preventDefault();
+                        e.stopPropagation();
+                    // Mostramos el Ajax Loader
+                    $("#AjaxLoader").show("fast");
+
+                    // Deshabilitamos el botón de Submit
+                    $("#btnCreate").prop("disabled", true);
+
+                    $.ajax({
+                        url: '@Url.Action("GetPersonas", "Actualizacion")',
+                        data: {
+                            // Datos / Parámetros
+                            //turId: $("#ddTurId").val(), // $("#Comentario").val(),
+                            //perFalta: $("#PerFalta").val() // $("#Nombre").val(),
+                        },
+                        type: "post", // Verbo HTTP
+                        timeout: 15000 // adjust the limit. currently its 15 seconds
+                    })
+                        // Se ejecuta si todo fue bien.
+                        .done(function (result) {
+                            if (result != null) {
+
+                                $("#tablaTurnos").show();
+                                // Actualiza el resultado HTML
+                                $("#tablaTurnos").html(result);
+
+                                // Un pequeño esfecto especial ;)
+                                $("#PostList .row").first().hide();
+                               $("#PostList .row").first().slideToggle("fast");
+
+                                $("#AjaxLoader").hide("slow");
+
+                                $("#btnCreate").prop("disabled", false);
+
+                            }
+                        })
+                        .fail(function (xhr, status, error) {
+
+                            $("#ErrorAlert").show("slow").delay(2000).hide("slow");
+
+                            $("#AjaxLoader").hide("slow");
+
+                        })
+                        // Hacer algo siempre, haya sido exitosa o no.
+                        .always(function () {
+
+                        });
+
+                });
+
+
+        });
+
+
+        $(function () {
+            $("#btnCreate").click(function (e) {
+
+                e.preventDefault();
+
+
+                var dniId = $("#idPerDni").val();
+                var nombreId = $("#idPerNombre").val();
+                var telefonoId = $("#idPerTelef").val();
+                var emailId = $("#idPerEmail").val();
+                var otroEmail = $("#idRepPerEmail").val();
+                var turnoId = $("#ddTurId").val();
+                var fechaSeleccionada = $("#PerFalta").val();
+                var valorSeleccionado = $("input[name='groupRadio']:checked").attr("id");
+                var obserId = $("#idPerObs").val()
+                if (valorSeleccionado.length > 0 && emailId === otroEmail && dniId.length > 6 && nombreId.length > 0 && telefonoId.length > 0 && fechaSeleccionada.length > 0 ) {
+                     //alert("dni " + dniId.toString() + "/" + valorSeleccionado.toString() + "/" + nombreId.toString() + "/" + telefonoId.toString() + "/" + emailId.toString() + "/" + turnoId.toString());
+                    $.ajax({
+                        url: '@Url.Action("CreateAjax", "Actualizacion")', //"/Solicitar/CreateAjax",
+                        data: {
+                            // Datos / Parámetros
+                            dni: dniId, // $("#Comentario").val(),
+                            nombre: nombreId,
+                            telefono: telefonoId,
+                            email: emailId,
+                            idHoraSel: valorSeleccionado,
+                            idTurnoSel: turnoId,
+                            fecha: fechaSeleccionada,
+                            observacion : obserId
+                        },
+                        type: "post"  // Verbo HTTP
+                    }).done(function (data) {
+                        if (data.base64imgage) {
+                            imgs = data;
+
+                            if (imgs != null) {
+                                var imag = "<img "
+                                    + "src='" + "data:image/jpg;base64,"
+                                    + imgs.base64imgage + "'/>";
+
+                                $("#divImageHolder").html(imag);
+
+                                const img = document.querySelector('a');
+                                img.setAttribute('href', 'data:image/png;base64,' + imgs.base64imgage);
+
+
+                                $('#modal').modal('show');
+
+                            }
+                        } else {
+                            var varMensaje = "<h2>" + data + "</h2>";
+                            $("#h2Error").html(varMensaje);
+                            $('#modalError').modal('show');
+                        }
+
+
+
+
+                    }).fail(function (result) {
+                        // Mostramos un mensaje de error.
+                        $("#ErrorAlert").show("slow").delay(2000).hide("slow");
+
+                        // Escondemos el Ajax Loader
+                        $("#AjaxLoader").hide("slow");
+
+                        bootbox.alert(result, function () {
+                            //location.reload(); por el momento comentado
+                        });
+                    });
+
+
+                    //
+                } else {
+                    bootbox.alert({
+                        size: "small",
+                        title: "I.V.U.J.",
+                        message: "Debes ingresar los datos en el formulario.",
+                        callback: function () {  }
+                    });
+                }
+
+            });
+
+
+        });
+
+
+    </script>
+
+}

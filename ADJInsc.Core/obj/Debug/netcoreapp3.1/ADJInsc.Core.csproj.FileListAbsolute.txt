@@ -1,0 +1,1114 @@
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\ADJInsc.Core.exe
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\ADJInsc.Core.deps.json
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\ADJInsc.Core.runtimeconfig.json
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\ADJInsc.Core.runtimeconfig.dev.json
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\ADJInsc.Core.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\ADJInsc.Core.pdb
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\ADJInsc.Core.Views.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\ADJInsc.Core.Views.pdb
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\System.Text.Json.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\ADJInsc.Models.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\ADJInsc.Models.pdb
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\ADJInsc.Models.dll.config
+C:\Projects\ADJInsc\ADJInsc.Core\obj\Debug\netcoreapp3.1\ADJInsc.Core.csprojAssemblyReference.cache
+C:\Projects\ADJInsc\ADJInsc.Core\obj\Debug\netcoreapp3.1\ADJInsc.Core.AssemblyInfoInputs.cache
+C:\Projects\ADJInsc\ADJInsc.Core\obj\Debug\netcoreapp3.1\ADJInsc.Core.AssemblyInfo.cs
+C:\Projects\ADJInsc\ADJInsc.Core\obj\Debug\netcoreapp3.1\ADJInsc.Core.RazorAssemblyInfo.cache
+C:\Projects\ADJInsc\ADJInsc.Core\obj\Debug\netcoreapp3.1\ADJInsc.Core.RazorAssemblyInfo.cs
+C:\Projects\ADJInsc\ADJInsc.Core\obj\Debug\netcoreapp3.1\ADJInsc.Core.TagHelpers.input.cache
+C:\Projects\ADJInsc\ADJInsc.Core\obj\Debug\netcoreapp3.1\ADJInsc.Core.TagHelpers.output.cache
+C:\Projects\ADJInsc\ADJInsc.Core\obj\Debug\netcoreapp3.1\ADJInsc.Core.RazorCoreGenerate.cache
+C:\Projects\ADJInsc\ADJInsc.Core\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Projects\ADJInsc\ADJInsc.Core\obj\Debug\netcoreapp3.1\Razor\Views\Home\_DatosPartial.cshtml.g.cs
+C:\Projects\ADJInsc\ADJInsc.Core\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Projects\ADJInsc\ADJInsc.Core\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Projects\ADJInsc\ADJInsc.Core\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Projects\ADJInsc\ADJInsc.Core\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Projects\ADJInsc\ADJInsc.Core\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Projects\ADJInsc\ADJInsc.Core\obj\Debug\netcoreapp3.1\ADJInsc.Core.RazorTargetAssemblyInfo.cache
+C:\Projects\ADJInsc\ADJInsc.Core\obj\Debug\netcoreapp3.1\ADJInsc.Core.RazorTargetAssemblyInfo.cs
+C:\Projects\ADJInsc\ADJInsc.Core\obj\Debug\netcoreapp3.1\ADJInsc.Core.Views.pdb
+C:\Projects\ADJInsc\ADJInsc.Core\obj\Debug\netcoreapp3.1\ADJInsc.Core.csproj.CopyComplete
+C:\Projects\ADJInsc\ADJInsc.Core\obj\Debug\netcoreapp3.1\staticwebassets\ADJInsc.Core.StaticWebAssets.Manifest.cache
+C:\Projects\ADJInsc\ADJInsc.Core\obj\Debug\netcoreapp3.1\staticwebassets\ADJInsc.Core.StaticWebAssets.xml
+C:\Projects\ADJInsc\ADJInsc.Core\obj\Debug\netcoreapp3.1\ADJInsc.Core.dll
+C:\Projects\ADJInsc\ADJInsc.Core\obj\Debug\netcoreapp3.1\ADJInsc.Core.pdb
+C:\Projects\ADJInsc\ADJInsc.Core\obj\Debug\netcoreapp3.1\ADJInsc.Core.genruntimeconfig.cache
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\MailKit.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\MimeKit.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\BouncyCastle.Crypto.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\System.Net.Http.Json.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.DiaSymReader.Native.x86.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Projects\ADJInsc\ADJInsc.Core\obj\Debug\netcoreapp3.1\Razor\Views\Home\Respuesta.cshtml.g.cs
+C:\Projects\ADJInsc\ADJInsc.Core\obj\Debug\netcoreapp3.1\Razor\Views\Inscripcion\Inscripcion.cshtml.g.cs
+C:\Projects\ADJInsc\ADJInsc.Core\obj\Debug\netcoreapp3.1\Razor\Views\Login\Login.cshtml.g.cs
+C:\Projects\ADJInsc\ADJInsc.Core\obj\Debug\netcoreapp3.1\Razor\Views\Converter\Index.cshtml.g.cs
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\ExcelDataReader.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\System.Text.Encoding.CodePages.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Text.Encoding.CodePages.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\EPPlus.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Json.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Projects\ADJInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\System.Xml.XPath.XmlDocument.dll
+C:\Projects\ADJInsc\ADJInsc.Core\obj\Debug\netcoreapp3.1\ADJInsc.Core.csproj.CoreCompileInputs.cache
+C:\Projects\ADJInsc\ADJInsc.Core\obj\Debug\netcoreapp3.1\ADJInsc.Core.MvcApplicationPartsAssemblyInfo.cs
+C:\Projects\ADJInsc\ADJInsc.Core\obj\Debug\netcoreapp3.1\ADJInsc.Core.MvcApplicationPartsAssemblyInfo.cache
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.DiaSymReader.Native.x86.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\ADJInsc.Core.exe
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\ADJInsc.Core.deps.json
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\ADJInsc.Core.runtimeconfig.json
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\ADJInsc.Core.runtimeconfig.dev.json
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\ADJInsc.Core.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\ADJInsc.Core.pdb
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\ADJInsc.Core.Views.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\ADJInsc.Core.Views.pdb
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\Common.Logging.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\Common.Logging.Core.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\EPPlus.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\ExcelDataReader.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\itext.barcodes.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\itext.forms.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\itext.io.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\itext.kernel.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\itext.layout.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\itext.pdfa.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\itext.sign.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\itext.styledxmlparser.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\itext.svg.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\MailKit.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Json.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\MimeKit.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\BouncyCastle.Crypto.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\System.Net.Http.Json.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\System.Text.Encoding.CodePages.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\System.Text.Json.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\System.Xml.XPath.XmlDocument.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Text.Encoding.CodePages.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\ADJInsc.Models.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\ADJInsc.Models.pdb
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\ADJInsc.Models.dll.config
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\obj\Debug\netcoreapp3.1\ADJInsc.Core.csprojAssemblyReference.cache
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\obj\Debug\netcoreapp3.1\ADJInsc.Core.AssemblyInfoInputs.cache
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\obj\Debug\netcoreapp3.1\ADJInsc.Core.AssemblyInfo.cs
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\obj\Debug\netcoreapp3.1\ADJInsc.Core.csproj.CoreCompileInputs.cache
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\obj\Debug\netcoreapp3.1\ADJInsc.Core.MvcApplicationPartsAssemblyInfo.cs
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\obj\Debug\netcoreapp3.1\ADJInsc.Core.MvcApplicationPartsAssemblyInfo.cache
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\obj\Debug\netcoreapp3.1\ADJInsc.Core.RazorAssemblyInfo.cache
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\obj\Debug\netcoreapp3.1\ADJInsc.Core.RazorAssemblyInfo.cs
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\obj\Debug\netcoreapp3.1\staticwebassets\ADJInsc.Core.StaticWebAssets.Manifest.cache
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\obj\Debug\netcoreapp3.1\staticwebassets\ADJInsc.Core.StaticWebAssets.xml
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\obj\Debug\netcoreapp3.1\scopedcss\bundle\ADJInsc.Core.styles.css
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\obj\Debug\netcoreapp3.1\ADJInsc.Core.TagHelpers.input.cache
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\obj\Debug\netcoreapp3.1\ADJInsc.Core.TagHelpers.output.cache
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\obj\Debug\netcoreapp3.1\ADJInsc.Core.RazorCoreGenerate.cache
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\obj\Debug\netcoreapp3.1\Razor\Views\Bandeja\_DatosPartial.cshtml.g.cs
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\obj\Debug\netcoreapp3.1\Razor\Views\Converter\Index.cshtml.g.cs
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\obj\Debug\netcoreapp3.1\Razor\Views\Home\Existe.cshtml.g.cs
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\obj\Debug\netcoreapp3.1\Razor\Views\Home\Login.cshtml.g.cs
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\obj\Debug\netcoreapp3.1\Razor\Views\Home\Respuesta.cshtml.g.cs
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\obj\Debug\netcoreapp3.1\Razor\Views\Home\_DatosPartial.cshtml.g.cs
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\obj\Debug\netcoreapp3.1\Razor\Views\Inscripcion\Inscripcion.cshtml.g.cs
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\obj\Debug\netcoreapp3.1\Razor\Views\Inscripcion\_DatosPartial.cshtml.g.cs
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\obj\Debug\netcoreapp3.1\ADJInsc.Core.RazorTargetAssemblyInfo.cache
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\obj\Debug\netcoreapp3.1\ADJInsc.Core.RazorTargetAssemblyInfo.cs
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\obj\Debug\netcoreapp3.1\ADJInsc.Core.Views.pdb
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\obj\Debug\netcoreapp3.1\ADJInsc.Core.csproj.CopyComplete
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\obj\Debug\netcoreapp3.1\ADJInsc.Core.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\obj\Debug\netcoreapp3.1\ADJInsc.Core.pdb
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\obj\Debug\netcoreapp3.1\ADJInsc.Core.genruntimeconfig.cache
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\obj\Debug\netcoreapp3.1\Razor\Views\Inscripcion\AltaTitular.cshtml.g.cs
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Antiforgery.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.Abstractions.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.Cookies.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.Core.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.OAuth.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authorization.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authorization.Policy.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Components.Authorization.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Components.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Components.Forms.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Components.Server.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Components.Web.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Connections.Abstractions.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.CookiePolicy.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Cors.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.DataProtection.Abstractions.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.DataProtection.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.DataProtection.Extensions.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Diagnostics.Abstractions.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Diagnostics.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Diagnostics.HealthChecks.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.HostFiltering.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Hosting.Abstractions.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Hosting.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Html.Abstractions.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.Connections.Common.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.Connections.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.Extensions.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.Features.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.HttpOverrides.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.HttpsPolicy.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Identity.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Localization.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Localization.Routing.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Metadata.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Abstractions.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.ApiExplorer.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Core.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Cors.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.DataAnnotations.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Formatters.Json.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Formatters.Xml.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Localization.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Razor.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.RazorPages.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.TagHelpers.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.ViewFeatures.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Razor.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Razor.Runtime.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.ResponseCaching.Abstractions.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.ResponseCaching.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.ResponseCompression.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Rewrite.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Routing.Abstractions.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Routing.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.HttpSys.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.IIS.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.IISIntegration.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.Kestrel.Core.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.Kestrel.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Session.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.SignalR.Common.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.SignalR.Core.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.SignalR.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.SignalR.Protocols.Json.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.StaticFiles.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.WebSockets.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.WebUtilities.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.CSharp.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.CommandLine.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.Ini.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.KeyPerFile.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.UserSecrets.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.Xml.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Diagnostics.HealthChecks.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.FileProviders.Composite.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Hosting.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Http.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Identity.Core.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Identity.Stores.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Localization.Abstractions.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Localization.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.Configuration.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.Console.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.Debug.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.EventLog.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.EventSource.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.TraceSource.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.ObjectPool.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Options.DataAnnotations.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.WebEncoders.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.JSInterop.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.Net.Http.Headers.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.VisualBasic.Core.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.VisualBasic.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.Win32.Primitives.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.Win32.Registry.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\mscorlib.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\netstandard.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.AppContext.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Buffers.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Collections.Concurrent.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Collections.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Collections.NonGeneric.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Collections.Specialized.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.ComponentModel.Annotations.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.ComponentModel.DataAnnotations.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.ComponentModel.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.ComponentModel.EventBasedAsync.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.ComponentModel.Primitives.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.ComponentModel.TypeConverter.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Configuration.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Console.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Core.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Data.Common.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Data.DataSetExtensions.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Data.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.Contracts.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.Debug.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.EventLog.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.FileVersionInfo.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.Process.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.StackTrace.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.TextWriterTraceListener.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.Tools.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.TraceSource.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.Tracing.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Drawing.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Drawing.Primitives.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Dynamic.Runtime.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Globalization.Calendars.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Globalization.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Globalization.Extensions.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.IO.Compression.Brotli.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.IO.Compression.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.IO.Compression.FileSystem.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.IO.Compression.ZipFile.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.IO.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.IO.FileSystem.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.IO.FileSystem.DriveInfo.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.IO.FileSystem.Primitives.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.IO.FileSystem.Watcher.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.IO.IsolatedStorage.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.IO.MemoryMappedFiles.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.IO.Pipelines.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.IO.Pipes.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.IO.UnmanagedMemoryStream.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Linq.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Linq.Expressions.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Linq.Parallel.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Linq.Queryable.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Memory.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Net.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Net.Http.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Net.HttpListener.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Net.Mail.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Net.NameResolution.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Net.NetworkInformation.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Net.Ping.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Net.Primitives.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Net.Requests.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Net.Security.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Net.ServicePoint.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Net.Sockets.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Net.WebClient.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Net.WebHeaderCollection.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Net.WebProxy.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Net.WebSockets.Client.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Net.WebSockets.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Numerics.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Numerics.Vectors.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.ObjectModel.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Reflection.DispatchProxy.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Reflection.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Reflection.Emit.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Reflection.Emit.ILGeneration.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Reflection.Emit.Lightweight.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Reflection.Extensions.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Reflection.Metadata.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Reflection.Primitives.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Reflection.TypeExtensions.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Resources.Reader.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Resources.ResourceManager.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Resources.Writer.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Runtime.CompilerServices.VisualC.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Runtime.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Runtime.Extensions.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Runtime.Handles.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Runtime.InteropServices.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Runtime.InteropServices.WindowsRuntime.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Runtime.Intrinsics.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Runtime.Loader.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Runtime.Numerics.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Runtime.Serialization.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Runtime.Serialization.Formatters.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Runtime.Serialization.Json.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Runtime.Serialization.Primitives.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Runtime.Serialization.Xml.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Security.AccessControl.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Security.Claims.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Algorithms.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Cng.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Csp.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Encoding.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Primitives.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.X509Certificates.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Xml.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Security.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Security.Permissions.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Security.Principal.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Security.Principal.Windows.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Security.SecureString.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.ServiceModel.Web.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.ServiceProcess.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Text.Encoding.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Text.Encoding.Extensions.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Text.Encodings.Web.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Text.RegularExpressions.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Threading.Channels.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Threading.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Threading.Overlapped.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Threading.Tasks.Dataflow.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Threading.Tasks.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Threading.Tasks.Extensions.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Threading.Tasks.Parallel.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Threading.Thread.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Threading.ThreadPool.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Threading.Timer.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Transactions.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Transactions.Local.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.ValueTuple.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Web.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Web.HttpUtility.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Windows.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Windows.Extensions.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Xml.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Xml.Linq.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Xml.ReaderWriter.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Xml.Serialization.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Xml.XDocument.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Xml.XmlDocument.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Xml.XmlSerializer.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Xml.XPath.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Xml.XPath.XDocument.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\WindowsBase.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\Wkhtmltopdf.NetCore.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\Rotativa.AspNetCore.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\Rotativa\Windows\wkhtmltoimage.exe
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\Rotativa\Windows\wkhtmltopdf.exe
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\bin\Debug\netcoreapp3.1\Rotativa\Windows\wkhtmltox.dll
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\obj\Debug\netcoreapp3.1\Razor\Views\Inscripcion\Login.cshtml.g.cs
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\obj\Debug\netcoreapp3.1\Razor\Views\Bandeja\Login.cshtml.g.cs
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\obj\Debug\netcoreapp3.1\Razor\Views\Bandeja\LoginError.cshtml.g.cs
+C:\Viento Norte\ADJ\Inscripcion\ADJInsc.Core\obj\Debug\netcoreapp3.1\Razor\Views\Bandeja\Index.cshtml.g.cs
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.DiaSymReader.Native.x86.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\appsettings.json
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\ADJInsc.Core.exe
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\Rotativa\Windows\wkhtmltoimage.exe
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\Rotativa\Windows\wkhtmltopdf.exe
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\Rotativa\Windows\wkhtmltox.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\ADJInsc.Core.deps.json
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\ADJInsc.Core.runtimeconfig.json
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\ADJInsc.Core.runtimeconfig.dev.json
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\ADJInsc.Core.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\ADJInsc.Core.pdb
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Antiforgery.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.Abstractions.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.Cookies.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.Core.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.OAuth.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authorization.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authorization.Policy.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Components.Authorization.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Components.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Components.Forms.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Components.Server.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Components.Web.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Connections.Abstractions.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.CookiePolicy.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Cors.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.DataProtection.Abstractions.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.DataProtection.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.DataProtection.Extensions.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Diagnostics.Abstractions.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Diagnostics.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Diagnostics.HealthChecks.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.HostFiltering.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Hosting.Abstractions.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Hosting.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Html.Abstractions.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.Abstractions.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.Connections.Common.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.Connections.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.Extensions.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.Features.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.HttpOverrides.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.HttpsPolicy.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Identity.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Localization.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Localization.Routing.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Metadata.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Abstractions.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.ApiExplorer.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Core.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Cors.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.DataAnnotations.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Formatters.Json.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Formatters.Xml.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Localization.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Razor.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.RazorPages.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.TagHelpers.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.ViewFeatures.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Razor.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Razor.Runtime.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.ResponseCaching.Abstractions.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.ResponseCaching.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.ResponseCompression.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Rewrite.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Routing.Abstractions.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Routing.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.HttpSys.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.IIS.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.IISIntegration.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.Kestrel.Core.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.Kestrel.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Session.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.SignalR.Common.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.SignalR.Core.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.SignalR.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.SignalR.Protocols.Json.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.StaticFiles.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.WebSockets.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.WebUtilities.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.CSharp.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.CommandLine.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.Ini.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.KeyPerFile.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.UserSecrets.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.Xml.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Diagnostics.HealthChecks.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.FileProviders.Composite.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.FileProviders.Embedded.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Hosting.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Http.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Identity.Core.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Identity.Stores.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Localization.Abstractions.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Localization.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.Configuration.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.Console.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.Debug.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.EventLog.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.EventSource.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.TraceSource.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.ObjectPool.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Options.DataAnnotations.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.WebEncoders.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.JSInterop.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.Net.Http.Headers.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.VisualBasic.Core.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.VisualBasic.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.Win32.Primitives.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\Microsoft.Win32.Registry.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\mscorlib.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\netstandard.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.AppContext.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Buffers.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Collections.Concurrent.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Collections.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Collections.NonGeneric.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Collections.Specialized.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.ComponentModel.Annotations.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.ComponentModel.DataAnnotations.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.ComponentModel.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.ComponentModel.EventBasedAsync.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.ComponentModel.Primitives.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.ComponentModel.TypeConverter.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Configuration.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Console.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Core.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Data.Common.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Data.DataSetExtensions.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Data.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.Contracts.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.Debug.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.EventLog.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.FileVersionInfo.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.Process.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.StackTrace.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.TextWriterTraceListener.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.Tools.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.TraceSource.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.Tracing.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Drawing.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Drawing.Primitives.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Dynamic.Runtime.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Globalization.Calendars.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Globalization.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Globalization.Extensions.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.IO.Compression.Brotli.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.IO.Compression.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.IO.Compression.FileSystem.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.IO.Compression.ZipFile.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.IO.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.IO.FileSystem.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.IO.FileSystem.DriveInfo.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.IO.FileSystem.Primitives.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.IO.FileSystem.Watcher.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.IO.IsolatedStorage.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.IO.MemoryMappedFiles.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.IO.Pipelines.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.IO.Pipes.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.IO.UnmanagedMemoryStream.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Linq.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Linq.Expressions.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Linq.Parallel.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Linq.Queryable.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Memory.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Net.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Net.Http.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Net.HttpListener.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Net.Mail.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Net.NameResolution.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Net.NetworkInformation.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Net.Ping.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Net.Primitives.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Net.Requests.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Net.Security.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Net.ServicePoint.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Net.Sockets.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Net.WebClient.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Net.WebHeaderCollection.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Net.WebProxy.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Net.WebSockets.Client.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Net.WebSockets.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Numerics.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Numerics.Vectors.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.ObjectModel.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Reflection.DispatchProxy.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Reflection.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Reflection.Emit.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Reflection.Emit.ILGeneration.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Reflection.Emit.Lightweight.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Reflection.Extensions.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Reflection.Metadata.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Reflection.Primitives.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Reflection.TypeExtensions.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Resources.Reader.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Resources.ResourceManager.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Resources.Writer.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Runtime.CompilerServices.VisualC.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Runtime.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Runtime.Extensions.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Runtime.Handles.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Runtime.InteropServices.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Runtime.InteropServices.WindowsRuntime.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Runtime.Intrinsics.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Runtime.Loader.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Runtime.Numerics.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Runtime.Serialization.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Runtime.Serialization.Formatters.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Runtime.Serialization.Json.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Runtime.Serialization.Primitives.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Runtime.Serialization.Xml.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Security.AccessControl.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Security.Claims.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Algorithms.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Cng.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Csp.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Encoding.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Primitives.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.X509Certificates.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Xml.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Security.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Security.Permissions.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Security.Principal.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Security.Principal.Windows.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Security.SecureString.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.ServiceModel.Web.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.ServiceProcess.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Text.Encoding.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Text.Encoding.Extensions.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Text.Encodings.Web.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Text.RegularExpressions.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Threading.Channels.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Threading.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Threading.Overlapped.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Threading.Tasks.Dataflow.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Threading.Tasks.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Threading.Tasks.Extensions.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Threading.Tasks.Parallel.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Threading.Thread.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Threading.ThreadPool.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Threading.Timer.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Transactions.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Transactions.Local.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.ValueTuple.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Web.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Web.HttpUtility.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Windows.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Windows.Extensions.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Xml.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Xml.Linq.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Xml.ReaderWriter.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Xml.Serialization.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Xml.XDocument.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Xml.XmlDocument.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Xml.XmlSerializer.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Xml.XPath.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\System.Xml.XPath.XDocument.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\refs\WindowsBase.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\ADJInsc.Core.Views.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\ADJInsc.Core.Views.pdb
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\Common.Logging.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\Common.Logging.Core.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\EPPlus.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\ExcelDataReader.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\itext.barcodes.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\itext.forms.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\itext.io.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\itext.kernel.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\itext.layout.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\itext.pdfa.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\itext.sign.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\itext.styledxmlparser.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\itext.svg.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\MailKit.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Json.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Physical.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\MimeKit.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\BouncyCastle.Crypto.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\Rotativa.AspNetCore.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\System.Net.Http.Json.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\System.Text.Encoding.CodePages.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\System.Text.Json.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\System.Xml.XPath.XmlDocument.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\Wkhtmltopdf.NetCore.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Text.Encoding.CodePages.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\ADJInsc.Models.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\ADJInsc.Models.pdb
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\ADJInsc.Models.dll.config
+D:\Proyectos NET\ADInsc\ADJInsc.Core\obj\Debug\netcoreapp3.1\ADJInsc.Core.csprojAssemblyReference.cache
+D:\Proyectos NET\ADInsc\ADJInsc.Core\obj\Debug\netcoreapp3.1\ADJInsc.Core.AssemblyInfoInputs.cache
+D:\Proyectos NET\ADInsc\ADJInsc.Core\obj\Debug\netcoreapp3.1\ADJInsc.Core.AssemblyInfo.cs
+D:\Proyectos NET\ADInsc\ADJInsc.Core\obj\Debug\netcoreapp3.1\ADJInsc.Core.csproj.CoreCompileInputs.cache
+D:\Proyectos NET\ADInsc\ADJInsc.Core\obj\Debug\netcoreapp3.1\ADJInsc.Core.MvcApplicationPartsAssemblyInfo.cs
+D:\Proyectos NET\ADInsc\ADJInsc.Core\obj\Debug\netcoreapp3.1\ADJInsc.Core.MvcApplicationPartsAssemblyInfo.cache
+D:\Proyectos NET\ADInsc\ADJInsc.Core\obj\Debug\netcoreapp3.1\ADJInsc.Core.RazorAssemblyInfo.cache
+D:\Proyectos NET\ADInsc\ADJInsc.Core\obj\Debug\netcoreapp3.1\ADJInsc.Core.RazorAssemblyInfo.cs
+D:\Proyectos NET\ADInsc\ADJInsc.Core\obj\Debug\netcoreapp3.1\staticwebassets\ADJInsc.Core.StaticWebAssets.Manifest.cache
+D:\Proyectos NET\ADInsc\ADJInsc.Core\obj\Debug\netcoreapp3.1\staticwebassets\ADJInsc.Core.StaticWebAssets.xml
+D:\Proyectos NET\ADInsc\ADJInsc.Core\obj\Debug\netcoreapp3.1\scopedcss\bundle\ADJInsc.Core.styles.css
+D:\Proyectos NET\ADInsc\ADJInsc.Core\obj\Debug\netcoreapp3.1\ADJInsc.Core.TagHelpers.input.cache
+D:\Proyectos NET\ADInsc\ADJInsc.Core\obj\Debug\netcoreapp3.1\ADJInsc.Core.TagHelpers.output.cache
+D:\Proyectos NET\ADInsc\ADJInsc.Core\obj\Debug\netcoreapp3.1\ADJInsc.Core.RazorCoreGenerate.cache
+D:\Proyectos NET\ADInsc\ADJInsc.Core\obj\Debug\netcoreapp3.1\Razor\Views\Bandeja\Index.cshtml.g.cs
+D:\Proyectos NET\ADInsc\ADJInsc.Core\obj\Debug\netcoreapp3.1\Razor\Views\Bandeja\Login.cshtml.g.cs
+D:\Proyectos NET\ADInsc\ADJInsc.Core\obj\Debug\netcoreapp3.1\Razor\Views\Bandeja\LoginError.cshtml.g.cs
+D:\Proyectos NET\ADInsc\ADJInsc.Core\obj\Debug\netcoreapp3.1\Razor\Views\Bandeja\_DatosPartial.cshtml.g.cs
+D:\Proyectos NET\ADInsc\ADJInsc.Core\obj\Debug\netcoreapp3.1\Razor\Views\Converter\Index.cshtml.g.cs
+D:\Proyectos NET\ADInsc\ADJInsc.Core\obj\Debug\netcoreapp3.1\Razor\Views\Home\Existe.cshtml.g.cs
+D:\Proyectos NET\ADInsc\ADJInsc.Core\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+D:\Proyectos NET\ADInsc\ADJInsc.Core\obj\Debug\netcoreapp3.1\Razor\Views\Home\Login.cshtml.g.cs
+D:\Proyectos NET\ADInsc\ADJInsc.Core\obj\Debug\netcoreapp3.1\Razor\Views\Home\Respuesta.cshtml.g.cs
+D:\Proyectos NET\ADInsc\ADJInsc.Core\obj\Debug\netcoreapp3.1\Razor\Views\Home\_DatosPartial.cshtml.g.cs
+D:\Proyectos NET\ADInsc\ADJInsc.Core\obj\Debug\netcoreapp3.1\Razor\Views\Inscripcion\AltaTitular.cshtml.g.cs
+D:\Proyectos NET\ADInsc\ADJInsc.Core\obj\Debug\netcoreapp3.1\Razor\Views\Inscripcion\Inscripcion.cshtml.g.cs
+D:\Proyectos NET\ADInsc\ADJInsc.Core\obj\Debug\netcoreapp3.1\Razor\Views\Inscripcion\Login.cshtml.g.cs
+D:\Proyectos NET\ADInsc\ADJInsc.Core\obj\Debug\netcoreapp3.1\Razor\Views\Inscripcion\_DatosPartial.cshtml.g.cs
+D:\Proyectos NET\ADInsc\ADJInsc.Core\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+D:\Proyectos NET\ADInsc\ADJInsc.Core\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+D:\Proyectos NET\ADInsc\ADJInsc.Core\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\Proyectos NET\ADInsc\ADJInsc.Core\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+D:\Proyectos NET\ADInsc\ADJInsc.Core\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+D:\Proyectos NET\ADInsc\ADJInsc.Core\obj\Debug\netcoreapp3.1\ADJInsc.Core.RazorTargetAssemblyInfo.cache
+D:\Proyectos NET\ADInsc\ADJInsc.Core\obj\Debug\netcoreapp3.1\ADJInsc.Core.RazorTargetAssemblyInfo.cs
+D:\Proyectos NET\ADInsc\ADJInsc.Core\obj\Debug\netcoreapp3.1\ADJInsc.Core.Views.pdb
+D:\Proyectos NET\ADInsc\ADJInsc.Core\obj\Debug\netcoreapp3.1\ADJInsc.Core.csproj.CopyComplete
+D:\Proyectos NET\ADInsc\ADJInsc.Core\obj\Debug\netcoreapp3.1\ADJInsc.Core.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Core\obj\Debug\netcoreapp3.1\ADJInsc.Core.pdb
+D:\Proyectos NET\ADInsc\ADJInsc.Core\obj\Debug\netcoreapp3.1\ADJInsc.Core.genruntimeconfig.cache
