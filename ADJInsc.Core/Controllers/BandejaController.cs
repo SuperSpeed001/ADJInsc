@@ -99,7 +99,7 @@
         }
 
         [HttpPost]
-        public JsonResult AgregarPersona(string nombre, string dni, string parentescoKey, int modificar, string fechaNac, string disc, string minero, string veterano)
+        public JsonResult AgregarPersona(string nombre, string dni, string parentescoKey, string fechaNac, string disc, string minero, string veterano)
         {
             var modelo = HttpContext.Session.GetObjectFromJson<InscViewModel>("viewModelo");
             int.TryParse(parentescoKey, out int pKey);
@@ -108,44 +108,50 @@
             int.TryParse(veterano, out int pVeterano);
 
             var fecha = DateTime.Parse(fechaNac).ToShortDateString();
+
+            var pDesc = string.Empty;
+            foreach (var item in modelo.ParentescoList)
+            {
+                if (pKey.ToString() == item.Value)
+                {
+                    pDesc = item.Text;
+                    break;
+                }
+            }
+
             if (int.TryParse(dni, out int _dni))
             {
                 var existe = false;
                 foreach (var item in modelo.GrupoFamiliar)
                 {
                     if (item.InsfNumdoc == _dni)
-                    {
-                        if (modificar == 0)
-                        {
+                    {                      
+                            item.InsfNombre = nombre;
+                            item.InsfNumdoc = _dni;
+                            item.ParentescoKey = pKey;
+                            item.ParentescoDesc = pDesc;
+                            item.FechaNacimiento = fecha;
+                            item.InsfDiscapacitado = pDisc;
+                            item.InsfMinero = pMinero;
+                            item.InsfVeterano = pVeterano;
+
                             existe = true;
-                            break;
-                        }
+                            break;                      
 
                     }
                 }
+
                 if (!existe)
                 {
-                    var pDesc = string.Empty;
-                    foreach (var item in modelo.ParentescoList)
+
+                    foreach (var item in modelo.GrupoFamiliar)
                     {
-                        if (pKey.ToString() == item.Value)
+                        if (item.InsfNumdoc == _dni)
                         {
-                            pDesc = item.Text;
+                            modelo.GrupoFamiliar.Remove(item);
                             break;
                         }
-                    }
-
-                    if (modificar == 1)
-                    {
-                        foreach (var item in modelo.GrupoFamiliar)
-                        {
-                            if (item.InsfNumdoc == _dni)
-                            {
-                                modelo.GrupoFamiliar.Remove(item);
-                                break;
-                            }
-                        }
-                    }
+                    }                   
 
                     var individuo = new GrupoFamiliarViewModel
                     {

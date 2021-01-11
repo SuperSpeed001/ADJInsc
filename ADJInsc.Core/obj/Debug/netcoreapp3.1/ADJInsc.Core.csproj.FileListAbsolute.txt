@@ -1583,3 +1583,6 @@ C:\Inscripciones\ADJInsc.Core\obj\Debug\netcoreapp3.1\ADJInsc.Core.genruntimecon
 C:\Inscripciones\ADJInsc.Core\bin\Debug\netcoreapp3.1\libman.json
 C:\Inscripciones\ADJInsc.Core\obj\Debug\netcoreapp3.1\Razor\Views\Bandeja\_CreateOrEdit.cshtml.g.cs
 C:\Inscripciones\ADJInsc.Core\obj\Debug\netcoreapp3.1\Razor\Views\Bandeja\_ViewAll.cshtml.g.cs
+D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\libman.json
+D:\Proyectos NET\ADInsc\ADJInsc.Core\obj\Debug\netcoreapp3.1\Razor\Views\Bandeja\_CreateOrEdit.cshtml.g.cs
+D:\Proyectos NET\ADInsc\ADJInsc.Core\obj\Debug\netcoreapp3.1\Razor\Views\Bandeja\_ViewAll.cshtml.g.cs

@@ -168,7 +168,7 @@
             </div>
             <div class="modal-body card">
                 <div class="card-body">
-                    <input id="modificar" name="modificar" type="hidden" value="0">
+                    
                     <div class="form-group col-md-12 has-success">
                         <input type="text" class="form-control" id="inputNombreInicial" placeholder="Apellido y Nombre">
                     </div>
@@ -297,13 +297,13 @@
 
                             html += '<tr>';
                             html += '<td>' + item.insfNombre + '</td>';
-                            html += '<td id="idEscondido" >' + item.insfNumdoc + '</td>';
+                            html += '<td>' + item.insfNumdoc + '</td>';
                             html += '<td>' + item.fechaNacimiento + '</td>';
                             html += '<td>' + item.discapacidad + '</td>';
                             html += '<td>' + item.veterano + '</td>';
                             html += '<td>' + item.minero + '</td>';
                             html += '<td>' + item.parentescoDesc + '</td>';
-                            html += '<td><a href="#" onclick="return getbyID(' + item.insfNumdoc + ')">Editar</a> | <a href="#" onclick="Delete(' + item.insfNumdoc + ')">Borrar</a></td>';
+                            html += '<td><a href="#" onclick="return getbyID(' + item.insfNumdoc + ')">Editar</a>  <a href="#" onclick="Delete(' + item.insfNumdoc + ')">Borrar</a></td>';
                             html += '</tr>';
                         });
                     }
@@ -372,8 +372,7 @@
                             // Datos / Parámetros
                             nombre: nombreVM,
                             dni: dniVM,
-                            parentescoKey: parentescoKey,
-                            modificar: $("#modificar").val(),
+                            parentescoKey: parentescoKey,                          
                             fechaNac: fechaNac,
                             disc: disc, //$("#inputCheck").val(),
                             minero: minero,
@@ -384,7 +383,22 @@
 
                     })
                         .done(function (r) {
+
                             loadData();
+                            $("#inputNombreInicial").val("");
+                            $("#inputDniInicial").val("");
+                            $("#ddParentescoInicialId").val(0);
+                            $('#idDisInicial').prop('checked', false);
+                            $('#idVetInicial').prop('checked', false);
+                            $('#idMinInicial').prop('checked', false);
+
+                            $('#inputNombreInicial').css('border-color', 'lightgrey');
+                            $('#inputDniInicial').css('border-color', 'lightgrey');
+                            $('#inputFecNacInicial').css('border-color', 'lightgrey');
+                            $('#idDisInicial').css('border-color', 'lightgrey');
+                            $('#idMinInicial').css('border-color', 'lightgrey');
+                            $('#idVetInicial').css('border-color', 'lightgrey');
+                            $('#ddParentescoInicialId').css('border-color', 'lightgrey');
 
                         })
                         .fail(function (result) {
@@ -420,8 +434,23 @@
                     },
                     type: "post"
                 }).done(function (result) {
-                    $("#idFormFamilia").show();
+                    //$("#idFormFamilia").show();
                     //$("#tablaFamilia").html(result);
+                    loadData();
+                    $("#inputNombreInicial").val("");
+                    $("#inputDniInicial").val("");
+                    $("#ddParentescoInicialId").val(0);
+                    $('#idDisInicial').prop('checked', false);
+                    $('#idVetInicial').prop('checked', false);
+                    $('#idMinInicial').prop('checked', false);
+
+                    $('#inputNombreInicial').css('border-color', 'lightgrey');
+                    $('#inputDniInicial').css('border-color', 'lightgrey');
+                    $('#inputFecNacInicial').css('border-color', 'lightgrey');
+                    $('#idDisInicial').css('border-color', 'lightgrey');
+                    $('#idMinInicial').css('border-color', 'lightgrey');
+                    $('#idVetInicial').css('border-color', 'lightgrey');
+                    $('#ddParentescoInicialId').css('border-color', 'lightgrey');
 
                 }).fail(function (data) {
                     bootbox.alert({
@@ -441,6 +470,7 @@
         function getbyID(numeroDni) {
             $('#inputNombreInicial').css('border-color', 'lightgrey');
             $('#inputDniInicial').css('border-color', 'lightgrey');
+            
             $('#inputFecNacInicial').css('border-color', 'lightgrey');
             $('#idDisInicial').css('border-color', 'lightgrey');
             $('#idMinInicial').css('border-color', 'lightgrey');
@@ -452,6 +482,7 @@
                 success: function (result) {
                     $('#inputNombreInicial').val(result.insfNombre);
                     $('#inputDniInicial').val(result.insfNumdoc);
+                    $('#inputDniInicial').prop('disabled', true);
                     var idFecha = result.fechaNacimiento;
 
                     if (idFecha != null) {
@@ -460,9 +491,24 @@
                         $('#inputFecNacInicial').val(date1);
                     }
 
-                    $('#idDisInicial').val(result.insfDiscapacitado);
-                    $('#idMinInicial').val(result.insfMinero);
-                    $('#idVetInicial').val(result.insfVeterano);
+                    if (result.insfDiscapacitado == 1) {
+                        $('#idDisInicial').prop('checked', true);
+                    } else {
+                        $('#idDisInicial').prop('checked', false);
+                    }
+
+                    if (result.insfVeterano == 1) {
+                        $('#idVetInicial').prop('checked', true);
+                    } else {
+                        $('#idVetInicial').prop('checked', false);
+                    }
+
+                    if (result.insfMinero == 1) {
+                        $('#idMinInicial').prop('checked', true);
+                    } else {
+                        $('#idMinInicial').prop('checked', false);
+                    }
+
                     $('#ddParentescoInicialId').val(result.parentescoKey);
 
                     $('#modalInicialFamilia').modal('show');
@@ -476,7 +522,44 @@
             return false;
         }
 
+    $(function () {
+        $("#btnCreate").click(function () {
 
+            var nombreT = $('#inputNombre').val();
+            var dniT = $('#inputDni').val();
+            var tipoFamiliaT = $('#ddTipoFamiliaId').val();
+            var tipoFamiliaT = $('#ddTipoFamiliaId').val() 
+
+            var discT = 0;
+            var mineroT = 0;
+            var veteranoT = 0;
+
+            if ($("#idDisInicial").is(':checked')) {
+                discT = 1;
+            }
+
+            if ($("#idMinInicial").is(':checked')) {
+                mineroT = 1;
+            }
+
+            if ($("#idVetInicial").is(':checked')) {
+                veteranoT = 1;
+            }
+
+            var cuitUno = $('#inputCuitUno').val();
+            var cuitTres = $('#inputCuitTres').val();
+
+            var direccionT = $('#inputAddress').val();
+            var departamentoT = $('#ddDepartamentoId').val();
+            var localidadT = $('#ddLocalidadId').val();
+
+            var lugarTrabajo = $('#inputLugar').val();
+
+            var revistaT = $('#ddTipoRevistaIdr').val(); 
+
+            var neto = $('#inputIngresoNeto').val();
+        })
+    });
 
 </script>
 }
