@@ -1,0 +1,67 @@
+﻿
+@model ADJInsc.Models.ViewModels.InscViewModel
+
+
+
+<form id="create-form" method="post" asp-page="Index" asp-route-id="@Model.InsNumdoc" asp-page-handler="CreateOrEdit" onsubmit="return jQueryModalPost(this);">
+    <div id="modalInicialFamilia" class="modal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Familia</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body card">
+                    <div class="card-body">
+                        <input id="modificar" name="modificar" type="hidden" value="0">
+                        <div class="form-group col-md-12 has-success">
+                            <input type="text" class="form-control" id="inputNombreInicial" placeholder="Apellido y Nombre">
+                        </div>
+
+                        <div class="form-group col-md-12 has-success">
+
+                            <input type="number" class="form-control" id="inputDniInicial" placeholder="D.N.I.">
+                        </div>
+                        <div class="form-group col-md-12 has-success">
+                            <label>Fecha de Nacimiento</label>
+                            <input type="date" class="datepicker form-control" id="inputFecNacInicial">
+                            <div class="input-group-addon">
+                                <span class="glyphicon glyphicon-th"></span>
+                            </div>
+                        </div>
+                        <br />
+                        <div class="form-inline col-md-12">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="idDisInicial" value="option3">
+                                <label class="form-check-label" for="idDisInicial">Discapacidad</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="idMinInicial" value="option3">
+                                <label class="form-check-label" for="idMinInicial">Minero</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="idVetInicial" value="option3">
+                                <label class="form-check-label" for="idVetInicial">Vet. Malvinas</label>
+                            </div>
+                        </div>
+                        <br />
+                        <div class="form-group col-md-12 has-success">
+                            @Html.DropDownListFor(x => Model.ParentescoKey, Model.ParentescoList ?? new List<SelectListItem>(), htmlAttributes: new { @class = "form-control", id = "ddParentescoInicialId" })
+                        </div>
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <a id="addPersonaInicialModal" class="btn btn-info btnModal" href="#">Cargar y Cerrar</a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+
+<script type="text/javascript" language=javascript>
+    $.validator.unobtrusive.parse(document);
+</script>

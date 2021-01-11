@@ -30,7 +30,48 @@
 
             _generatePdf = generatePdf;
         }
-                
+
+        [HttpPost]
+        public ActionResult Login(string inputUserName, string inputPassword)
+        {
+            var modelOut = new ModeloCarga
+            {
+                usuario = inputUserName,
+                clave = inputPassword,
+                dni = "0",
+                nombre = "0",
+                //  apellido = "0",
+                email = "0",
+                tipoFamilia = "0"
+            };
+
+            var tokenSource = new CancellationTokenSource();
+            var token = tokenSource.Token;
+
+            var service = _apiService.PostAsync<ResponseViewModel>("/Insc.Api/login/", "GetLogin", modelOut, null, token).Result;
+            if (service.IsSuccess)
+            {
+                //var modelo = new InscViewModel();
+                var modelo = (InscViewModel)service.Result;
+                if (modelo.InsNumdoc != null)
+                {
+                    HttpContext.Session.SetObjectAsJson<InscViewModel>("viewModelo", modelo);
+                    //TempData["data"] = modelo;
+                    return View("Index", modelo);
+                }
+                else
+                {
+                    return RedirectToAction("Inscripcion", "Inscripcion");
+                }
+
+
+            }
+            else
+            {
+                return RedirectToAction("Inscripcion", "Inscripcion");
+            }
+
+        }
 
         public JsonResult GetLocalidadesList(string departamentoKey)
         {
@@ -160,14 +201,23 @@
                 return Json("DNI incorrecto.");
             }
         }
-
-        [HttpPost]
-        public IActionResult UpdatePersona(int id)
+                
+        public JsonResult UpdatePersona(int ID)
         {
-            if (int.TryParse(id.ToString(), out int idFamilia))
+            if (int.TryParse(ID.ToString(), out int dni))
             {
-                var helper = new InscripcionHelper(_connectionString);
-                return Json("ok");
+                var modelo = HttpContext.Session.GetObjectFromJson<UsuarioTitularViewModel>("viewModelo");
+                var individuo = new GrupoFamiliarViewModel();
+                foreach (var item in modelo.GrupoFamiliar)
+                {
+                    if (item.InsfNumdoc == dni)
+                    {
+                        individuo = item;
+                        break;
+                    }
+                }
+               
+                return Json(individuo);
             }
             else
             {
@@ -176,47 +226,7 @@
         }
                
 
-        [HttpPost]
-        public ActionResult Login(string inputUserName, string inputPassword)
-        {
-            var modelOut = new ModeloCarga
-            {
-                usuario = inputUserName,
-                clave = inputPassword,
-                dni = "0",
-                nombre = "0",
-              //  apellido = "0",
-                email = "0",
-                tipoFamilia = "0"
-            };
-
-            var tokenSource = new CancellationTokenSource();
-            var token = tokenSource.Token;
-
-            var service = _apiService.PostAsync<ResponseViewModel>("/Insc.Api/login/", "GetLogin", modelOut, null, token).Result;
-            if (service.IsSuccess)
-            {
-                //var modelo = new InscViewModel();
-                var modelo = (InscViewModel)service.Result;
-                if (modelo.InsNumdoc != null)
-                {
-                    HttpContext.Session.SetObjectAsJson<InscViewModel>("viewModelo", modelo);
-                    //TempData["data"] = modelo;
-                    return View("Index", modelo);
-                }
-                else
-                {
-                    return RedirectToAction("Inscripcion", "Inscripcion");
-                }
-             
-
-            }
-            else
-            {
-                return RedirectToAction("Inscripcion", "Inscripcion");
-            }
-
-        }
+       
 
         [HttpPost]
         public IActionResult GetPdfHome()
@@ -228,5 +238,14 @@
             //return await _generatePdf.GetPdf("Views/Bandeja/Index.cshtml", "Generado");
         }
 
+        public JsonResult List()
+        {
+            var modelo = HttpContext.Session.GetObjectFromJson<UsuarioTitularViewModel>("viewModelo");
+            if (modelo == null)
+            {
+                return Json(null);
+            }
+            return Json(modelo.GrupoFamiliar);
+        }
     }
 }

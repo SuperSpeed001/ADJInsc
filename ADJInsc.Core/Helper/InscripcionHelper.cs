@@ -300,11 +300,11 @@
                 {
                     CommandType = CommandType.Text
                 };
-                var nombreApellido = inscViewModel.NombreVM.Trim() + ", " + inscViewModel.ApellidoVM.Trim();
+               
                 cmd.Parameters.Add(new SqlParameter("@ins_ficha", inscViewModel.InsFicha));
                 cmd.Parameters.Add(new SqlParameter("@ins_tipflia", inscViewModel.InsTipflia));
                 cmd.Parameters.Add(new SqlParameter("@ins_fecins", inscViewModel.InsFecins));
-                cmd.Parameters.Add(new SqlParameter("@ins_nombre",nombreApellido.Trim()));
+                cmd.Parameters.Add(new SqlParameter("@ins_nombre",inscViewModel.InsNombre.Trim()));
                 cmd.Parameters.Add(new SqlParameter("@ins_tipdoc", inscViewModel.InsFicha));
                 cmd.Parameters.Add(new SqlParameter("@ins_numdoc", inscViewModel.InsFicha));
 

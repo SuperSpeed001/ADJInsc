@@ -55,11 +55,9 @@
         <h3 class="card-header text-light bg-info"> Titular</h3>
         <div class="form-group card-body">
             <div class="form-group col-md-6">
-                <input type="text" class="form-control" id="inputNombre" placeholder="Nombre" value="@Model.NombreVM">
+                <input type="text" class="form-control" id="inputNombre" placeholder="Apellido y Nombre" value="@Model.InsNombre">
             </div>
-            <div class="form-group col-md-6">
-                <input type="text" class="form-control" id="inputApellido" placeholder="Apellido" value="@Model.ApellidoVM">
-            </div>
+           
             <div class="form-group col-md-6">
                 @Html.DropDownListFor(x => Model.InsTipflia, Model.TipoFamiliaList ?? new List<SelectListItem>(), "----Selecciona Tipo de Familia----", htmlAttributes: new { @class = "form-control", id = "ddTipoFamiliaId" })
             </div>
@@ -88,13 +86,13 @@
         <h5 class="card-header text-light bg-info"> Registro de Usuario</h5>
         <div class="form-row card-body">
             <div class="form-group col-md-6">
-                <input type="text" class="form-control" id="inputUser" placeholder="Usuario" value="@Model.NombreVM">
+                <input type="text" class="form-control" id="inputUser" placeholder="Usuario" value="@Model.Usuario">
             </div>
             <div class="form-group col-md-6">
                 <input type="email" class="form-control" id="inputEmail" placeholder="Email" value="@Model.InsEmail">
             </div>
             <div class="form-group col-md-6">
-                <input type="password" class="form-control" id="inputContraseña" placeholder="Contraseña" value="@Model.ApellidoVM">
+                <input type="password" class="form-control" id="inputContraseña" placeholder="Contraseña" value="@Model.Clave">
                 <span class="fa fa-eye-slash icon" id="mostrar"> <span id="pwdtxt" style="cursor:pointer;">Mostrar contraseña</span></span>
             </div>
             <div class="form-group col-md-6">
@@ -195,18 +193,14 @@
                 <div class="card-body">
                     <div class="form-group col-md-12">
                         <!--<input type="text" class="form-control" id="inputNombreTitular" placeholder="Nombre">-->
-                        @Html.EditorFor(model => model.NombreVM, new { htmlAttributes = new { @class = "form-control", @id = "inputNombreTitular", placeholder = "Nombre" } })
-                        @Html.ValidationMessageFor(model => model.NombreVM, "", new { @class = "text-danger" })
+                        @Html.EditorFor(model => model.InsNombre, new { htmlAttributes = new { @class = "form-control", @id = "inputNombreTitular", placeholder = "Nombre" } })
+                        @Html.ValidationMessageFor(model => model.InsNombre, "", new { @class = "text-danger" })
                     </div>
-                    <div class="form-group col-md-12">
-                        <!--<input type="text" class="form-control" id="inputApellidoTitular" placeholder="Apellido">-->
-                        @Html.EditorFor(model => model.ApellidoVM, new { htmlAttributes = new { @class = "form-control", @id = "inputApellidoTitular", placeholder = "Apellido" } })
-                        @Html.ValidationMessageFor(model => model.ApellidoVM, "", new { @class = "text-danger" })
-                    </div>
+                   
                     <div class="form-group col-md-12">
                         <!-- <input type="number" class="form-control" id="inputDniTitular" placeholder="D.N.I.">-->
-                        @Html.EditorFor(model => model.DniVM, new { htmlAttributes = new { @class = "form-control", @id = "inputDniTitular", placeholder = "DNI" } })
-                        @Html.ValidationMessageFor(model => model.DniVM, "", new { @class = "text-danger" })
+                        @Html.EditorFor(model => model.InsNumdoc, new { htmlAttributes = new { @class = "form-control", @id = "inputDniTitular", placeholder = "DNI" } })
+                        @Html.ValidationMessageFor(model => model.InsNumdoc, "", new { @class = "text-danger" })
                     </div>
                     <div class="form-group col-md-12">
                         <!--<input type="email" class="form-control" id="inputEmailTitular" placeholder="Email">-->

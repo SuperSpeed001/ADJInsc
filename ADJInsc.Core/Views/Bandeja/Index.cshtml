@@ -135,86 +135,9 @@
                         </th>
                     </tr>
                 </thead>
-                <tbody>
-                    @if (Model.GrupoFamiliar.Count() > 0)
-                    {
-                        foreach (var item in Model.GrupoFamiliar)
-                        {
-                    <tr>
-                        <td class="valorNombre">
-                            <span>@item.InsNombre</span>
-                            <input type="text" value="@item.InsNombre" style="display:none" />
-                        </td>
-                        <td class="valorDoc">
-                            <span>@item.InsfNumdoc</span>
-                            <input type="text" value="@item.InsfNumdoc" style="display:none" />
-                        </td>
-                        <td class="valorFec">
-                            <span>@item.FechaNacimiento</span>
-                            <input type="date" value="@item.FechaNacimiento" style="display:none" />
-                        </td>
-                        <td class="valorDis">
-                            @if (item.InsfDiscapacitado == 1)
-                            {
-                                <span>Si</span>
-                            }
-                            else
-                            {
-                                <span>No</span>
-                            }
-                        </td>
-                        <td class="valorVet">
-                            @if (item.InsfVeterano == 1)
-                            {
-                                <span>Si</span>
-                            }
-                            else
-                            {
-                                <span>No</span>
-                            }
-                        </td>
-                        <td class="valorMin">
-                            @if (item.InsfMinero == 1)
-                            {
-                                <span>Si</span>
-                            }
-                            else
-                            {
-                                <span>No</span>
-                            }
-                        </td>
-
-                        <td id="valorP">
-                            @Html.DisplayFor(modelItem => item.ParentescoDesc, new { id = "idSoloParentesco" })
-                        </td>
-                        <td>
-                            <a class="btn btn-outline-success Edit" href="javascript:;">Modicicar</a>
-                            <a class="btn btn-outline-success Update" href="javascript:;" style="display:none" data data-toggle="modal" data-target="#modalModificarFamilia">Guardar</a>
-                            <a class="Cancel" href="javascript:;" style="display:none">Cancelar</a>
-                            <a class="btn btn-outline-danger Delete" href="javascript:;">Borrar</a>
-                        </td>
-                        <!-- <td>
-
-        <button id="btnDelete" class="btn btn-outline-danger" data-id="@item.InsfNumdoc" data data-toggle="modal" data-target="#modalBorrar">
-            <i class="fa fa-trash-o fa-lg"></i>
-        </button>
-        <button id="btnModificar" class="btn btn-outline-success" data-id="@item.InsfNumdoc" data data-toggle="modal" data-target="#modalModificarFamilia">
-            <i class="fas fa-user-edit"></i>
-        </button>
-
-    </td>-->
-                    </tr>
-                        }
-                    }
-                    else
-                    {
-                        <tr>
-                            <td>
-                                <p>No hay datos para visualizar.</p>
-                            </td>
-                        </tr>
-
-                    }
+                <tbody class="tbody">
+                   
+                       
                 </tbody>
             </table>
             
@@ -304,6 +227,7 @@
             </div>
             <div class="modal-body card">
                 <p>Esta seguro que desea borrar Integrante?</p>
+                <input id="numeroDocId" name="numeroDocId" type="hidden" value="0">
             </div>
             <div class="modal-footer">
                 <a id="delPersonaModal" class="btn btn-danger btnModal" href="#">Borrar</a>
@@ -321,18 +245,12 @@
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
 
 
-    <script type="text/javascript">
-
+<script type="text/javascript">
         $(function () {
-            //Remove the dummy row if data present.
-            if ($("#tablaFamilia tr").length > 2) {
-                $("#tablaFamilia tr:eq(1)").remove();
-            } else {
-                var row = $("#tablaFamilia tr:last-child");
-                row.find(".Edit").hide();
-                row.find(".Delete").hide();
-                row.find("span").html('&nbsp;');
-            }
+            $(document).ready(function () {
+                console.log("?");
+                loadData();
+            })
         });
 
     $(function () {
@@ -364,25 +282,40 @@
         });
     }
 
-        function AppendRow(row, InsfNombre, InsfNumdoc, ParentescoKey, FechaNacimiento,
-            InsfDiscapacitado, InsfMinero, InsfVeterano) {
-            //Bind nombreYApellido.
-            $(".valorNombre", row).find("span").html(InsfNombre);
-            $(".valorNombre", row).find("input").val(InsfNombre);
+        function loadData() {
+            $.ajax({
+                url: "/Bandeja/List",
+                type: "GET",
+                success: function (result) {
+                    var html = '';
+                    if (result == null) {
+                        html += '<tr>';
+                        html += '<td> ' + '<p>No hay datos para visualizar.</p>' + ' </td>';
+                        html += '</tr>';
+                    } else {
+                        $.each(result, function (key, item) {
 
-            //Bind Dni.
-            $(".valorDoc", row).find("span").html(InsfNumdoc);
-            $(".valorDoc", row).find("input").val(InsfNumdoc);
+                            html += '<tr>';
+                            html += '<td>' + item.insfNombre + '</td>';
+                            html += '<td id="idEscondido" >' + item.insfNumdoc + '</td>';
+                            html += '<td>' + item.fechaNacimiento + '</td>';
+                            html += '<td>' + item.discapacidad + '</td>';
+                            html += '<td>' + item.veterano + '</td>';
+                            html += '<td>' + item.minero + '</td>';
+                            html += '<td>' + item.parentescoDesc + '</td>';
+                            html += '<td><a href="#" onclick="return getbyID(' + item.insfNumdoc + ')">Editar</a> | <a href="#" onclick="Delete(' + item.insfNumdoc + ')">Borrar</a></td>';
+                            html += '</tr>';
+                        });
+                    }
 
-            //Bind Fecha.
-            $(".valorFec", row).find("span").html(FechaNacimiento);
-            $(".valorFec", row).find("input").val(FechaNacimiento);
-
-            //Bind Parentesco.
-            $(".valorFec", row).find("span").html(FechaNacimiento);
-            $(".valorFec", row).find("input").val(FechaNacimiento);
-            $("#tblCustomers").append(row);
+                    $('.tbody').html(html);
+                },
+                error: function (errormessage) {
+                    alert(errormessage.responseText);
+                }
+            });
         };
+
 
      $(function () {
          $("#addPersonaInicialModal").click(function (e) {
@@ -397,15 +330,15 @@
              var minero = 0;
              var veterano = 0;
 
-                if ($("#idDisFamilia").is(':checked')) {
+             if ($("#idDisInicial").is(':checked')) {
                     disc = 1;
                 }
 
-                if ($("#idMinFamilia").is(':checked')) {
+             if ($("#idMinInicial").is(':checked')) {
                     minero = 1;
                 }
 
-                if ($("#idVetFamilia").is(':checked')) {
+             if ($("#idVetInicial").is(':checked')) {
                     veterano = 1;
                 }
 
@@ -414,12 +347,6 @@
                     e.preventDefault();
                 } else {
                     $("#inputFecNacInicial").css("border-color", "green");
-                }
-
-                if ($("#inputCheck").is(':checked')) {
-                    $("#inputCheck").val('1');
-                } else {
-                    $("#inputCheck").val('0');
                 }
 
                 if (!nombreVM) {
@@ -457,21 +384,8 @@
 
                     })
                         .done(function (r) {
-                            var row = $("#tablaFamilia tr:last-child");
-                            if ($("#tablaFamilia tr:last-child span").eq(0).html() != "&nbsp;") {
-                                row = row.clone();
-                            }
-                            AppendRow(row, r.InsfNombre, r.InsfNumdoc, r.ParentescoKey, r.FechaNacimiento,
-                                r.InsfDiscapacitado, r.InsfMinero, r.InsfVeterano);
-                            
+                            loadData();
 
-                            //$("#idFormFamilia").show();
-                            //$("#tablaFamilia").html(result);
-                            //$('#formFamilia').html(result);
-                            $("#inputNombreInicial").val('');
-
-                            $("#inputDniInicial").val('');
-                            $('#inputDniInicial').prop('readonly', false);
                         })
                         .fail(function (result) {
                             bootbox.alert({
@@ -490,6 +404,79 @@
             });
      });
 
+        function Delete(numerodni) {
+            $("#numeroDocId").val(numerodni);
+            $("#modalBorrar").modal('show');
+        };
 
-    </script>
+         $(function () {
+            $("#delPersonaModal").click(function (e) {
+                e.preventDefault();
+                var idMod = $("#numeroDocId").val();
+                $.ajax({
+                    url: '@Url.Action("DeletePersona", "Bandeja")',
+                    data: {
+                        id: idMod
+                    },
+                    type: "post"
+                }).done(function (result) {
+                    $("#idFormFamilia").show();
+                    //$("#tablaFamilia").html(result);
+
+                }).fail(function (data) {
+                    bootbox.alert({
+                        size: "small",
+                        title: "I.V.U.J.",
+                        message: "Acaba de ocurrir un problema, lamento los inconvenientes. " + data,
+                        callback: function () {
+                            //location.reload();
+                        }
+                    });
+                });
+                $("#modalBorrar").modal('hide');
+            })
+         });
+
+
+        function getbyID(numeroDni) {
+            $('#inputNombreInicial').css('border-color', 'lightgrey');
+            $('#inputDniInicial').css('border-color', 'lightgrey');
+            $('#inputFecNacInicial').css('border-color', 'lightgrey');
+            $('#idDisInicial').css('border-color', 'lightgrey');
+            $('#idMinInicial').css('border-color', 'lightgrey');
+            $('#idVetInicial').css('border-color', 'lightgrey');
+            $('#ddParentescoInicialId').css('border-color', 'lightgrey');
+            $.ajax({
+                url: "/Bandeja/UpdatePersona/" + numeroDni,
+                typr: "GET",
+                success: function (result) {
+                    $('#inputNombreInicial').val(result.insfNombre);
+                    $('#inputDniInicial').val(result.insfNumdoc);
+                    var idFecha = result.fechaNacimiento;
+
+                    if (idFecha != null) {
+                        var dt = idFecha.split('/');
+                        var date1 = dt[2] + "-" + dt[1] + "-" + dt[0];
+                        $('#inputFecNacInicial').val(date1);
+                    }
+
+                    $('#idDisInicial').val(result.insfDiscapacitado);
+                    $('#idMinInicial').val(result.insfMinero);
+                    $('#idVetInicial').val(result.insfVeterano);
+                    $('#ddParentescoInicialId').val(result.parentescoKey);
+
+                    $('#modalInicialFamilia').modal('show');
+                    $('#btnUpdate').show();
+                    $('#btnAdd').hide();
+                },
+                error: function (errormessage) {
+                    alert(errormessage.responseText);
+                }
+            });
+            return false;
+        }
+
+
+
+</script>
 }

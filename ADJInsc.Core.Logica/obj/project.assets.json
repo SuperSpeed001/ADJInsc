@@ -7957,23 +7957,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Sistemas\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\Pedro René González\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Proyectos NET\\ADInsc\\ADJInsc.Core.Logica\\ADJInsc.Core.Logica.csproj",
+      "projectUniqueName": "C:\\Inscripciones\\ADJInsc.Core.Logica\\ADJInsc.Core.Logica.csproj",
       "projectName": "ADJInsc.Core.Logica",
-      "projectPath": "D:\\Proyectos NET\\ADInsc\\ADJInsc.Core.Logica\\ADJInsc.Core.Logica.csproj",
-      "packagesPath": "C:\\Users\\Sistemas\\.nuget\\packages\\",
-      "outputPath": "D:\\Proyectos NET\\ADInsc\\ADJInsc.Core.Logica\\obj\\",
+      "projectPath": "C:\\Inscripciones\\ADJInsc.Core.Logica\\ADJInsc.Core.Logica.csproj",
+      "packagesPath": "C:\\Users\\Pedro René González\\.nuget\\packages\\",
+      "outputPath": "C:\\Inscripciones\\ADJInsc.Core.Logica\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
+        "C:\\Microsoft\\Xamarin\\NuGet\\",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Sistemas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Pedro René González\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -7988,8 +7990,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\Proyectos NET\\ADInsc\\ADJInsc.Models\\ADJInsc.Models.csproj": {
-              "projectPath": "D:\\Proyectos NET\\ADInsc\\ADJInsc.Models\\ADJInsc.Models.csproj"
+            "C:\\Inscripciones\\ADJInsc.Models\\ADJInsc.Models.csproj": {
+              "projectPath": "C:\\Inscripciones\\ADJInsc.Models\\ADJInsc.Models.csproj"
             }
           }
         }

@@ -37,10 +37,10 @@
                         {
                     <tr>
                         @Html.HiddenFor(modelItem => item.InsfNumdoc, new { id = "idEscondido" })
-                        @Html.HiddenFor(modelItem => item.InsNombre, new { id = "idSoloNombre" })
-                        @Html.HiddenFor(modelItem => item.InsApellido, new { id = "idSoloApellido" })
+                        
+                       
                         <td>
-                            @Html.DisplayFor(modelItem => item.InsNombreYApellido)
+                            @Html.DisplayFor(modelItem => item.InsfNombre)
                         </td>
                         <td>
                             @Html.DisplayFor(modelItem => item.InsfNumdoc)
