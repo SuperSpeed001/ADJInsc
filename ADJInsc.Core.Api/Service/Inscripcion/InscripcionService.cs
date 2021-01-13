@@ -48,6 +48,12 @@
             return result;
         }
 
+        public async Task<ResponseViewModel> PostInscViewModel(InscViewModel model)
+        {
+            var result = await helper.PostInscViewModel(model);
+            return result;
+        }
+
         public async Task<UsuarioTitularViewModel> GetInscripto(int dni)
         {
             var result = await helper.GetInscripto(dni);

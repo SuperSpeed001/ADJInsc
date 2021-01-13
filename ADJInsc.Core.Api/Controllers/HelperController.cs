@@ -96,6 +96,22 @@
             return modelo;
         }
 
+        // POST api/<HelperController>
+        [HttpPost("/helper/PostInscViewModel")]
+        [ProducesResponseType(StatusCodes.Status201Created)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        public async Task<ActionResult<ResponseViewModel>> PostInscViewModel(InscViewModel inscViewModel)
+        {
+            // var helper = new InscripcionService(_connectionString, mailService);
+            var modelo = service.PostInscViewModel(inscViewModel).Result;
+
+            if (modelo.UsuarioId < 0)
+                return BadRequest();
+
+            await Task.Delay(100).ConfigureAwait(false);
+            return modelo;
+        }
+
 
         [HttpGet("/helper/GetInscripto")]
         [ProducesResponseType(StatusCodes.Status201Created)]

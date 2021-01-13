@@ -154,6 +154,45 @@
 
         }
 
+        public async Task<ResponseViewModel> PostInscViewModel(InscViewModel inscViewModel)
+        {
+            Connection();
+            var modeloResponse = new ResponseViewModel();
+
+            string query = "UPDATE Inscriptos SET " +
+                                                            "  ins_tipflia =  @ins_tipflia, IdTipoFamilia = @IdTipoFamilia, " +
+                                                            " ins_nombre = @ins_nombre, ins_numdoc = @ins_numdoc, " +
+                                                            " ins_email = @ins_email, IdUsuario= @IdUsuario, ins_estado = 'A', " +
+                                                            " cuit_cuil = @cuit, cuit_cuil_uno = @cuitUno, cuit_cuil_dos = @cuitDos " +
+                                                     "WHERE ins_numdoc = " + inscViewModel.InsNumdoc;
+            using (TransactionScope ts = new TransactionScope(TransactionScopeAsyncFlowOption.Enabled))
+            {
+                try
+                {
+                    using (SqlCommand cmd = new SqlCommand(query, con))
+                    {                        
+
+                        cmd.Parameters.Add(new SqlParameter("@ins_tipflia", inscViewModel.IdTipoFamilia));
+                        cmd.Parameters.Add(new SqlParameter("@IdTipoFamilia", inscViewModel.IdTipoFamilia));
+                        cmd.Parameters.Add(new SqlParameter("@ins_nombre", inscViewModel.InsNombre));
+                        cmd.Parameters.Add(new SqlParameter("@ins_numdoc", inscViewModel.InsNumdoc));
+                        cmd.Parameters.Add(new SqlParameter("@ins_email", inscViewModel.InsEmail));
+                        cmd.Parameters.Add(new SqlParameter("@IdUsuario", inscViewModel.Usuario));
+                        cmd.Parameters.Add(new SqlParameter("@cuit", inscViewModel.CuitCuilUno.Trim() + inscViewModel.InsNumdoc.Trim() + inscViewModel.CuitCuilDos.Trim()));
+                        cmd.Parameters.Add(new SqlParameter("@cuitUno", inscViewModel.CuitCuilUno));
+                        cmd.Parameters.Add(new SqlParameter("@cuitDos", inscViewModel.CuitCuilDos));
+                    }
+                }
+                catch
+                {
+
+                }
+
+                return modeloResponse;
+            }
+
+        }
+
         public async Task<ResponseViewModel> PostServerModelo(ModeloCarga model)
         {
             Connection();
@@ -781,7 +820,7 @@
                             TipoRevistaDesc = (string)row["TipoRevistaDesc"]
                         });
                     }
-                    pList.TipoEmpleoList = listado.Select(r => new SelectListItem
+                    pList.TipoRevistaList = listado.Select(r => new SelectListItem
                     {
                         Value = $"{r.TipoRevistaKey}",
                         Text = r.TipoRevistaDesc

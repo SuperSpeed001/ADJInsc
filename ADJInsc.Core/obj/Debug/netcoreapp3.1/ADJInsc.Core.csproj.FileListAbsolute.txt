@@ -1087,7 +1087,6 @@ D:\Proyectos NET\ADInsc\ADJInsc.Core\obj\Debug\netcoreapp3.1\ADJInsc.Core.TagHel
 D:\Proyectos NET\ADInsc\ADJInsc.Core\obj\Debug\netcoreapp3.1\ADJInsc.Core.TagHelpers.output.cache
 D:\Proyectos NET\ADInsc\ADJInsc.Core\obj\Debug\netcoreapp3.1\ADJInsc.Core.RazorCoreGenerate.cache
 D:\Proyectos NET\ADInsc\ADJInsc.Core\obj\Debug\netcoreapp3.1\Razor\Views\Bandeja\Index.cshtml.g.cs
-D:\Proyectos NET\ADInsc\ADJInsc.Core\obj\Debug\netcoreapp3.1\Razor\Views\Bandeja\Login.cshtml.g.cs
 D:\Proyectos NET\ADInsc\ADJInsc.Core\obj\Debug\netcoreapp3.1\Razor\Views\Bandeja\LoginError.cshtml.g.cs
 D:\Proyectos NET\ADInsc\ADJInsc.Core\obj\Debug\netcoreapp3.1\Razor\Views\Bandeja\_DatosPartial.cshtml.g.cs
 D:\Proyectos NET\ADInsc\ADJInsc.Core\obj\Debug\netcoreapp3.1\Razor\Views\Converter\Index.cshtml.g.cs
@@ -1586,3 +1585,4 @@ C:\Inscripciones\ADJInsc.Core\obj\Debug\netcoreapp3.1\Razor\Views\Bandeja\_ViewA
 D:\Proyectos NET\ADInsc\ADJInsc.Core\bin\Debug\netcoreapp3.1\libman.json
 D:\Proyectos NET\ADInsc\ADJInsc.Core\obj\Debug\netcoreapp3.1\Razor\Views\Bandeja\_CreateOrEdit.cshtml.g.cs
 D:\Proyectos NET\ADInsc\ADJInsc.Core\obj\Debug\netcoreapp3.1\Razor\Views\Bandeja\_ViewAll.cshtml.g.cs
+D:\Proyectos NET\ADInsc\ADJInsc.Core\obj\Debug\netcoreapp3.1\Razor\Views\Bandeja\_Reporte.cshtml.g.cs

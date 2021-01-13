@@ -15,7 +15,7 @@
     <h4>Panel de Control</h4>
 </p>
 
-<form id="formFamilia">
+<form id="formFamilia" asp-controller="Bandeja" asp-action="GuardarData">
     <div class="form-group card border-info">
         <h3 class="card-header text-light bg-info"> Titular</h3>
         <div class="form-group card-body">
@@ -46,7 +46,7 @@
                 </div>
             </div>
             <br />
-            <div class="form-inline col-md-6" style="width:auto; margin-bottom:1px;">
+            <div class="form-inline col-md-6" style="width:auto; margin-bottom:1px;">.
 
 
                 Cuit / Cuil
@@ -237,7 +237,35 @@
     </div>
 </div>
 
+<div id="modalSuccess" class="modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Pre Inscripción</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div></div>
 
+
+                <div class="modal-body card">
+                    <p>Desea imprimir formulario?</p>
+                </div>
+                
+                <div class="modal-footer">
+                    <input hidden id="hrefsuces" />
+                        <button type="submit" id="aceptarSuccess" class="btn btn-danger btnModal">Aceptar</button>
+                </div>
+                <div class="modal-footer">
+                    <form asp-controller="Inscripcion" asp-action="GoHome">
+                        <button type="submit" id="cerrarSuccess" class="btn btn-danger btnModal">Salir y Cerrar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 
 @section scripts {
@@ -252,7 +280,13 @@
                 loadData();
             })
         });
-
+    $(function () {
+        $('#aceptarSuccess').click(function () {
+            var url = $('#hrefsuces').val();
+            window.open(url, '_blank');
+            $("#modalSuccess").modal('hide');
+        })
+    })
     $(function () {
         $("#ddDepartamentoId").on("change", function () {
 
@@ -273,10 +307,11 @@
             timeout: 1500
 
         }).done(function (result) {
+            
             $("#ddLocalidadId").empty();
             $("#ddLocalidadId").append("<option value> -- Seleccionar Localidad de " + $("#ddDepartamentoId option:selected").text() + " --</option>")
             // CONSTRUIMOS EL DropDownList A PARTIR DEL RESULTADO Json (data)
-            $.each(result, function (row) {
+            $.each(result, function (key, row) {
                 $("#ddLocalidadId").append('<option value="' + row.value + '">' + row.text + '</option>');
             });
         });
@@ -372,7 +407,7 @@
                             // Datos / Parámetros
                             nombre: nombreVM,
                             dni: dniVM,
-                            parentescoKey: parentescoKey,                          
+                            parentescoKey: parentescoKey,
                             fechaNac: fechaNac,
                             disc: disc, //$("#inputCheck").val(),
                             minero: minero,
@@ -470,7 +505,7 @@
         function getbyID(numeroDni) {
             $('#inputNombreInicial').css('border-color', 'lightgrey');
             $('#inputDniInicial').css('border-color', 'lightgrey');
-            
+
             $('#inputFecNacInicial').css('border-color', 'lightgrey');
             $('#idDisInicial').css('border-color', 'lightgrey');
             $('#idMinInicial').css('border-color', 'lightgrey');
@@ -478,7 +513,7 @@
             $('#ddParentescoInicialId').css('border-color', 'lightgrey');
             $.ajax({
                 url: "/Bandeja/UpdatePersona/" + numeroDni,
-                typr: "GET",
+                type: "GET",
                 success: function (result) {
                     $('#inputNombreInicial').val(result.insfNombre);
                     $('#inputDniInicial').val(result.insfNumdoc);
@@ -523,26 +558,25 @@
         }
 
     $(function () {
-        $("#btnCreate").click(function () {
-
+        $("#btnCreate").click(function (e) {
+            e.preventDefault();
             var nombreT = $('#inputNombre').val();
             var dniT = $('#inputDni').val();
             var tipoFamiliaT = $('#ddTipoFamiliaId').val();
-            var tipoFamiliaT = $('#ddTipoFamiliaId').val() 
 
             var discT = 0;
             var mineroT = 0;
             var veteranoT = 0;
 
-            if ($("#idDisInicial").is(':checked')) {
+            if ($("#idDis").is(':checked')) {
                 discT = 1;
             }
 
-            if ($("#idMinInicial").is(':checked')) {
+            if ($("#idMin").is(':checked')) {
                 mineroT = 1;
             }
 
-            if ($("#idVetInicial").is(':checked')) {
+            if ($("#idVet").is(':checked')) {
                 veteranoT = 1;
             }
 
@@ -555,10 +589,51 @@
 
             var lugarTrabajo = $('#inputLugar').val();
 
-            var revistaT = $('#ddTipoRevistaIdr').val(); 
+            var revistaT = $('#ddTipoRevistaId').val();
 
             var neto = $('#inputIngresoNeto').val();
-        })
+
+            $.ajax({
+                url: '@Url.Action("GuardarData", "Bandeja")',
+                data: {
+                    dni: dniT,
+                    nombre: nombreT,
+                    tipoFamilia: tipoFamiliaT,
+                    disc: discT,
+                    minero: mineroT,
+                    veterano: veteranoT,
+                    cuitUno: cuitUno,
+                    cuitTres: cuitTres,
+                    direccion: direccionT,
+                    departamento: departamentoT,
+                    localidad: localidadT,
+                    lugarTrabajo: lugarTrabajo,
+                    revista: revistaT,
+                    neto: neto
+                },
+                type: "get",
+                success: function (result) {
+                    console.log(result);
+                    if (result.isRedirect) {
+                        $('#hrefsuces').val(result.redirectUrl);
+                        $("#modalSuccess").modal('show');
+                        
+                        //window.location.href = result.redirectUrl;
+                        
+                    }
+                },
+                error: function (errormessage) {
+                    alert(errormessage.responseText);
+                }
+            }).done(function (result) {
+
+
+            });
+            
+
+        });
+        return false;
+
     });
 
 </script>

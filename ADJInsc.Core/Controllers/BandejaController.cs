@@ -32,7 +32,7 @@
         }
 
         [HttpPost]
-        public ActionResult Login(string inputUserName, string inputPassword)
+        public ActionResult Index(string inputUserName, string inputPassword)
         {
             var modelOut = new ModeloCarga
             {
@@ -230,18 +230,15 @@
                 return Json("No");
             }
         }
-               
-
+        
        
-
-        [HttpPost]
         public IActionResult GetPdfHome()
         {
-            var modelo = HttpContext.Session.GetObjectFromJson<UsuarioTitularViewModel>("viewModelo");
+            var modelo = HttpContext.Session.GetObjectFromJson<InscViewModel>("viewModelo");
 
-            return new ViewAsPdf("../Inscripcion/AltaTitular", modelo);
-
-            //return await _generatePdf.GetPdf("Views/Bandeja/Index.cshtml", "Generado");
+            //return new ViewAsPdf("_Reporte.cshtml", modelo);
+            return new ViewAsPdf("_Reporte", modelo);
+            
         }
 
         public JsonResult List()
@@ -252,6 +249,90 @@
                 return Json(null);
             }
             return Json(modelo.GrupoFamiliar);
+        }
+               
+        public IActionResult GuardarData1(InscViewModel modelo)
+        {
+            if (ModelState.IsValid)
+            {
+                var modelo1 = HttpContext.Session.GetObjectFromJson<InscViewModel>("viewModelo");
+
+                modelo1 = modelo;
+
+                HttpContext.Session.SetObjectAsJson<InscViewModel>("viewModelo", modelo1);
+            }
+            return View();
+        }
+        public JsonResult GuardarData(string dni, string nombre, string tipoFamilia, int disc,int minero, int veterano, string cuitUno, string cuitTres,
+                                      string direccion, string departamento,string localidad, string lugarTrabajo, string revista, string neto)
+        {
+            var modelo = HttpContext.Session.GetObjectFromJson<InscViewModel>("viewModelo");
+
+            var keyLoc = localidad.Split("-");
+            var desKeyLoc = string.Empty;
+            var desKeyDep = string.Empty;
+            
+            foreach (var item in modelo.LocalidadesList)
+            {
+                if (keyLoc.ToString() == item.Value.ToString())
+                {
+                    desKeyLoc = item.Text;
+                    break;
+                }
+            }
+
+            foreach (var item in modelo.DepartamentosList)
+            {
+                if (departamento == item.Value)
+                {
+                    desKeyDep = item.Text;
+                    break;
+                }
+            }
+
+            modelo.InsNumdoc = dni;
+            modelo.InsNombre = nombre;
+            modelo.IdTipoFamilia = int.Parse(tipoFamilia);
+            modelo.InsDiscapacitado = disc;
+            modelo.InsMinero = minero;
+            modelo.InsVeterano = veterano;
+            modelo.CuitCuil = cuitUno + "-" + dni + '-' + cuitTres;
+            modelo.Direccion = direccion;
+            modelo.DepartamentoKey = int.Parse(departamento);
+            modelo.DepartamentoDesc = desKeyDep;
+            modelo.LocalidadKey = int.Parse(keyLoc[1]);  //1-12  ES EL 12
+            modelo.LocalidadDesc = desKeyLoc;
+            modelo.NombreEmpleo = lugarTrabajo;
+            modelo.TipoRevistaKey = int.Parse(revista);
+            modelo.IngresoNeto = neto;
+
+            HttpContext.Session.SetObjectAsJson<InscViewModel>("viewModelo", modelo);
+
+           /* var tokenSource = new CancellationTokenSource();
+            var token = tokenSource.Token;*/
+
+            //var service = this._apiService.PostAsync<ResponseViewModel>("/Insc.Api/helper/", "PostInscViewModel", null, modelo, token).Result;
+
+            var redirectUrl1 = Url.Action("GetPdfHome", "Bandeja");
+
+            return Json(new
+            {
+                redirectUrl = redirectUrl1,
+                isRedirect = true
+            });
+
+            /*
+            if (service.IsSuccess)
+            {
+                var result = (UsuarioTitularViewModel)service.Result;
+                return Json(new
+                {
+                    redirectUrl = Url.Action("GetPdfHome", "Bandeja"),
+                    isRedirect = true
+                });
+                //return JsonResult("GetPdfHome", "../Bandeja/_Reporte.cshtml", result);
+            }*/
+
         }
     }
 }

@@ -1,0 +1,143 @@
+﻿@model ADJInsc.Models.ViewModels.InscViewModel
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2 class=" text-light bg-info">
+    Formulario de Pre- Inscripción I.V.U.J. 2021
+</h2>
+
+<form class="row g-3">
+    <div class="col-md-6">
+        <label for="inputEmail4" class="form-label">Titular</label>
+        <input type="email" class="form-control" id="inputEmail4" disabled value="@Model.InsNombre">
+    </div>
+    <div class="col-md-4">
+        <label for="inputPassword4" class="form-label">Cuit / Cuil</label>
+        <input type="text" class="form-control" id="inputPassword4" disabled value="@Model.CuitCuil">
+    </div>
+    <div class="col-12">
+        <label for="inputAddress" class="form-label">Fecha de alta</label>
+        <input type="text" class="form-control" id="inputAddress" disabled value="@Model.InsFecalt">
+    </div>
+    <div class="col-12">
+        <label for="inputAddress2" class="form-label">Dirección</label>
+        <input type="text" class="form-control" id="inputAddress2" value="@Model.Direccion">
+    </div>
+    <div class="col-md-6">
+        <label for="inputCity" class="form-label">Departamento</label>
+        <input type="text" class="form-control" id="inputCity" value="@Model.DepartamentoDesc">
+    </div>
+    <div class="col-md-6">
+        <label for="inputState" class="form-label">Localidad</label>
+        <input type="text" class="form-control" id="inputCity" value="@Model.LocalidadDesc">
+    </div>
+
+    <div class="form-group">
+
+        <h5 class=" text-light bg-info">Datos del Grupo Familiar</h5>
+        <div>
+      
+            <div></div>
+            <table id="tablaFamilia" class="table table-striped table-responsive" cellspacing="0" width="100%">
+                <!--table table-sm table-striped table-hover border-bottom table table-bordered mb-0-->
+                <thead>
+                    <tr>
+
+                        <th>
+                            Nombre y Apellido
+                        </th>
+                        <th>
+                            Documento
+                        </th>
+                        <th>
+                            Nacimiento
+                        </th>
+                        <th>
+                            Discapacidad ?
+                        </th>
+                        <th>
+                            Veterano Mal. ?
+                        </th>
+                        <th>
+                            Minero ?
+                        </th>
+                        <th>
+                            Parentesco
+                        </th>
+                        
+                    </tr>
+                </thead>
+                <tbody>
+                    @if (Model.GrupoFamiliar.Count() > 0)
+                    {
+                        foreach (var item in Model.GrupoFamiliar)
+                        {
+                    <tr>
+                        @Html.HiddenFor(modelItem => item.InsfNumdoc, new { id = "idEscondido" })
+
+                        <td id="valorNombre">
+                            @Html.DisplayFor(modelItem => item.InsfNombre)
+                        </td>
+                        <td id="valorDoc">
+                            @Html.DisplayFor(modelItem => item.InsfNumdoc)
+                        </td>
+                        <td id="valorFec">
+                            @Html.DisplayFor(modelItem => item.FechaNacimiento)
+                        </td>
+
+                        <td>
+                            @if (item.InsfDiscapacitado == 1)
+                                {
+                            <p>Si</p>
+                                }
+                                else
+                                {
+                            <p>No</p>
+                                }
+
+                        </td>
+                        <td>
+                            @if (item.InsfVeterano == 1)
+                                {
+                            <p>Si</p>
+                                }
+                                else
+                                {
+                            <p>No</p>
+                                }
+
+                        </td>
+                        <td>
+                            @if (item.InsfMinero == 1)
+                                {
+                            <p>Si</p>
+                                }
+                                else
+                                {
+                            <p>No</p>
+                                }
+
+                        </td>
+                        <td id="valorP">
+                            @Html.DisplayFor(modelItem => item.ParentescoDesc, new { id = "idSoloParentesco" })
+                        </td>
+
+                    </tr>
+                        }
+                    }else{
+                        <tr>
+                            <td>
+                                Sin Datos
+                            </td>
+                        </tr>
+                    }
+                   
+                </tbody>
+            </table>
+
+        </div>
+
+    </div>
+</form>
