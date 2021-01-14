@@ -164,6 +164,7 @@
                                                             " ins_nombre = @ins_nombre, ins_numdoc = @ins_numdoc, " +
                                                             " ins_email = @ins_email, IdUsuario= @IdUsuario, ins_estado = 'A', " +
                                                             " cuit_cuil = @cuit, cuit_cuil_uno = @cuitUno, cuit_cuil_dos = @cuitDos " +
+                                                            "" +
                                                      "WHERE ins_numdoc = " + inscViewModel.InsNumdoc;
             using (TransactionScope ts = new TransactionScope(TransactionScopeAsyncFlowOption.Enabled))
             {

@@ -243,7 +243,7 @@
 
         public JsonResult List()
         {
-            var modelo = HttpContext.Session.GetObjectFromJson<UsuarioTitularViewModel>("viewModelo");
+            var modelo = HttpContext.Session.GetObjectFromJson<InscViewModel>("viewModelo");
             if (modelo == null)
             {
                 return Json(null);
@@ -274,9 +274,9 @@
             
             foreach (var item in modelo.LocalidadesList)
             {
-                if (keyLoc.ToString() == item.Value.ToString())
+                if (localidad == item.Value.ToString())
                 {
-                    desKeyLoc = item.Text;
+                    desKeyLoc = item.Text.Trim();
                     break;
                 }
             }
@@ -285,7 +285,7 @@
             {
                 if (departamento == item.Value)
                 {
-                    desKeyDep = item.Text;
+                    desKeyDep = item.Text.Trim();
                     break;
                 }
             }

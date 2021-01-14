@@ -893,4 +893,3 @@ D:\Proyectos NET\ADInsc\ADJInsc.Models\obj\Debug\ADJInsc.Models.csproj.CoreCompi
 D:\Proyectos NET\ADInsc\ADJInsc.Models\obj\Debug\ADJInsc.Models.csproj.CopyComplete
 D:\Proyectos NET\ADInsc\ADJInsc.Models\obj\Debug\ADJInsc.Models.dll
 D:\Proyectos NET\ADInsc\ADJInsc.Models\obj\Debug\ADJInsc.Models.pdb
-D:\Proyectos NET\ADInsc\ADJInsc.Models\obj\Debug\ADJInsc.Models.csprojAssemblyReference.cache
