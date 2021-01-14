@@ -10,27 +10,32 @@
 
 <form class="row g-3">
     <div class="col-md-6">
-        <label for="inputEmail4" class="form-label">Titular</label>
+        <h5><strong>Nº de Inscripción  @Model.InsId.ToString("D8") </strong></h5>
+        
+        
+    </div>
+    <div class="col-md-6">
+        <label for="inputEmail4" class="form-label"><strong>Titular</strong></label>
         <input type="email" class="form-control" id="inputEmail4" disabled value="@Model.InsNombre">
     </div>
     <div class="col-md-4">
-        <label for="inputPassword4" class="form-label">Cuit / Cuil</label>
+        <label for="inputPassword4" class="form-label"><strong>Cuit / Cuil</strong></label>
         <input type="text" class="form-control" id="inputPassword4" disabled value="@Model.CuitCuil">
     </div>
     <div class="col-12">
-        <label for="inputAddress" class="form-label">Fecha de alta</label>
+        <label for="inputAddress" class="form-label"><strong>Fecha de alta</strong></label>
         <input type="text" class="form-control" id="inputAddress" disabled value="@Model.InsFecalt">
     </div>
     <div class="col-12">
-        <label for="inputAddress2" class="form-label">Dirección</label>
+        <label for="inputAddress2" class="form-label"><strong>Dirección</strong></label>
         <input type="text" class="form-control" id="inputAddress2" value="@Model.Direccion">
     </div>
     <div class="col-md-6">
-        <label for="inputCity" class="form-label">Departamento</label>
+        <label for="inputCity" class="form-label"><strong>Departamento</strong></label>
         <input type="text" class="form-control" id="inputCity" value="@Model.DepartamentoDesc">
     </div>
     <div class="col-md-6">
-        <label for="inputState" class="form-label">Localidad</label>
+        <label for="inputState" class="form-label"><strong>Localidad</strong></label>
         <input type="text" class="form-control" id="inputCity" value="@Model.LocalidadDesc">
     </div>
 
@@ -38,7 +43,7 @@
 
         <h5 class=" text-light bg-info">Datos del Grupo Familiar</h5>
         <div>
-      
+
             <div></div>
             <table id="tablaFamilia" class="table table-striped table-responsive" cellspacing="0" width="100%">
                 <!--table table-sm table-striped table-hover border-bottom table table-bordered mb-0-->
@@ -66,7 +71,7 @@
                         <th>
                             Parentesco
                         </th>
-                        
+
                     </tr>
                 </thead>
                 <tbody>
@@ -74,66 +79,68 @@
                     {
                         foreach (var item in Model.GrupoFamiliar)
                         {
-                    <tr>
-                        @Html.HiddenFor(modelItem => item.InsfNumdoc, new { id = "idEscondido" })
+                            <tr>
+                                @Html.HiddenFor(modelItem => item.InsfNumdoc, new { id = "idEscondido" })
 
-                        <td id="valorNombre">
-                            @Html.DisplayFor(modelItem => item.InsfNombre)
-                        </td>
-                        <td id="valorDoc">
-                            @Html.DisplayFor(modelItem => item.InsfNumdoc)
-                        </td>
-                        <td id="valorFec">
-                            @Html.DisplayFor(modelItem => item.FechaNacimiento)
-                        </td>
+                                <td id="valorNombre">
+                                    @Html.DisplayFor(modelItem => item.InsfNombre)
+                                </td>
+                                <td id="valorDoc">
+                                    @Html.DisplayFor(modelItem => item.InsfNumdoc)
+                                </td>
+                                <td id="valorFec">
+                                    @Html.DisplayFor(modelItem => item.FechaNacimiento)
+                                </td>
 
-                        <td>
-                            @if (item.InsfDiscapacitado == 1)
-                                {
-                            <p>Si</p>
-                                }
-                                else
-                                {
-                            <p>No</p>
-                                }
+                                <td>
+                                    @if (item.InsfDiscapacitado == 1)
+                                    {
+                                        <p>Si</p>
+                                    }
+                                    else
+                                    {
+                                        <p>No</p>
+                                    }
 
-                        </td>
-                        <td>
-                            @if (item.InsfVeterano == 1)
-                                {
-                            <p>Si</p>
-                                }
-                                else
-                                {
-                            <p>No</p>
-                                }
+                                </td>
+                                <td>
+                                    @if (item.InsfVeterano == 1)
+                                    {
+                                        <p>Si</p>
+                                    }
+                                    else
+                                    {
+                                        <p>No</p>
+                                    }
 
-                        </td>
-                        <td>
-                            @if (item.InsfMinero == 1)
-                                {
-                            <p>Si</p>
-                                }
-                                else
-                                {
-                            <p>No</p>
-                                }
+                                </td>
+                                <td>
+                                    @if (item.InsfMinero == 1)
+                                    {
+                                        <p>Si</p>
+                                    }
+                                    else
+                                    {
+                                        <p>No</p>
+                                    }
 
-                        </td>
-                        <td id="valorP">
-                            @Html.DisplayFor(modelItem => item.ParentescoDesc, new { id = "idSoloParentesco" })
-                        </td>
+                                </td>
+                                <td id="valorP">
+                                    @Html.DisplayFor(modelItem => item.ParentescoDesc, new { id = "idSoloParentesco" })
+                                </td>
 
-                    </tr>
+                            </tr>
                         }
-                    }else{
+                    }
+                    else
+                    {
                         <tr>
                             <td>
                                 Sin Datos
                             </td>
                         </tr>
                     }
-                   
+
                 </tbody>
             </table>
 
