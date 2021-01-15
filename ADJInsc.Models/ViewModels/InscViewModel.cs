@@ -33,9 +33,6 @@
         public int TipoEmpleoKey { get; set; }
         public int TipoRevistaKey { get; set; }
 
-        public string CuitUno { get; set; }
-        public string CuitTres { get; set; }
-
         public int Minero { get; set; }
         public int Veterano { get; set; }
         public int Discapacitado { get; set; }

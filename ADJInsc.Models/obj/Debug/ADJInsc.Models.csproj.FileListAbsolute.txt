@@ -673,6 +673,9 @@ C:\Inscripciones\ADJInsc.Models\obj\Debug\ADJInsc.Models.csproj.CopyComplete
 C:\Inscripciones\ADJInsc.Models\obj\Debug\ADJInsc.Models.dll
 C:\Inscripciones\ADJInsc.Models\obj\Debug\ADJInsc.Models.pdb
 C:\Inscripciones\ADJInsc.Models\obj\Debug\ADJInsc.Models.csprojAssemblyReference.cache
+D:\Proyectos NET\ADInsc\ADJInsc.Models\bin\Debug\Microsoft.Data.SqlClient.pdb
+D:\Proyectos NET\ADInsc\ADJInsc.Models\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\Proyectos NET\ADInsc\ADJInsc.Models\bin\Debug\System.Reflection.Metadata.xml
 D:\Proyectos NET\ADInsc\ADJInsc.Models\bin\Debug\Microsoft.DiaSymReader.Native.x86.dll
 D:\Proyectos NET\ADInsc\ADJInsc.Models\bin\Debug\Microsoft.DiaSymReader.Native.amd64.dll
 D:\Proyectos NET\ADInsc\ADJInsc.Models\bin\Debug\ADJInsc.Models.dll.config
@@ -828,7 +831,6 @@ D:\Proyectos NET\ADInsc\ADJInsc.Models\bin\Debug\Microsoft.CodeAnalysis.xml
 D:\Proyectos NET\ADInsc\ADJInsc.Models\bin\Debug\Microsoft.CodeAnalysis.CSharp.pdb
 D:\Proyectos NET\ADInsc\ADJInsc.Models\bin\Debug\Microsoft.CodeAnalysis.CSharp.xml
 D:\Proyectos NET\ADInsc\ADJInsc.Models\bin\Debug\Microsoft.CodeAnalysis.Razor.xml
-D:\Proyectos NET\ADInsc\ADJInsc.Models\bin\Debug\Microsoft.Data.SqlClient.pdb
 D:\Proyectos NET\ADInsc\ADJInsc.Models\bin\Debug\Microsoft.Data.SqlClient.xml
 D:\Proyectos NET\ADInsc\ADJInsc.Models\bin\Debug\Microsoft.EntityFrameworkCore.xml
 D:\Proyectos NET\ADInsc\ADJInsc.Models\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.xml
@@ -865,11 +867,9 @@ D:\Proyectos NET\ADInsc\ADJInsc.Models\bin\Debug\Newtonsoft.Json.xml
 D:\Proyectos NET\ADInsc\ADJInsc.Models\bin\Debug\Newtonsoft.Json.Bson.xml
 D:\Proyectos NET\ADInsc\ADJInsc.Models\bin\Debug\System.Buffers.xml
 D:\Proyectos NET\ADInsc\ADJInsc.Models\bin\Debug\System.Collections.Immutable.xml
-D:\Proyectos NET\ADInsc\ADJInsc.Models\bin\Debug\System.Diagnostics.DiagnosticSource.xml
 D:\Proyectos NET\ADInsc\ADJInsc.Models\bin\Debug\System.IdentityModel.Tokens.Jwt.xml
 D:\Proyectos NET\ADInsc\ADJInsc.Models\bin\Debug\System.Memory.xml
 D:\Proyectos NET\ADInsc\ADJInsc.Models\bin\Debug\System.Numerics.Vectors.xml
-D:\Proyectos NET\ADInsc\ADJInsc.Models\bin\Debug\System.Reflection.Metadata.xml
 D:\Proyectos NET\ADInsc\ADJInsc.Models\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 D:\Proyectos NET\ADInsc\ADJInsc.Models\bin\Debug\System.Text.Encodings.Web.xml
 D:\Proyectos NET\ADInsc\ADJInsc.Models\bin\Debug\System.Threading.Tasks.Extensions.xml

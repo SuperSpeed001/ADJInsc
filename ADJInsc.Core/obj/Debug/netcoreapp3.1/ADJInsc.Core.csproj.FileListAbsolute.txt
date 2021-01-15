@@ -1076,7 +1076,6 @@ D:\Proyectos NET\ADInsc\ADJInsc.Core\obj\Debug\netcoreapp3.1\ADJInsc.Core.csproj
 D:\Proyectos NET\ADInsc\ADJInsc.Core\obj\Debug\netcoreapp3.1\ADJInsc.Core.AssemblyInfoInputs.cache
 D:\Proyectos NET\ADInsc\ADJInsc.Core\obj\Debug\netcoreapp3.1\ADJInsc.Core.AssemblyInfo.cs
 D:\Proyectos NET\ADInsc\ADJInsc.Core\obj\Debug\netcoreapp3.1\ADJInsc.Core.csproj.CoreCompileInputs.cache
-D:\Proyectos NET\ADInsc\ADJInsc.Core\obj\Debug\netcoreapp3.1\ADJInsc.Core.MvcApplicationPartsAssemblyInfo.cs
 D:\Proyectos NET\ADInsc\ADJInsc.Core\obj\Debug\netcoreapp3.1\ADJInsc.Core.MvcApplicationPartsAssemblyInfo.cache
 D:\Proyectos NET\ADInsc\ADJInsc.Core\obj\Debug\netcoreapp3.1\ADJInsc.Core.RazorAssemblyInfo.cache
 D:\Proyectos NET\ADInsc\ADJInsc.Core\obj\Debug\netcoreapp3.1\ADJInsc.Core.RazorAssemblyInfo.cs
