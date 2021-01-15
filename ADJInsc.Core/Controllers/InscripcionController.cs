@@ -144,7 +144,7 @@
                 return View();
             }
         }
-
+        /*
         [HttpPost]
         public IActionResult ValidarDatos(string usuario, string email)
         {
@@ -200,6 +200,7 @@
                 return Json("Operacion no Procesada " + ex.Message.Trim());
             }
         }
+        */
 
         [HttpPost]
         public IActionResult CargarDatos([FromBody] ModeloCarga modeloCarga)

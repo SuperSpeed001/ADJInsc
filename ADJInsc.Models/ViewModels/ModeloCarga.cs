@@ -11,5 +11,6 @@
         public string tipoFamilia { get; set; }
         public string cuitUno { get; set; }
         public string cuitTres { get; set; }
+        public string telefono { get; set; }
     }
 }

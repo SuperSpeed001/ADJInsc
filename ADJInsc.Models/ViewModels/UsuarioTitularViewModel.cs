@@ -5,12 +5,7 @@
     using Microsoft.AspNetCore.Mvc.Rendering;
 
     public class UsuarioTitularViewModel : Inscriptos
-    {       
-       /* public string NombreVM { get; set; }                
-        public string ApellidoVM { get; set; }*/
-                
-        public string DniVM { get; set; }
-
+    {         
         public string Usuario { get; set; }   //email
         public string Clave { get; set; }
 

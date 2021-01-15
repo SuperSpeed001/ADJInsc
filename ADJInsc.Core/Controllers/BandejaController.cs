@@ -264,7 +264,7 @@
             return View();
         }
         public JsonResult GuardarData(string dni, string nombre, string tipoFamilia, int disc,int minero, int veterano, string cuitUno, string cuitTres,
-                                      string direccion, string departamento,string localidad, string lugarTrabajo, string revista, string neto)
+                                      string direccion, string departamento,string localidad, string lugarTrabajo, string revista, string neto, string telefono)
         {
             var modelo = HttpContext.Session.GetObjectFromJson<InscViewModel>("viewModelo");
 
@@ -305,6 +305,7 @@
             modelo.NombreEmpleo = lugarTrabajo;
             modelo.TipoRevistaKey = int.Parse(revista);
             modelo.IngresoNeto = neto;
+            modelo.InsTelef = telefono;
 
             HttpContext.Session.SetObjectAsJson<InscViewModel>("viewModelo", modelo);
 

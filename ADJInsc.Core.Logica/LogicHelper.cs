@@ -164,12 +164,33 @@
                                                             " ins_nombre = @ins_nombre, ins_numdoc = @ins_numdoc, " +
                                                             " ins_email = @ins_email, IdUsuario= @IdUsuario, ins_estado = 'A', " +
                                                             " cuit_cuil = @cuit, cuit_cuil_uno = @cuitUno, cuit_cuil_dos = @cuitDos " +
-                                                            "" +
+                                                            " ins_discapacitado = @ins_disc, ins_minero = @ins_min, ins_veterano = @ins_vet " +
                                                      "WHERE ins_numdoc = " + inscViewModel.InsNumdoc;
+
+            string queryInsertDomicilio = "INSERT INTO InsDomici " +
+                                                            " (insd_ficha , insd_direcc , insd_barrio , insd_depar" +
+                                                            ", insd_local , insd_refer  , insd_estado "+
+                                                            ", IdDepartamento , IdLocalidad)" +
+                                                            "  VALUES (" +
+                                                            "  @ficha, @direccion, @codBarrio, @codDepto, " +
+                                                            "  @codLoc, @referencia, @estado, @fecAlta, @codDepto, @codLoc )";
+
             using (TransactionScope ts = new TransactionScope(TransactionScopeAsyncFlowOption.Enabled))
             {
                 try
                 {
+                    using (SqlCommand cmdInsDomicilio = new SqlCommand(queryInsertDomicilio, con))
+                    {
+                        cmdInsDomicilio.Parameters.Add(new SqlParameter("@ficha", inscViewModel.InsId));
+                        cmdInsDomicilio.Parameters.Add(new SqlParameter("@direccion", inscViewModel.Direccion));
+                        cmdInsDomicilio.Parameters.Add(new SqlParameter("@codBarrio", string.Empty));
+                        cmdInsDomicilio.Parameters.Add(new SqlParameter("@codDepto", inscViewModel.DepartamentoDesc));
+                        cmdInsDomicilio.Parameters.Add(new SqlParameter("@referencia", string.Empty));
+                        cmdInsDomicilio.Parameters.Add(new SqlParameter("@estado", "I"));  //insert
+                        cmdInsDomicilio.Parameters.Add(new SqlParameter("@codDepto", inscViewModel.DepartamentoKey));
+                        cmdInsDomicilio.Parameters.Add(new SqlParameter("@codLoc", inscViewModel.LocalidadKey));
+                    }
+
                     using (SqlCommand cmd = new SqlCommand(query, con))
                     {                        
 
@@ -182,6 +203,15 @@
                         cmd.Parameters.Add(new SqlParameter("@cuit", inscViewModel.CuitCuilUno.Trim() + inscViewModel.InsNumdoc.Trim() + inscViewModel.CuitCuilDos.Trim()));
                         cmd.Parameters.Add(new SqlParameter("@cuitUno", inscViewModel.CuitCuilUno));
                         cmd.Parameters.Add(new SqlParameter("@cuitDos", inscViewModel.CuitCuilDos));
+                        cmd.Parameters.Add(new SqlParameter("@ins_disc", inscViewModel.Discapacitado));
+                        cmd.Parameters.Add(new SqlParameter("@ins_min", inscViewModel.Minero));
+                        cmd.Parameters.Add(new SqlParameter("@ins_vet", inscViewModel.Veterano));
+
+                        if (con.State == ConnectionState.Closed)
+                            await con.OpenAsync();
+
+
+
                     }
                 }
                 catch
@@ -205,10 +235,10 @@
                 " ( @NombreUsuario, @ClaveUsuario ); SELECT SCOPE_IDENTITY();";
 
             string insertTitular = "INSERT INTO Inscriptos (" +
-               "  ins_tipflia, IdTipoFamilia,  ins_nombre, ins_numdoc, ins_email, IdUsuario, ins_estado, cuit_cuil, cuit_cuil_uno, cuit_cuil_dos )" +
+               "  ins_tipflia, IdTipoFamilia,  ins_nombre, ins_numdoc, ins_email, IdUsuario, ins_estado, cuit_cuil, cuit_cuil_uno, cuit_cuil_dos, ins_telef )" +
                "VALUES " +
                "( @ins_tipflia, @IdTipoFamilia, @ins_nombre,  @ins_numdoc, " +
-               "  @ins_email, @IdUsuario, 'A', @cuit, @cuitUno, @cuitDos ); SELECT SCOPE_IDENTITY();";
+               "  @ins_email, @IdUsuario, 'A', @cuit, @cuitUno, @cuitDos, @telefono ); SELECT SCOPE_IDENTITY();";
 
             using (TransactionScope ts = new TransactionScope(TransactionScopeAsyncFlowOption.Enabled))
             {
@@ -253,7 +283,7 @@
                                                             "  ins_tipflia =  @ins_tipflia, IdTipoFamilia = @IdTipoFamilia, " + 
                                                             " ins_nombre = @ins_nombre, ins_numdoc = @ins_numdoc, " +
                                                             " ins_email = @ins_email, IdUsuario= @IdUsuario, ins_estado = 'A', " +
-                                                            " cuit_cuil = @cuit, cuit_cuil_uno = @cuitUno, cuit_cuil_dos = @cuitDos " +
+                                                            " cuit_cuil = @cuit, cuit_cuil_uno = @cuitUno, cuit_cuil_dos = @cuitDos, ins_telf = @telefono " +
                                                      "WHERE ins_id = " + InscriptoId.ToString();
                                 
                                 //return new ResponseViewModel { Existe = true, InscriptoId = int.Parse(result), UsuarioId = 0 };
@@ -300,7 +330,7 @@
                                     cmd1.Parameters.Add(new SqlParameter("@cuit", model.cuitUno.Trim()  + model.dni.Trim()  + model.cuitTres.Trim() ));
                                     cmd1.Parameters.Add(new SqlParameter("@cuitUno", model.cuitUno));
                                     cmd1.Parameters.Add(new SqlParameter("@cuitDos", model.cuitTres));
-
+                                    cmd1.Parameters.Add(new SqlParameter("@telefono", model.telefono));
 
                                     if (con.State == ConnectionState.Closed)
                                         await con.OpenAsync();
@@ -390,7 +420,7 @@
             Connection();
 
             string query = "SELECT ins_id, ins_ficha ,ins_tipflia ,ins_fecins, ins_nombre, ins_tipdoc " +
-                ",ins_numdoc ,ins_email ,ins_telef ,ins_estado ,ins_fecalt, ins_discapacitado, ins_minero, ins_veterano, cuit_cuil, cuit_cuil_uno, cuit_cuil_dos FROM Inscriptos where ins_numdoc = @dni";
+                ",ins_numdoc ,ins_email ,ins_telef ,ins_estado ,ins_fecalt, ins_discapacitado, ins_minero, ins_veterano, cuit_cuil, cuit_cuil_uno, cuit_cuil_dos, ins_telf FROM Inscriptos where ins_numdoc = @dni";
 
             using SqlCommand cmd = new SqlCommand(query, con)
             {
@@ -427,6 +457,7 @@
                     pList.CuitCuil = ConvertFromReader<string>(item["cuit_cuil"]);
                     pList.CuitCuilUno = ConvertFromReader<string>(item["cuit_cuil_uno"]);
                     pList.CuitCuilDos = ConvertFromReader<string>(item["cuit_cuil_dos"]);
+                    pList.InsTelef = ConvertFromReader<string>(item["ins_telf"]);
 
                     insId = pList.InsId;
 
@@ -587,7 +618,7 @@
                // 1_ obtener datos del titular junto al usuario y clave
                         query =
                             "SELECT ins_id, ins_ficha ,ins_tipflia ,ins_fecins, ins_nombre, ins_tipdoc " +
-                                   " ,ins_numdoc ,ins_email ,ins_telef ,ins_estado ,ins_fecalt FROM Inscriptos as I " +
+                                   " ,ins_numdoc ,ins_email ,ins_telef ,ins_estado ,ins_fecalt, cuit_cuil, cuit_cuil_uno, cuit_cuil_dos  FROM Inscriptos as I " +
                             " INNER JOIN Usuario as U on I.IdUsuario = U.Id " +
                             " WHERE U.NombreUsuario = @usuario and U.ClaveUsuario = @clave and I.ins_estado = 'E' ";
 
@@ -616,23 +647,26 @@
                         if (dt.Rows.Count > 0)
                         {
                             var insId = 0;
-                            foreach (DataRow item in dt.Rows)
-                            {
-                                pList.InsId = ConvertFromReader<int>(item["ins_id"]);
-                                pList.InsEmail = ConvertFromReader<string>(item["ins_email"]);
-                                pList.InsEstado = ConvertFromReader<string>(item["ins_estado"]);
-                                pList.InsFecalt = (DateTime)item["ins_fecalt"];
-                                pList.InsFecins = ConvertFromReader<string>(item["ins_fecins"]);
-                                pList.InsFicha = ConvertFromReader<int>(item["ins_ficha"]);
-                                pList.InsNombre = ConvertFromReader<string>(item["ins_nombre"]);
-                                pList.InsNumdoc = ConvertFromReader<string>(item["ins_numdoc"]);
-                                pList.InsTelef = ConvertFromReader<string>(item["ins_telef"]);
-                                pList.InsTipdoc = ConvertFromReader<string>(item["ins_tipdoc"]);
-                                pList.InsTipflia = ConvertFromReader<string>(item["ins_tipflia"]);
+                    foreach (DataRow item in dt.Rows)
+                    {
+                        pList.InsId = ConvertFromReader<int>(item["ins_id"]);
+                        pList.InsEmail = ConvertFromReader<string>(item["ins_email"]);
+                        pList.InsEstado = ConvertFromReader<string>(item["ins_estado"]);
+                        pList.InsFecalt = (DateTime)item["ins_fecalt"];
+                        pList.InsFecins = ConvertFromReader<string>(item["ins_fecins"]);
+                        pList.InsFicha = ConvertFromReader<int>(item["ins_ficha"]);
+                        pList.InsNombre = ConvertFromReader<string>(item["ins_nombre"]);
+                        pList.InsNumdoc = ConvertFromReader<string>(item["ins_numdoc"]);
+                        pList.InsTelef = ConvertFromReader<string>(item["ins_telef"]);
+                        pList.InsTipdoc = ConvertFromReader<string>(item["ins_tipdoc"]);
+                        pList.InsTipflia = ConvertFromReader<string>(item["ins_tipflia"]);
+                        pList.CuitCuil = ConvertFromReader<string>(item["cuit_cuil"]);
+                        pList.CuitCuilUno = ConvertFromReader<string>(item["cuit_cuil_uno"]);
+                        pList.CuitCuilDos = ConvertFromReader<string>(item["cuit_cuil_dos"]);
+                        
+                        insId = pList.InsId;
 
-                                insId = pList.InsId;
-
-                            }
+                    }
 
                             //Aqui obtenemos datos del grupo familiar
                             if (insId > 0)

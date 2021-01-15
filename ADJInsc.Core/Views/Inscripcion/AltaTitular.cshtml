@@ -17,6 +17,9 @@
             <div class="form-group col-md-6">
                 <input type="text" class="form-control" id="inputNombre" placeholder=" Apellido y Nombre " value="@Model.InsNombre">
             </div>
+            <div class="form-group col-md-6">
+                <input type="text" class="form-control" id="inputTel" placeholder=" Teléfono (388 - )" value="@Model.InsTelef">
+            </div>
 
             <div class="form-group col-md-6">
                 @Html.DropDownListFor(x => Model.InsTipflia, Model.TipoFamiliaList ?? new List<SelectListItem>(), "----Selecciona Estado Civil----", htmlAttributes: new { @class = "form-control", id = "ddTipoFamiliaId" })
@@ -206,7 +209,15 @@
             var cuitUno = $("#inputCuitUno").val();
             var cuitTres = $("#inputCuitTres").val();
 
+            var telefono = $("#inputTel").val();
             var cont = 0;
+
+            if (!telefono) {
+                $("#inputTel").css("border-color", "red");
+                cont++;
+            } else {
+                $("#inputTel").css("border-color", "green");
+            }
 
             if (!cuitUno) {
                 $("#inputCuitUno").css("border-color", "red");
@@ -280,6 +291,7 @@
 
                 var cuitUno = $("#inputCuitUno").val();
                 var cuitTres = $("#inputCuitTres").val();
+                var telefono = $("#inputTel").val();
 
                 var cont = validarForm();
 
@@ -289,7 +301,7 @@
                     if (clave === repClave && clave.length == repClave.length && emailId == usuario) {
 
                         if ( emailId.length > 0 && usuario.length > 0 && clave.length >= 6 
-                        && dniId.length > 6 && nombreId.length > 0
+                        && dniId.length > 6 && nombreId.length > 0 && telefono.length > 0
                         ) {
 
                             var modeloCarga = {
@@ -301,15 +313,16 @@
                                 tipoFamilia: tipoFamilia,
                                 usuario: usuario,
                                 cuitUno: cuitUno,
-                                cuitTres: cuitTres
+                                cuitTres: cuitTres,
+                                telefono: telefono
                             };
-                        $.ajax({
-                            url: '@Url.Action("CargarDatos", "Inscripcion")', //"/Solicitar/CreateAjax",
-                            data: JSON.stringify(modeloCarga),
-                            type: "post",
-                            contentType: "application/json",
+                            $.ajax({
+                             url: '@Url.Action("CargarDatos", "Inscripcion")', //"/Solicitar/CreateAjax",
+                             data: JSON.stringify(modeloCarga),
+                             type: "post",
+                             contentType: "application/json",
 
-                            success: function (response) {
+                             success: function (response) {
                                 console.log(response);
                                 if (response === 'OK') {
                                     $("#modalSuccess").modal("show");
@@ -325,7 +338,7 @@
                                     });
                                 }
 
-                            },
+                             },
                             error: function (response) {
                                 console.log(response);
                                 if (response === 'OK') {
