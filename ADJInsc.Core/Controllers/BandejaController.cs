@@ -107,7 +107,7 @@
             int.TryParse(minero, out int pMinero);
             int.TryParse(veterano, out int pVeterano);
 
-            var fecha = DateTime.Parse(fechaNac).ToShortDateString();
+            var fecha = DateTime.Parse(fechaNac);
 
             var pDesc = string.Empty;
             foreach (var item in modelo.ParentescoList)
@@ -124,6 +124,7 @@
                 var existe = false;
                 foreach (var item in modelo.GrupoFamiliar)
                 {
+                   
                     if (item.InsfNumdoc == _dni)
                     {                      
                             item.InsfNombre = nombre;
@@ -241,6 +242,8 @@
             
         }
 
+        
+
         public JsonResult List()
         {
             var modelo = HttpContext.Session.GetObjectFromJson<InscViewModel>("viewModelo");
@@ -309,18 +312,44 @@
 
             HttpContext.Session.SetObjectAsJson<InscViewModel>("viewModelo", modelo);
 
-           /* var tokenSource = new CancellationTokenSource();
-            var token = tokenSource.Token;*/
+            var tokenSource = new CancellationTokenSource();
+            var token = tokenSource.Token;
 
-            //var service = this._apiService.PostAsync<ResponseViewModel>("/Insc.Api/helper/", "PostInscViewModel", null, modelo, token).Result;
+            var service = this._apiService.PostAsync<ResponseViewModel>("/Insc.Api/helper/", "PostInscViewModel", null, modelo, token).Result;
 
-            var redirectUrl1 = Url.Action("GetPdfHome", "Bandeja");
-
-            return Json(new
+            if (service.IsSuccess)
             {
-                redirectUrl = redirectUrl1,
-                isRedirect = true
-            });
+                var respuesta = (ResponseViewModel)service.Result;
+
+                if (respuesta.Existe)
+                {
+                    var redirectUrl1 = Url.Action("GetPdfHome", "Bandeja");
+
+                    return Json(new
+                    {
+                        redirectUrl = redirectUrl1,
+                        isRedirect = true
+                    });
+                }
+                else
+                {
+                    
+                    return Json(new
+                    {
+                        redirectUrl = "",
+                        isRedirect = false
+                    });
+                }
+            }
+            else
+            {
+                return Json(new
+                {
+                    redirectUrl = "",
+                    isRedirect = false
+                });
+            }
+            
 
             /*
             if (service.IsSuccess)

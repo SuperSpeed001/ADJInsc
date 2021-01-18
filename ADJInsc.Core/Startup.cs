@@ -45,7 +45,7 @@ namespace ADJInsc.Core
                 //cfg.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"));   Produccion
                 cfg.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"));     //  Base Test 
             });
-
+                        
             services.AddHttpClient();
             //services.AddTransient<IMailService, MailService>();
             services.AddTransient<IApiService, ApiServices>();

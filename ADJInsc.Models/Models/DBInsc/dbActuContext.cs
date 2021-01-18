@@ -111,6 +111,8 @@ namespace ADJInsc.Models.Models.DBInsc
 
                 entity.Property(e => e.InsfId).HasColumnName("insf_id");
 
+                entity.Property(e => e.FechaNacimiento).HasColumnType("date");
+
                 entity.Property(e => e.InsId).HasColumnName("ins_id");
 
                 entity.Property(e => e.InsfDiscapacitado).HasColumnName("insf_discapacitado");
@@ -125,8 +127,7 @@ namespace ADJInsc.Models.Models.DBInsc
 
                 entity.Property(e => e.InsfFecalt)
                     .HasColumnName("insf_fecalt")
-                    .HasColumnType("smalldatetime")
-                    .HasDefaultValueSql("(getdate())");
+                    .HasColumnType("smalldatetime");
 
                 entity.Property(e => e.InsfFicha).HasColumnName("insf_ficha");
 
@@ -267,7 +268,9 @@ namespace ADJInsc.Models.Models.DBInsc
 
             modelBuilder.Entity<SituacionLaboral>(entity =>
             {
-                entity.Property(e => e.IngresoNeto).HasColumnType("numeric(18, 2)");
+                entity.Property(e => e.IngresoNeto)
+                    .HasMaxLength(50)
+                    .IsUnicode(false);
 
                 entity.Property(e => e.Nombre)
                     .HasMaxLength(200)

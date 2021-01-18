@@ -673,9 +673,14 @@ C:\Inscripciones\ADJInsc.Models\obj\Debug\ADJInsc.Models.csproj.CopyComplete
 C:\Inscripciones\ADJInsc.Models\obj\Debug\ADJInsc.Models.dll
 C:\Inscripciones\ADJInsc.Models\obj\Debug\ADJInsc.Models.pdb
 C:\Inscripciones\ADJInsc.Models\obj\Debug\ADJInsc.Models.csprojAssemblyReference.cache
-D:\Proyectos NET\ADInsc\ADJInsc.Models\bin\Debug\Microsoft.Data.SqlClient.pdb
-D:\Proyectos NET\ADInsc\ADJInsc.Models\bin\Debug\System.Diagnostics.DiagnosticSource.xml
-D:\Proyectos NET\ADInsc\ADJInsc.Models\bin\Debug\System.Reflection.Metadata.xml
+D:\Proyectos NET\ADInsc\ADJInsc.Models\bin\Debug\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Proyectos NET\ADInsc\ADJInsc.Models\bin\Debug\Microsoft.EntityFrameworkCore.Relational.xml
+D:\Proyectos NET\ADInsc\ADJInsc.Models\bin\Debug\Microsoft.Net.Http.Headers.xml
+D:\Proyectos NET\ADInsc\ADJInsc.Models\bin\Debug\System.Buffers.xml
+D:\Proyectos NET\ADInsc\ADJInsc.Models\bin\Debug\System.IdentityModel.Tokens.Jwt.xml
+D:\Proyectos NET\ADInsc\ADJInsc.Models\bin\Debug\System.Web.WebPages.Deployment.xml
+D:\Proyectos NET\ADInsc\ADJInsc.Models\bin\Debug\System.Web.WebPages.Razor.xml
+D:\Proyectos NET\ADInsc\ADJInsc.Models\bin\Debug\fr\Microsoft.Data.SqlClient.resources.dll
 D:\Proyectos NET\ADInsc\ADJInsc.Models\bin\Debug\Microsoft.DiaSymReader.Native.x86.dll
 D:\Proyectos NET\ADInsc\ADJInsc.Models\bin\Debug\Microsoft.DiaSymReader.Native.amd64.dll
 D:\Proyectos NET\ADInsc\ADJInsc.Models\bin\Debug\ADJInsc.Models.dll.config
@@ -730,7 +735,6 @@ D:\Proyectos NET\ADInsc\ADJInsc.Models\bin\Debug\Microsoft.DotNet.PlatformAbstra
 D:\Proyectos NET\ADInsc\ADJInsc.Models\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.dll
 D:\Proyectos NET\ADInsc\ADJInsc.Models\bin\Debug\Microsoft.EntityFrameworkCore.Design.dll
 D:\Proyectos NET\ADInsc\ADJInsc.Models\bin\Debug\Microsoft.EntityFrameworkCore.dll
-D:\Proyectos NET\ADInsc\ADJInsc.Models\bin\Debug\Microsoft.EntityFrameworkCore.Relational.dll
 D:\Proyectos NET\ADInsc\ADJInsc.Models\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.dll
 D:\Proyectos NET\ADInsc\ADJInsc.Models\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
 D:\Proyectos NET\ADInsc\ADJInsc.Models\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
@@ -831,11 +835,11 @@ D:\Proyectos NET\ADInsc\ADJInsc.Models\bin\Debug\Microsoft.CodeAnalysis.xml
 D:\Proyectos NET\ADInsc\ADJInsc.Models\bin\Debug\Microsoft.CodeAnalysis.CSharp.pdb
 D:\Proyectos NET\ADInsc\ADJInsc.Models\bin\Debug\Microsoft.CodeAnalysis.CSharp.xml
 D:\Proyectos NET\ADInsc\ADJInsc.Models\bin\Debug\Microsoft.CodeAnalysis.Razor.xml
+D:\Proyectos NET\ADInsc\ADJInsc.Models\bin\Debug\Microsoft.Data.SqlClient.pdb
 D:\Proyectos NET\ADInsc\ADJInsc.Models\bin\Debug\Microsoft.Data.SqlClient.xml
 D:\Proyectos NET\ADInsc\ADJInsc.Models\bin\Debug\Microsoft.EntityFrameworkCore.xml
 D:\Proyectos NET\ADInsc\ADJInsc.Models\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.xml
 D:\Proyectos NET\ADInsc\ADJInsc.Models\bin\Debug\Microsoft.EntityFrameworkCore.Design.xml
-D:\Proyectos NET\ADInsc\ADJInsc.Models\bin\Debug\Microsoft.EntityFrameworkCore.Relational.xml
 D:\Proyectos NET\ADInsc\ADJInsc.Models\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.xml
 D:\Proyectos NET\ADInsc\ADJInsc.Models\bin\Debug\Microsoft.Extensions.Caching.Abstractions.xml
 D:\Proyectos NET\ADInsc\ADJInsc.Models\bin\Debug\Microsoft.Extensions.Caching.Memory.xml
@@ -862,14 +866,13 @@ D:\Proyectos NET\ADInsc\ADJInsc.Models\bin\Debug\Microsoft.IdentityModel.Logging
 D:\Proyectos NET\ADInsc\ADJInsc.Models\bin\Debug\Microsoft.IdentityModel.Protocols.xml
 D:\Proyectos NET\ADInsc\ADJInsc.Models\bin\Debug\Microsoft.IdentityModel.Protocols.OpenIdConnect.xml
 D:\Proyectos NET\ADInsc\ADJInsc.Models\bin\Debug\Microsoft.IdentityModel.Tokens.xml
-D:\Proyectos NET\ADInsc\ADJInsc.Models\bin\Debug\Microsoft.Net.Http.Headers.xml
 D:\Proyectos NET\ADInsc\ADJInsc.Models\bin\Debug\Newtonsoft.Json.xml
 D:\Proyectos NET\ADInsc\ADJInsc.Models\bin\Debug\Newtonsoft.Json.Bson.xml
-D:\Proyectos NET\ADInsc\ADJInsc.Models\bin\Debug\System.Buffers.xml
 D:\Proyectos NET\ADInsc\ADJInsc.Models\bin\Debug\System.Collections.Immutable.xml
-D:\Proyectos NET\ADInsc\ADJInsc.Models\bin\Debug\System.IdentityModel.Tokens.Jwt.xml
+D:\Proyectos NET\ADInsc\ADJInsc.Models\bin\Debug\System.Diagnostics.DiagnosticSource.xml
 D:\Proyectos NET\ADInsc\ADJInsc.Models\bin\Debug\System.Memory.xml
 D:\Proyectos NET\ADInsc\ADJInsc.Models\bin\Debug\System.Numerics.Vectors.xml
+D:\Proyectos NET\ADInsc\ADJInsc.Models\bin\Debug\System.Reflection.Metadata.xml
 D:\Proyectos NET\ADInsc\ADJInsc.Models\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 D:\Proyectos NET\ADInsc\ADJInsc.Models\bin\Debug\System.Text.Encodings.Web.xml
 D:\Proyectos NET\ADInsc\ADJInsc.Models\bin\Debug\System.Threading.Tasks.Extensions.xml
@@ -877,11 +880,8 @@ D:\Proyectos NET\ADInsc\ADJInsc.Models\bin\Debug\System.Web.Helpers.xml
 D:\Proyectos NET\ADInsc\ADJInsc.Models\bin\Debug\System.Web.Mvc.xml
 D:\Proyectos NET\ADInsc\ADJInsc.Models\bin\Debug\System.Web.Razor.xml
 D:\Proyectos NET\ADInsc\ADJInsc.Models\bin\Debug\System.Web.WebPages.xml
-D:\Proyectos NET\ADInsc\ADJInsc.Models\bin\Debug\System.Web.WebPages.Deployment.xml
-D:\Proyectos NET\ADInsc\ADJInsc.Models\bin\Debug\System.Web.WebPages.Razor.xml
 D:\Proyectos NET\ADInsc\ADJInsc.Models\bin\Debug\de\Microsoft.Data.SqlClient.resources.dll
 D:\Proyectos NET\ADInsc\ADJInsc.Models\bin\Debug\es\Microsoft.Data.SqlClient.resources.dll
-D:\Proyectos NET\ADInsc\ADJInsc.Models\bin\Debug\fr\Microsoft.Data.SqlClient.resources.dll
 D:\Proyectos NET\ADInsc\ADJInsc.Models\bin\Debug\it\Microsoft.Data.SqlClient.resources.dll
 D:\Proyectos NET\ADInsc\ADJInsc.Models\bin\Debug\ja\Microsoft.Data.SqlClient.resources.dll
 D:\Proyectos NET\ADInsc\ADJInsc.Models\bin\Debug\ko\Microsoft.Data.SqlClient.resources.dll
@@ -893,3 +893,4 @@ D:\Proyectos NET\ADInsc\ADJInsc.Models\obj\Debug\ADJInsc.Models.csproj.CoreCompi
 D:\Proyectos NET\ADInsc\ADJInsc.Models\obj\Debug\ADJInsc.Models.csproj.CopyComplete
 D:\Proyectos NET\ADInsc\ADJInsc.Models\obj\Debug\ADJInsc.Models.dll
 D:\Proyectos NET\ADInsc\ADJInsc.Models\obj\Debug\ADJInsc.Models.pdb
+D:\Proyectos NET\ADInsc\ADJInsc.Models\obj\Debug\ADJInsc.Models.csprojAssemblyReference.cache

@@ -6,8 +6,6 @@
     {        
         public string ParentescoDesc { get; set; }
 
-        public string FechaNacimiento { get; set; }
-
         //1 Si presenta discapacidad, 0 no presenta
         public string Discapacidad {
             get

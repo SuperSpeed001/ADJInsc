@@ -7,8 +7,8 @@ namespace ADJInsc.Models.Models.DBInsc
     {
         public int Id { get; set; }
         public string Nombre { get; set; }
-        public decimal? IngresoNeto { get; set; }
-        public int? TipoEmpleoKey { get; set; }
+        public string IngresoNeto { get; set; }
+        public int? TipoRevistaKey { get; set; }
         public int? InscriptoId { get; set; }
     }
 }
