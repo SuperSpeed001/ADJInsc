@@ -111,16 +111,8 @@ namespace xa.App.Services
                 if (response.IsSuccessStatusCode)
                 {
                     
-                    if (titularModel.dni == "0")
-                    {
-                        return new Response
-                        {
-                            IsSuccess = true,
-                            Result = DeserializeJsonFromStream<InscViewModel>(stream),
-                            Message = "Ok"
-                        };
-                    }
-                    else
+                    //if (titularModel.dni == "0")
+                    if(titularModel == null)
                     {
                         return new Response
                         {
@@ -129,7 +121,28 @@ namespace xa.App.Services
                             Message = "Ok"
                         };
                     }
-
+                    else
+                    {
+                        if (titularModel.dni == "0")
+                        {
+                            return new Response
+                            {
+                                IsSuccess = true,
+                                Result = DeserializeJsonFromStream<InscViewModel>(stream),
+                                Message = "Ok"
+                            };
+                        }
+                        else
+                        {
+                            return new Response
+                            {
+                                IsSuccess = true,
+                                Result = DeserializeJsonFromStream<ResponseViewModel>(stream),
+                                Message = "Ok"
+                            };
+                        }
+                       
+                    }
 
                 }
 

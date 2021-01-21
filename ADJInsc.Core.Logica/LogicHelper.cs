@@ -166,9 +166,9 @@
                                                             "  ins_tipflia =  @ins_tipflia, IdTipoFamilia = @IdTipoFamilia, " +
                                                             " ins_nombre = @ins_nombre, ins_numdoc = @ins_numdoc, " +
                                                             " ins_email = @ins_email, IdUsuario= @IdUsuario, ins_estado = 'A', " +
-                                                            " cuit_cuil = @cuit, cuit_cuil_uno = @cuitUno, cuit_cuil_dos = @cuitDos " +
-                                                            " ins_discapacitado = @ins_disc, ins_minero = @ins_min, ins_veterano = @ins_vet " +
-                                                            " IdDomicilio = @id_domicilio" +
+                                                            " cuit_cuil = @cuit, cuit_cuil_uno = @cuitUno, cuit_cuil_dos = @cuitDos, " +
+                                                            " ins_discapacitado = @ins_disc, ins_minero = @ins_min, ins_veterano = @ins_vet, " +
+                                                            " IdDomicilio = @id_domicilio " +
                                                      "WHERE ins_numdoc = " + inscViewModel.InsNumdoc;
 
             string queryInsertDomicilio = "INSERT INTO InsDomici " +
@@ -177,15 +177,15 @@
                                                             ", IdDepartamento , IdLocalidad)" +
                                                             "  VALUES (" +
                                                             "  @ficha, @direccion, @codBarrio, @codDepto, " +
-                                                            "  @codLoc, @referencia, @estado, @fecAlta, @codDepto, @codLoc ); SELECT SCOPE_IDENTITY();";
+                                                            "  @codLoc, @referencia, @estado, @codDepto1, @codLoc ); SELECT SCOPE_IDENTITY();";
 
             string queryInsertLaboral = "INSERT INTO SituacionLaboral  (Nombre ,IngresoNeto ,TipoRevistaKey ,InscriptoId) " +
                                                 "VALUES ( @Nombre , @IngresoNeto, @TipoRevistaKey , @InscriptoId ); SELECT SCOPE_IDENTITY(); ";
 
             string queryInsertGrupo = "INSERT INTO InsFamilia (insf_ficha, insf_tipflia, insf_nombre, insf_tipdoc, insf_numdoc, insf_estado, FechaNacimiento" + 
-                                                            " ,insf_fecalt, ins_id, ParentescoKey, insf_discapacitado, insf_minero, insf_veterano) " +
-                                                "VALUES       (@insf_ficha, @insf_tipflia, @insf_nombre, @insf_tipdoc, @insf_numdoc, @insf_estado, @FechaNacimiento " +
-                                                            " @insf_fecalt, @ins_id, @ParentescoKey, @insf_discapacitado, @insf_minero, @insf_veterano); SELECT SCOPE_IDENTITY();";
+                                                            " , ins_id, ParentescoKey, insf_discapacitado, insf_minero, insf_veterano) " +
+                                                "VALUES       (@insf_ficha, @insf_tipflia, @insf_nombre, @insf_tipdoc, @insf_numdoc, @insf_estado, @FechaNacimiento, " +
+                                                            "  @ins_id, @ParentescoKey, @insf_discapacitado, @insf_minero, @insf_veterano); SELECT SCOPE_IDENTITY();";
 
             using (TransactionScope ts = new TransactionScope(TransactionScopeAsyncFlowOption.Enabled))
             {
@@ -197,12 +197,12 @@
                     using (SqlCommand cmdInsDomicilio = new SqlCommand(queryInsertDomicilio, con))
                     {
                         cmdInsDomicilio.Parameters.Add(new SqlParameter("@ficha", inscViewModel.InsId));
-                        cmdInsDomicilio.Parameters.Add(new SqlParameter("@direccion", inscViewModel.Direccion));
-                        cmdInsDomicilio.Parameters.Add(new SqlParameter("@codBarrio", string.Empty));
-                        cmdInsDomicilio.Parameters.Add(new SqlParameter("@codDepto", inscViewModel.DepartamentoDesc));
-                        cmdInsDomicilio.Parameters.Add(new SqlParameter("@referencia", string.Empty));
+                        cmdInsDomicilio.Parameters.Add(new SqlParameter("@direccion", inscViewModel.Direccion.Trim()));
+                        cmdInsDomicilio.Parameters.Add(new SqlParameter("@codBarrio", "sin barrio"));
+                        cmdInsDomicilio.Parameters.Add(new SqlParameter("@codDepto", inscViewModel.DepartamentoDesc.Trim()));
+                        cmdInsDomicilio.Parameters.Add(new SqlParameter("@referencia", "sin referencia"));
                         cmdInsDomicilio.Parameters.Add(new SqlParameter("@estado", "I"));  //insert
-                        cmdInsDomicilio.Parameters.Add(new SqlParameter("@codDepto", inscViewModel.DepartamentoKey));
+                        cmdInsDomicilio.Parameters.Add(new SqlParameter("@codDepto1", inscViewModel.DepartamentoKey));
                         cmdInsDomicilio.Parameters.Add(new SqlParameter("@codLoc", inscViewModel.LocalidadKey));
 
 
@@ -228,6 +228,7 @@
 
                         using (SqlCommand cmdInsGrupo = new SqlCommand(queryInsertGrupo,con))
                         {
+                            personasId = 1;
                             foreach (var item in inscViewModel.GrupoFamiliar)
                             {
                                 cmdInsGrupo.Parameters.Add(new SqlParameter("@insf_ficha", item.InsfFicha));
@@ -236,7 +237,7 @@
                                 cmdInsGrupo.Parameters.Add(new SqlParameter("@insf_tipdoc", item.InsfTipdoc));
                                 cmdInsGrupo.Parameters.Add(new SqlParameter("@insf_numdoc", item.InsfNumdoc));
                                 cmdInsGrupo.Parameters.Add(new SqlParameter("@insf_estado", "I"));
-                                cmdInsGrupo.Parameters.Add(new SqlParameter("@FechaNacimiento", item.FechaNacimiento.ToShortDateString()));
+                                cmdInsGrupo.Parameters.Add(new SqlParameter("@FechaNacimiento", item.FechaNacimiento.Year + "-" + item.FechaNacimiento.Month + "-" + item.FechaNacimiento.Day ));
                                 cmdInsGrupo.Parameters.Add(new SqlParameter("@ins_id", inscViewModel.InsId));
                                 cmdInsGrupo.Parameters.Add(new SqlParameter("@ParentescoKey", item.ParentescoKey));
                                 cmdInsGrupo.Parameters.Add(new SqlParameter("@insf_discapacitado", item.InsfDiscapacitado));

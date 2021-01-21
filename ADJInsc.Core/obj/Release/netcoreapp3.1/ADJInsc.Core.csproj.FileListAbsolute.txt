@@ -1070,10 +1070,8 @@ D:\Proyectos NET\ADInsc\ADJInsc.Core\obj\Release\netcoreapp3.1\ADJInsc.Core.TagH
 D:\Proyectos NET\ADInsc\ADJInsc.Core\obj\Release\netcoreapp3.1\ADJInsc.Core.RazorCoreGenerate.cache
 D:\Proyectos NET\ADInsc\ADJInsc.Core\obj\Release\netcoreapp3.1\Razor\Views\Bandeja\Index.cshtml.g.cs
 D:\Proyectos NET\ADInsc\ADJInsc.Core\obj\Release\netcoreapp3.1\Razor\Views\Bandeja\LoginError.cshtml.g.cs
-D:\Proyectos NET\ADInsc\ADJInsc.Core\obj\Release\netcoreapp3.1\Razor\Views\Bandeja\_CreateOrEdit.cshtml.g.cs
 D:\Proyectos NET\ADInsc\ADJInsc.Core\obj\Release\netcoreapp3.1\Razor\Views\Bandeja\_DatosPartial.cshtml.g.cs
 D:\Proyectos NET\ADInsc\ADJInsc.Core\obj\Release\netcoreapp3.1\Razor\Views\Bandeja\_Reporte.cshtml.g.cs
-D:\Proyectos NET\ADInsc\ADJInsc.Core\obj\Release\netcoreapp3.1\Razor\Views\Bandeja\_ViewAll.cshtml.g.cs
 D:\Proyectos NET\ADInsc\ADJInsc.Core\obj\Release\netcoreapp3.1\Razor\Views\Converter\Index.cshtml.g.cs
 D:\Proyectos NET\ADInsc\ADJInsc.Core\obj\Release\netcoreapp3.1\Razor\Views\Home\Existe.cshtml.g.cs
 D:\Proyectos NET\ADInsc\ADJInsc.Core\obj\Release\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs

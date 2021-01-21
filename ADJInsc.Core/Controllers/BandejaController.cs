@@ -107,7 +107,10 @@
             int.TryParse(minero, out int pMinero);
             int.TryParse(veterano, out int pVeterano);
 
-            var fecha = DateTime.Parse(fechaNac);
+
+            if (!DateTime.TryParse(fechaNac, out DateTime fecha)) return Json(modelo);
+
+            if (!int.TryParse(dni, out int _dni)) return Json(modelo);
 
             var pDesc = string.Empty;
             foreach (var item in modelo.ParentescoList)
@@ -119,64 +122,55 @@
                 }
             }
 
-            if (int.TryParse(dni, out int _dni))
+            var existe = false;
+
+            foreach (var item in modelo.GrupoFamiliar)
             {
-                var existe = false;
+                if (item.InsfNumdoc == _dni)
+                {
+                    item.InsfNombre = nombre;
+                    item.InsfNumdoc = _dni;
+                    item.ParentescoKey = pKey;
+                    item.ParentescoDesc = pDesc;
+                    item.FechaNacimiento = fecha;
+                    item.InsfDiscapacitado = pDisc;
+                    item.InsfMinero = pMinero;
+                    item.InsfVeterano = pVeterano;
+
+                    existe = true;
+                    break;
+                }
+            }
+
+            if (!existe)
+            {
+
                 foreach (var item in modelo.GrupoFamiliar)
                 {
-                   
                     if (item.InsfNumdoc == _dni)
-                    {                      
-                            item.InsfNombre = nombre;
-                            item.InsfNumdoc = _dni;
-                            item.ParentescoKey = pKey;
-                            item.ParentescoDesc = pDesc;
-                            item.FechaNacimiento = fecha;
-                            item.InsfDiscapacitado = pDisc;
-                            item.InsfMinero = pMinero;
-                            item.InsfVeterano = pVeterano;
-
-                            existe = true;
-                            break;                      
-
+                    {
+                        modelo.GrupoFamiliar.Remove(item);
+                        break;
                     }
                 }
 
-                if (!existe)
+                var individuo = new GrupoFamiliarViewModel
                 {
+                    InsfNombre = nombre,
+                    InsfNumdoc = _dni,
+                    ParentescoKey = pKey,
+                    ParentescoDesc = pDesc,
+                    FechaNacimiento = fecha,
+                    InsfDiscapacitado = pDisc,
+                    InsfMinero = pMinero,
+                    InsfVeterano = pVeterano
+                };
+                modelo.GrupoFamiliar.Add(individuo);
 
-                    foreach (var item in modelo.GrupoFamiliar)
-                    {
-                        if (item.InsfNumdoc == _dni)
-                        {
-                            modelo.GrupoFamiliar.Remove(item);
-                            break;
-                        }
-                    }                   
+                HttpContext.Session.SetObjectAsJson<InscViewModel>("viewModelo", modelo);
 
-                    var individuo = new GrupoFamiliarViewModel
-                    {
-                        InsfNombre = nombre,
-                        InsfNumdoc = _dni,
-                        ParentescoKey = pKey,
-                        ParentescoDesc = pDesc,
-                        FechaNacimiento = fecha,
-                        InsfDiscapacitado = pDisc,
-                        InsfMinero = pMinero,
-                        InsfVeterano = pVeterano
-                    };
-                    modelo.GrupoFamiliar.Add(individuo);
-
-                    HttpContext.Session.SetObjectAsJson<InscViewModel>("viewModelo", modelo);
-
-                    //var modelo = new InscViewModel();   para test
-                    return Json(individuo);
-                }
-                else
-                {
-                    return Json(modelo);
-                }
-
+                //var modelo = new InscViewModel();   para test
+                return Json(individuo);
             }
             else
             {
@@ -312,6 +306,15 @@
 
             HttpContext.Session.SetObjectAsJson<InscViewModel>("viewModelo", modelo);
 
+            /* var redirectUrl1 = Url.Action("GetPdfHome", "Bandeja");
+
+               para test
+            return Json(new
+            {
+                redirectUrl = redirectUrl1,
+                isRedirect = true
+            });
+            */
             var tokenSource = new CancellationTokenSource();
             var token = tokenSource.Token;
 
@@ -341,6 +344,8 @@
                     });
                 }
             }
+
+            
             else
             {
                 return Json(new
@@ -351,7 +356,7 @@
             }
             
 
-            /*
+            
             if (service.IsSuccess)
             {
                 var result = (UsuarioTitularViewModel)service.Result;
@@ -361,7 +366,7 @@
                     isRedirect = true
                 });
                 //return JsonResult("GetPdfHome", "../Bandeja/_Reporte.cshtml", result);
-            }*/
+            }
 
         }
     }

@@ -6,7 +6,7 @@ namespace ADJInsc.Models.Models.DBInsc
     public partial class InsFamilia
     {
         public int InsfId { get; set; }
-        public int InsfFicha { get; set; }
+        public int? InsfFicha { get; set; }
         public string InsfTipflia { get; set; }
         public string InsfNombre { get; set; }
         public string InsfTipdoc { get; set; }
@@ -18,6 +18,6 @@ namespace ADJInsc.Models.Models.DBInsc
         public int? InsfDiscapacitado { get; set; }
         public int? InsfMinero { get; set; }
         public int? InsfVeterano { get; set; }
-        public DateTime FechaNacimiento { get; set; }
+        public DateTime? FechaNacimiento { get; set; }
     }
 }

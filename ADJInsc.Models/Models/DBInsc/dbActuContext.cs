@@ -30,7 +30,7 @@ namespace ADJInsc.Models.Models.DBInsc
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-           /* if (!optionsBuilder.IsConfigured)
+            /*if (!optionsBuilder.IsConfigured)
             {
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. See http://go.microsoft.com/fwlink/?LinkId=723263 for guidance on storing connection strings.
                 optionsBuilder.UseSqlServer("Server=199.5.83.228;Database=dbActu;user id=usrActu;password=usr0210#$*;");
@@ -127,14 +127,14 @@ namespace ADJInsc.Models.Models.DBInsc
 
                 entity.Property(e => e.InsfFecalt)
                     .HasColumnName("insf_fecalt")
-                    .HasColumnType("smalldatetime");
+                    .HasColumnType("smalldatetime")
+                    .HasDefaultValueSql("(getdate())");
 
                 entity.Property(e => e.InsfFicha).HasColumnName("insf_ficha");
 
                 entity.Property(e => e.InsfMinero).HasColumnName("insf_minero");
 
                 entity.Property(e => e.InsfNombre)
-                    .IsRequired()
                     .HasColumnName("insf_nombre")
                     .HasMaxLength(50)
                     .IsUnicode(false);
@@ -142,13 +142,11 @@ namespace ADJInsc.Models.Models.DBInsc
                 entity.Property(e => e.InsfNumdoc).HasColumnName("insf_numdoc");
 
                 entity.Property(e => e.InsfTipdoc)
-                    .IsRequired()
                     .HasColumnName("insf_tipdoc")
                     .HasMaxLength(5)
                     .IsUnicode(false);
 
                 entity.Property(e => e.InsfTipflia)
-                    .IsRequired()
                     .HasColumnName("insf_tipflia")
                     .HasMaxLength(50)
                     .IsUnicode(false);

@@ -27,5 +27,13 @@
                 return InsfVeterano == 1 ? "SI" : "NO";
             }
         }
+
+        public string FechaShow
+        {
+            get
+            {
+                return FechaNacimiento.ToShortDateString();
+            }
+        }
     }
 }

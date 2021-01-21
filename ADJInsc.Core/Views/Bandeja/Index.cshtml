@@ -51,10 +51,10 @@
 
 
                 Cuit / Cuil
-                <input id="inputCuitUno" type="number" class="form-control" style="width:16%; margin-left:4px;" value="@Model.CuitCuilUno"> -
+                <input id="inputCuitUno" type="text" class="form-control" style="width:16%; margin-left:4px;" value="@Model.CuitCuilUno.Trim()"> -
                 <input type="text" class="form-control" id="inputCuitDos" placeholder="D.N.I." value="@Model.InsNumdoc" disabled style="width:40%"> -
 
-                <input id="inputCuitTres" type="number" class="form-control" style="width:16%" value="@Model.CuitCuilDos">
+                <input id="inputCuitTres" type="text" class="form-control" style="width:16%" value="@Model.CuitCuilDos.Trim()">
 
 
 
@@ -284,12 +284,12 @@
             </div>
 
             <div class="modal-footer">
-                <input hidden id="hrefsuces" />
+                <input hidden id="hrefsuceserror" />
                 <button type="submit" id="aceptarBadSuccess" class="btn btn-danger btnModal">Cerrar esta ventana</button>
             </div>
             <div class="modal-footer">
                 <form asp-controller="Inscripcion" asp-action="GoHome">
-                    <button type="submit" id="cerrarSuccess" class="btn btn-danger btnModal">Salir y Cerrar</button>
+                    <button type="submit" id="CerrarError" class="btn btn-danger btnModal">Salir y Cerrar</button>
                 </form>
             </div>
         </div>
@@ -365,11 +365,11 @@
 
                     } else {
                         $.each(result, function (key, item) {
-
+                            var miFecha = Date.parse(item.fechaNacimiento);
                             html += '<tr>';
                             html += '<td>' + item.insfNombre + '</td>';
                             html += '<td>' + item.insfNumdoc + '</td>';
-                            html += '<td>' + item.fechaNacimiento + '</td>';
+                            html += '<td>' + item.fechaShow + '</td>';
                             html += '<td>' + item.discapacidad + '</td>';
                             html += '<td>' + item.veterano + '</td>';
                             html += '<td>' + item.minero + '</td>';
