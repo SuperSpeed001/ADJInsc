@@ -165,7 +165,7 @@
             string query = "UPDATE Inscriptos SET " +
                                                             "  ins_tipflia =  @ins_tipflia, IdTipoFamilia = @IdTipoFamilia, " +
                                                             " ins_nombre = @ins_nombre, ins_numdoc = @ins_numdoc, " +
-                                                            " ins_email = @ins_email, IdUsuario= @IdUsuario, ins_estado = 'A', " +
+                                                            " ins_email = @ins_email, " +
                                                             " cuit_cuil = @cuit, cuit_cuil_uno = @cuitUno, cuit_cuil_dos = @cuitDos, " +
                                                             " ins_discapacitado = @ins_disc, ins_minero = @ins_min, ins_veterano = @ins_vet, " +
                                                             " IdDomicilio = @id_domicilio " +
@@ -237,7 +237,7 @@
                                 cmdInsGrupo.Parameters.Add(new SqlParameter("@insf_tipdoc", item.InsfTipdoc));
                                 cmdInsGrupo.Parameters.Add(new SqlParameter("@insf_numdoc", item.InsfNumdoc));
                                 cmdInsGrupo.Parameters.Add(new SqlParameter("@insf_estado", "I"));
-                                cmdInsGrupo.Parameters.Add(new SqlParameter("@FechaNacimiento", item.FechaNacimiento.Year + "-" + item.FechaNacimiento.Month + "-" + item.FechaNacimiento.Day ));
+                                cmdInsGrupo.Parameters.Add(new SqlParameter("@FechaNacimiento", item.FechaNacimiento?.Year + "-" + item.FechaNacimiento?.Month + "-" + item.FechaNacimiento?.Day ));
                                 cmdInsGrupo.Parameters.Add(new SqlParameter("@ins_id", inscViewModel.InsId));
                                 cmdInsGrupo.Parameters.Add(new SqlParameter("@ParentescoKey", item.ParentescoKey));
                                 cmdInsGrupo.Parameters.Add(new SqlParameter("@insf_discapacitado", item.InsfDiscapacitado));
@@ -273,7 +273,7 @@
                                 cmd.Parameters.Add(new SqlParameter("@ins_nombre", inscViewModel.InsNombre));
                                 cmd.Parameters.Add(new SqlParameter("@ins_numdoc", inscViewModel.InsNumdoc));
                                 cmd.Parameters.Add(new SqlParameter("@ins_email", inscViewModel.InsEmail));
-                                cmd.Parameters.Add(new SqlParameter("@IdUsuario", inscViewModel.Usuario));
+                                //cmd.Parameters.Add(new SqlParameter("@IdUsuario", inscViewModel.Usuario));
                                 cmd.Parameters.Add(new SqlParameter("@cuit", inscViewModel.CuitCuilUno.Trim() + inscViewModel.InsNumdoc.Trim() + inscViewModel.CuitCuilDos.Trim()));
                                 cmd.Parameters.Add(new SqlParameter("@cuitUno", inscViewModel.CuitCuilUno));
                                 cmd.Parameters.Add(new SqlParameter("@cuitDos", inscViewModel.CuitCuilDos));

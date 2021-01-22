@@ -32,7 +32,7 @@
         {
             get
             {
-                return FechaNacimiento.ToShortDateString();
+                return FechaNacimiento?.ToShortDateString();
             }
         }
     }

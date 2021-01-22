@@ -117,7 +117,7 @@
             {
                 if (pKey.ToString() == item.Value)
                 {
-                    pDesc = item.Text;
+                    pDesc = item.Text.Trim();
                     break;
                 }
             }
@@ -136,7 +136,8 @@
                     item.InsfDiscapacitado = pDisc;
                     item.InsfMinero = pMinero;
                     item.InsfVeterano = pVeterano;
-
+                    item.InsfTipflia = modelo.InsTipflia;
+                    item.InsfTipdoc = "0";
                     existe = true;
                     break;
                 }
@@ -163,7 +164,9 @@
                     FechaNacimiento = fecha,
                     InsfDiscapacitado = pDisc,
                     InsfMinero = pMinero,
-                    InsfVeterano = pVeterano
+                    InsfVeterano = pVeterano,
+                    InsfTipflia = modelo.InsTipflia,
+                    InsfTipdoc = "0"
                 };
                 modelo.GrupoFamiliar.Add(individuo);
 
@@ -288,6 +291,7 @@
             }
 
             modelo.InsNumdoc = dni;
+            modelo.InsTipdoc = "0";
             modelo.InsNombre = nombre;
             modelo.IdTipoFamilia = int.Parse(tipoFamilia);
             modelo.InsDiscapacitado = disc;
