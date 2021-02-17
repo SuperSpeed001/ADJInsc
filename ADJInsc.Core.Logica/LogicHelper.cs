@@ -519,7 +519,8 @@
             Connection();
 
             string query = "SELECT ins_id, ins_ficha ,ins_tipflia ,ins_fecins, ins_nombre, ins_tipdoc " +
-                ",ins_numdoc ,ins_email ,ins_telef ,ins_estado ,ins_fecalt, ins_discapacitado, ins_minero, ins_veterano, cuit_cuil, cuit_cuil_uno, cuit_cuil_dos, ins_telef FROM Inscriptos where ins_numdoc = @dni";
+                ",ins_numdoc ,ins_email ,ins_telef ,ins_estado ,ins_fecalt, ins_discapacitado, ins_minero, " + 
+                " ins_veterano, cuit_cuil, cuit_cuil_uno, cuit_cuil_dos, ins_telef FROM Inscriptos where ins_numdoc = @dni";
 
             using SqlCommand cmd = new SqlCommand(query, con)
             {
@@ -564,9 +565,11 @@
                                 
                 if (insId > 0)
                 {
-                    string query1 = "SELECT insf_id , insf_nombre, insf_tipdoc, insf_numdoc, insf_estado, insf_fecalt, ins_id, P.ParentescoDesc, insf_discapacitado, insf_minero, insf_veterano " +
+                    string query1 = "SELECT insf_id , insf_nombre, insf_tipdoc, insf_numdoc, insf_estado, insf_fecalt, ins_id, P.ParentescoDesc, " +
+                                   " insf_discapacitado, insf_minero, insf_veterano, FechaNacimiento " +
                                        "FROM InsFamilia F INNER JOIN Parentesco P ON P.ParentescoKey = F.Parentescokey  WHERE  ins_id = @InsId ";
-                    //select * from Parentesco P inner join InsFamilia F on F.ParentescoKey = P.Parentescokey
+                    
+                    
                     using SqlCommand cmd1 = new SqlCommand(query1, con)
                     {
                         CommandType = CommandType.Text
@@ -580,12 +583,13 @@
                     if (con.State == ConnectionState.Closed)
                         await con.OpenAsync();
                     da1.Fill(dt1);
-
+                    pList.GrupoFamiliar = new List<GrupoFamiliarViewModel>();
                     if (dt1.Rows.Count > 0)
                     {
                         foreach (DataRow item in dt1.Rows)
                         {
-                            pList.GrupoFamiliar.Add(MapToFamilia(item));
+                            var grupo = MapToFamilia(item);
+                            pList.GrupoFamiliar.Add(grupo);
                         }
                     }
 
@@ -743,9 +747,9 @@
 
                         da.Fill(dt);
 
-                        if (dt.Rows.Count > 0)
-                        {
-                            var insId = 0;
+                if (dt.Rows.Count > 0)
+                {
+                    var insId = 0;
                     foreach (DataRow item in dt.Rows)
                     {
                         pList.InsId = ConvertFromReader<int>(item["ins_id"]);
@@ -762,44 +766,45 @@
                         pList.CuitCuil = ConvertFromReader<string>(item["cuit_cuil"]);
                         pList.CuitCuilUno = ConvertFromReader<string>(item["cuit_cuil_uno"]);
                         pList.CuitCuilDos = ConvertFromReader<string>(item["cuit_cuil_dos"]);
-                        
+
                         insId = pList.InsId;
 
                     }
 
-                            //Aqui obtenemos datos del grupo familiar
-                            if (insId > 0)
+                    //Aqui obtenemos datos del grupo familiar
+                    if (insId > 0)
+                    {
+                        //2_ obtener datos del grupo familiar
+                        query = "SELECT insf_id , insf_nombre, insf_tipdoc, insf_numdoc, insf_estado, insf_fecalt, ins_id, P.ParentescoDesc, insf_discapacitado, insf_minero, insf_veterano, FechaNacimiento  " +
+                                           "FROM InsFamilia F INNER JOIN Parentesco P ON P.ParentescoKey = F.Parentescokey  WHERE  ins_id = @InsId ";
+                        //select * from Parentesco P inner join InsFamilia F on F.ParentescoKey = P.Parentescokey
+                        using SqlCommand cmd1 = new SqlCommand(query, con)
+                        {
+                            CommandType = CommandType.Text
+                        };
+
+                        cmd1.Parameters.Add(new SqlParameter("@InsId", insId));
+
+                        SqlDataAdapter da2 = new SqlDataAdapter(cmd1);
+                        DataTable dt2 = new DataTable();
+
+                        if (con.State == ConnectionState.Closed)
+                            await con.OpenAsync();
+                        da2.Fill(dt2);
+
+                        if (dt2.Rows.Count > 0)
+                        {
+                            pList.GrupoFamiliar = new List<GrupoFamiliarViewModel>();
+                            foreach (DataRow item in dt2.Rows)
                             {
-                                //2_ obtener datos del grupo familiar
-                                query = "SELECT insf_id , insf_nombre, insf_tipdoc, insf_numdoc, insf_estado, insf_fecalt, ins_id, P.ParentescoDesc, insf_discapacitado, insf_minero, insf_veterano  " +
-                                                   "FROM InsFamilia F INNER JOIN Parentesco P ON P.ParentescoKey = F.Parentescokey  WHERE  ins_id = @InsId ";
-                                //select * from Parentesco P inner join InsFamilia F on F.ParentescoKey = P.Parentescokey
-                                using SqlCommand cmd1 = new SqlCommand(query, con)
-                                {
-                                    CommandType = CommandType.Text
-                                };
-
-                                cmd1.Parameters.Add(new SqlParameter("@InsId", insId));
-
-                                SqlDataAdapter da2 = new SqlDataAdapter(cmd1);
-                                DataTable dt2 = new DataTable();
-
-                                if (con.State == ConnectionState.Closed)
-                                    await con.OpenAsync();
-                                da2.Fill(dt2);
-
-                                if (dt2.Rows.Count > 0)
-                                {
-                                    foreach (DataRow item in dt2.Rows)
-                                    {
-                                        pList.GrupoFamiliar.Add(MapToFamilia(item));
-                                    }
-                                }
-                                //await con.CloseAsync();
-
+                                pList.GrupoFamiliar.Add(MapToFamilia(item));
                             }
-
                         }
+                        //await con.CloseAsync();
+
+                    }
+
+                }
 
                     //por separado obtenemos datos de los combos
 
@@ -1003,7 +1008,7 @@
 
         private GrupoFamiliarViewModel MapToFamilia(DataRow reader)
         {
-            return new GrupoFamiliarViewModel
+            var grupo = new GrupoFamiliarViewModel
             {
                 InsId = (int)reader["ins_id"],
                 InsfNombre = (string)reader["insf_nombre"],
@@ -1014,10 +1019,12 @@
                 InsfId = (int)reader["insf_id"],
                 ParentescoDesc = (string)reader["ParentescoDesc"],
                 InsfDiscapacitado = (int)reader["insf_discapacitado"],
-                InsfMinero = (int)reader[" insf_minero"],
+                InsfMinero = (int)reader["insf_minero"],
                 InsfVeterano = (int)reader["insf_veterano"],
                 FechaNacimiento = (DateTime)reader["FechaNacimiento"]
             };
+
+            return grupo;
         }
 
         public static T ConvertFromReader<T>(object obj)
