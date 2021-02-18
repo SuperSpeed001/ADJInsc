@@ -162,6 +162,8 @@
                 Existe = false
             };
 
+            string queryConsultaGrupo = "insf_id FROM InsFamilia WHERE insf_numdoc = ";
+
             string query = "UPDATE Inscriptos SET " +
                                                             "  ins_tipflia =  @ins_tipflia, IdTipoFamilia = @IdTipoFamilia, " +
                                                             " ins_nombre = @ins_nombre, ins_numdoc = @ins_numdoc, " +
@@ -186,6 +188,12 @@
                                                             " , ins_id, ParentescoKey, insf_discapacitado, insf_minero, insf_veterano) " +
                                                 "VALUES       (@insf_ficha, @insf_tipflia, @insf_nombre, @insf_tipdoc, @insf_numdoc, @insf_estado, @FechaNacimiento, " +
                                                             "  @ins_id, @ParentescoKey, @insf_discapacitado, @insf_minero, @insf_veterano); SELECT SCOPE_IDENTITY();";
+            string queryUpdateGrupo = "UPDATE Inscriptos SET " +
+                                                                  "insf_ficha = @insf_ficha, insf_tipflia = @insf_tipflia, insf_nombre = @insf_nombre, " +
+                                                                  "insf_tipdoc = @insf_tipdoc, insf_numdoc = @insf_numdoc, insf_estado =  @insf_estado, " +
+                                                                  "FechaNacimiento = @FechaNacimiento, ins_id = @ins_id, ParentescoKey = @ParentescoKey, " +
+                                                                  "insf_discapacitado = @insf_discapacitado, insf_minero = @insf_minero, insf_veterano =  @insf_veterano " +
+                                                                  "WHERE  insf_numdoc = ";
 
             using (TransactionScope ts = new TransactionScope(TransactionScopeAsyncFlowOption.Enabled))
             {
@@ -225,29 +233,52 @@
                             laboralId = (objeto1Id != null) ? (decimal)objeto1Id : 0;
 
                         }
-
-                        using (SqlCommand cmdInsGrupo = new SqlCommand(queryInsertGrupo,con))
+                                                
+                        personasId = 1;
+                        foreach (var item in inscViewModel.GrupoFamiliar)
                         {
-                            personasId = 1;
-                            foreach (var item in inscViewModel.GrupoFamiliar)
+                            var queryT = string.Empty;
+                            queryT = queryConsultaGrupo + item.InsfNumdoc;
+
+                            SqlCommand cmdConsulta = new SqlCommand(queryT, con);
+                            var objGrupo = await cmdConsulta.ExecuteScalarAsync();
+
+                            SqlCommand cmdInsGrupo;
+                            if (objGrupo == null)
                             {
-                                cmdInsGrupo.Parameters.Add(new SqlParameter("@insf_ficha", item.InsfFicha));
-                                cmdInsGrupo.Parameters.Add(new SqlParameter("@insf_tipflia", item.InsfTipflia));
-                                cmdInsGrupo.Parameters.Add(new SqlParameter("@insf_nombre", item.InsfNombre));
-                                cmdInsGrupo.Parameters.Add(new SqlParameter("@insf_tipdoc", item.InsfTipdoc));
-                                cmdInsGrupo.Parameters.Add(new SqlParameter("@insf_numdoc", item.InsfNumdoc));
-                                cmdInsGrupo.Parameters.Add(new SqlParameter("@insf_estado", "I"));
-                                cmdInsGrupo.Parameters.Add(new SqlParameter("@FechaNacimiento", item.FechaNacimiento?.Year + "-" + item.FechaNacimiento?.Month + "-" + item.FechaNacimiento?.Day ));
-                                cmdInsGrupo.Parameters.Add(new SqlParameter("@ins_id", inscViewModel.InsId));
-                                cmdInsGrupo.Parameters.Add(new SqlParameter("@ParentescoKey", item.ParentescoKey));
-                                cmdInsGrupo.Parameters.Add(new SqlParameter("@insf_discapacitado", item.InsfDiscapacitado));
-                                cmdInsGrupo.Parameters.Add(new SqlParameter("@insf_minero", item.InsfMinero));
-                                cmdInsGrupo.Parameters.Add(new SqlParameter("@insf_veterano", item.InsfVeterano));
-                                
+                                cmdInsGrupo = new SqlCommand(queryInsertGrupo, con);
+                            }
+                            else
+                            {
+                                personasId = 2;
+                                queryT = string.Empty;
+                                queryT = queryUpdateGrupo + item.InsfNumdoc;
 
-                                if (con.State == ConnectionState.Closed)
-                                    await con.OpenAsync();
+                                cmdInsGrupo = new SqlCommand(queryUpdateGrupo, con);
+                            }
 
+                            cmdInsGrupo.Parameters.Add(new SqlParameter("@insf_ficha", item.InsfFicha));
+                            cmdInsGrupo.Parameters.Add(new SqlParameter("@insf_tipflia", item.InsfTipflia));
+                            cmdInsGrupo.Parameters.Add(new SqlParameter("@insf_nombre", item.InsfNombre));
+                            cmdInsGrupo.Parameters.Add(new SqlParameter("@insf_tipdoc", item.InsfTipdoc));
+                            cmdInsGrupo.Parameters.Add(new SqlParameter("@insf_numdoc", item.InsfNumdoc));
+                            cmdInsGrupo.Parameters.Add(new SqlParameter("@insf_estado", "I"));
+                            cmdInsGrupo.Parameters.Add(new SqlParameter("@FechaNacimiento", item.FechaNacimiento?.Year + "-" + item.FechaNacimiento?.Month + "-" + item.FechaNacimiento?.Day));
+                            cmdInsGrupo.Parameters.Add(new SqlParameter("@ins_id", inscViewModel.InsId));
+                            cmdInsGrupo.Parameters.Add(new SqlParameter("@ParentescoKey", item.ParentescoKey));
+                            cmdInsGrupo.Parameters.Add(new SqlParameter("@insf_discapacitado", item.InsfDiscapacitado));
+                            cmdInsGrupo.Parameters.Add(new SqlParameter("@insf_minero", item.InsfMinero));
+                            cmdInsGrupo.Parameters.Add(new SqlParameter("@insf_veterano", item.InsfVeterano));
+
+
+                            if (con.State == ConnectionState.Closed)
+                                await con.OpenAsync();
+                            if (personasId == 2)
+                            {
+                                await cmdInsGrupo.ExecuteScalarAsync();
+                            }
+                            else
+                            {
                                 var objId = await cmdInsGrupo.ExecuteScalarAsync();
                                 if (objId == null)
                                 {
@@ -259,7 +290,9 @@
                                     personasId = (decimal)objId;
                                 }
                             }
+                            
                         }
+                       
 
                         if (domicilioId > 0 && laboralId > 0 && personasId > 0)
                         {

@@ -437,7 +437,8 @@
                     e.preventDefault();
                 }
 
-                if (nombreVM && dniVM.length > 6 && fechaNac != null) {
+             if (nombreVM && dniVM.length > 6 && fechaNac != null) {
+                 $('#inputDniInicial').prop('disabled', false);
                     $.ajax({
                         url: '@Url.Action("AgregarPersona", "Bandeja")',
                         data: {
@@ -540,6 +541,7 @@
          });
 
 
+    //este metodo solo recupera los datos del individuo
         function getbyID(numeroDni) {
             $('#inputNombreInicial').css('border-color', 'lightgrey');
             $('#inputDniInicial').css('border-color', 'lightgrey');

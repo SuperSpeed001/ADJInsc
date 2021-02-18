@@ -122,6 +122,7 @@
                 }
             }
 
+            var individuo = new GrupoFamiliarViewModel();
             var existe = false;
 
             foreach (var item in modelo.GrupoFamiliar)
@@ -139,6 +140,23 @@
                     item.InsfTipflia = modelo.InsTipflia;
                     item.InsfTipdoc = "0";
                     existe = true;
+
+
+                    individuo = new GrupoFamiliarViewModel
+                    {
+                        InsfNombre = nombre,
+                        InsfNumdoc = _dni,
+                        ParentescoKey = pKey,
+                        ParentescoDesc = pDesc,
+                        FechaNacimiento = fecha,
+                        InsfDiscapacitado = pDisc,
+                        InsfMinero = pMinero,
+                        InsfVeterano = pVeterano,
+                        InsfTipflia = modelo.InsTipflia,
+                        InsfTipdoc = "0"
+                    };
+
+                  
                     break;
                 }
             }
@@ -155,7 +173,7 @@
                     }
                 }
 
-                var individuo = new GrupoFamiliarViewModel
+                individuo = new GrupoFamiliarViewModel
                 {
                     InsfNombre = nombre,
                     InsfNumdoc = _dni,
@@ -177,7 +195,10 @@
             }
             else
             {
-                return Json(modelo);
+                HttpContext.Session.SetObjectAsJson<InscViewModel>("viewModelo", modelo);
+
+                //var modelo = new InscViewModel();   para test
+                return Json(individuo);
             }
 
         }
@@ -205,28 +226,24 @@
                 return Json("DNI incorrecto.");
             }
         }
-                
-        public JsonResult UpdatePersona(int ID)
+
+        public JsonResult UpdatePersona(int id)
         {
-            if (int.TryParse(ID.ToString(), out int dni))
+
+            var modelo = HttpContext.Session.GetObjectFromJson<InscViewModel>("viewModelo");
+            var individuo = new GrupoFamiliarViewModel();
+            foreach (var item in modelo.GrupoFamiliar)
             {
-                var modelo = HttpContext.Session.GetObjectFromJson<UsuarioTitularViewModel>("viewModelo");
-                var individuo = new GrupoFamiliarViewModel();
-                foreach (var item in modelo.GrupoFamiliar)
+                if (item.InsfNumdoc == id)
                 {
-                    if (item.InsfNumdoc == dni)
-                    {
-                        individuo = item;
-                        break;
-                    }
+                    individuo = item;
+                    break;
                 }
-               
-                return Json(individuo);
             }
-            else
-            {
-                return Json("No");
-            }
+
+            HttpContext.Session.SetObjectAsJson<InscViewModel>("viewModelo", modelo);
+            return Json(individuo);
+
         }
         
        
