@@ -66,15 +66,15 @@
         <h5 class="card-header text-light bg-info"> Dirección</h5>
         <div class="form-row card-body">
             <div class="form-group col-md-12">
-                <input type="text" multiple class="form-control" id="inputAddress" placeholder="Dirección">
+                <input type="text" multiple class="form-control" id="inputAddress" placeholder="Dirección"  value="@Model.Direccion.Trim()">
             </div>
 
             <div class="form-group col-md-4">
-                @Html.DropDownListFor(x => Model.DepartamentoKey, Model.DepartamentosList ?? new List<SelectListItem>(), htmlAttributes: new { @class = "form-control", id = "ddDepartamentoId" })
+                @Html.DropDownListFor(x => Model.DomDepartamentoKey, Model.DepartamentosList ?? new List<SelectListItem>(), htmlAttributes: new { @class = "form-control", id = "ddDepartamentoId" })
 
             </div>
             <div class="form-group col-md-6">
-                @Html.DropDownListFor(x => Model.LocalidadKey, Model.LocalidadesList ?? new List<SelectListItem>(), htmlAttributes: new { @class = "form-control", id = "ddLocalidadId" })
+                @Html.DropDownListFor(x => Model.DomLocalidadKey, Model.LocalidadesList ?? new List<SelectListItem>(), htmlAttributes: new { @class = "form-control", id = "ddLocalidadId" })
             </div>
         </div>
     </div>
@@ -365,17 +365,21 @@
 
                     } else {
                         $.each(result, function (key, item) {
-                            var miFecha = Date.parse(item.fechaNacimiento);
-                            html += '<tr>';
-                            html += '<td>' + item.insfNombre + '</td>';
-                            html += '<td>' + item.insfNumdoc + '</td>';
-                            html += '<td>' + item.fechaShow + '</td>';
-                            html += '<td>' + item.discapacidad + '</td>';
-                            html += '<td>' + item.veterano + '</td>';
-                            html += '<td>' + item.minero + '</td>';
-                            html += '<td>' + item.parentescoDesc + '</td>';
-                            html += '<td><a href="#" onclick="return getbyID(' + item.insfNumdoc + ')">Editar</a>  <a href="#" onclick="Delete(' + item.insfNumdoc + ')">Borrar</a></td>';
-                            html += '</tr>';
+
+                            if (item.insfEstado != "B") {
+                                var miFecha = Date.parse(item.fechaNacimiento);
+                                html += '<tr>';
+                                html += '<td>' + item.insfNombre + '</td>';
+                                html += '<td>' + item.insfNumdoc + '</td>';
+                                html += '<td>' + item.fechaShow + '</td>';
+                                html += '<td>' + item.discapacidad + '</td>';
+                                html += '<td>' + item.veterano + '</td>';
+                                html += '<td>' + item.minero + '</td>';
+                                html += '<td>' + item.parentescoDesc + '</td>';
+                                html += '<td><a href="#" onclick="return getbyID(' + item.insfNumdoc + ')">Editar</a>  <a href="#" onclick="Delete(' + item.insfNumdoc + ')">Borrar</a></td>';
+                                html += '</tr>';
+
+                            }
                         });
                     }
 
@@ -552,8 +556,12 @@
             $('#idVetInicial').css('border-color', 'lightgrey');
             $('#ddParentescoInicialId').css('border-color', 'lightgrey');
             $.ajax({
-                url: "/Bandeja/UpdatePersona/" + numeroDni,
-                type: "GET",
+                 url: '@Url.Action("UpdatePersona", "Bandeja")',
+                    data: {
+                        id: numeroDni
+                    },
+                //url: "/Bandeja/UpdatePersona/" + numeroDni,
+                type: "post",
                 success: function (result) {
                     $('#inputNombreInicial').val(result.insfNombre);
                     $('#inputDniInicial').val(result.insfNumdoc);

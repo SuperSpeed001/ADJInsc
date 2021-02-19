@@ -11,6 +11,17 @@
 
         public bool Existe { get; set; }
 
+        public string Direccion { get; set; }
+        public string Barrio { get; set; }
+        public int DomDepartamentoKey { get; set; }
+        public int DomLocalidadKey { get; set; }
+
+        public int SituacionLaboralId { get; set; }
+        public int TipoEmpleoKey { get; set; }
+        public int TipoRevistaKey { get; set; }
+        public string IngresoNeto { get; set; }
+        public string NombreEmpleo { get; set; }
+
         public int Minero { get; set; }
         public int Veterano { get; set; }
         public int Discapacitado { get; set; }

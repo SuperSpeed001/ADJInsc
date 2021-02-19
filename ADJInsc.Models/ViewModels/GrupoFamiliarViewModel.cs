@@ -35,5 +35,7 @@
                 return FechaNacimiento?.ToShortDateString();
             }
         }
+
+        public string FechaNacViewModel { get; set; }
     }
 }

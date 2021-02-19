@@ -140,7 +140,7 @@
                     item.InsfTipflia = modelo.InsTipflia;
                     item.InsfTipdoc = "0";
                     existe = true;
-
+                    item.FechaNacViewModel = fecha.ToShortDateString();  // fecha.Year + "-" + fecha.Day + "-" + fecha.Month;
 
                     individuo = new GrupoFamiliarViewModel
                     {
@@ -153,8 +153,9 @@
                         InsfMinero = pMinero,
                         InsfVeterano = pVeterano,
                         InsfTipflia = modelo.InsTipflia,
-                        InsfTipdoc = "0"
-                    };
+                        InsfTipdoc = "0",
+                        FechaNacViewModel = fecha.ToShortDateString()  // fecha.Year + "-" + fecha.Day + "-" + fecha.Month
+                };
 
                   
                     break;
@@ -184,8 +185,9 @@
                     InsfMinero = pMinero,
                     InsfVeterano = pVeterano,
                     InsfTipflia = modelo.InsTipflia,
-                    InsfTipdoc = "0"
-                };
+                    InsfTipdoc = "0",
+                    FechaNacViewModel = fecha.ToShortDateString()  // fecha.Year + "-" + fecha.Day + "-" + fecha.Month
+            };
                 modelo.GrupoFamiliar.Add(individuo);
 
                 HttpContext.Session.SetObjectAsJson<InscViewModel>("viewModelo", modelo);
@@ -214,7 +216,8 @@
                 {
                     if (item.InsfNumdoc == id)
                     {
-                        modelo.GrupoFamiliar.Remove(item);
+                        item.InsfEstado = "B";   //estado dado de baja para borrar en base
+                        //modelo.GrupoFamiliar.Remove(item);
                         break;
                     }
                 }
@@ -227,6 +230,7 @@
             }
         }
 
+        [HttpPost]
         public JsonResult UpdatePersona(int id)
         {
 
@@ -314,7 +318,11 @@
             modelo.InsDiscapacitado = disc;
             modelo.InsMinero = minero;
             modelo.InsVeterano = veterano;
+
             modelo.CuitCuil = cuitUno + "-" + dni + '-' + cuitTres;
+            modelo.CuitCuilUno = cuitUno.Trim();
+            modelo.CuitCuilDos = cuitTres.Trim();
+
             modelo.Direccion = direccion;
             modelo.DepartamentoKey = int.Parse(departamento);
             modelo.DepartamentoDesc = desKeyDep;
@@ -324,6 +332,22 @@
             modelo.TipoRevistaKey = int.Parse(revista);
             modelo.IngresoNeto = neto;
             modelo.InsTelef = telefono;
+            modelo.InsFecalt = DateTime.Now;
+            modelo.InsFicha = 0;
+
+            foreach (var item in modelo.GrupoFamiliar)
+            {
+                DateTime.TryParse(item.FechaNacimiento.ToString(), out DateTime fecha);
+                item.InsfFicha = 0;
+                if (item.InsfEstado == "B")
+                {
+                    item.FechaNacViewModel = DateTime.Now.ToShortTimeString();
+                }
+                else
+                {
+                    item.FechaNacViewModel = fecha.ToShortDateString();
+                }
+            }
 
             HttpContext.Session.SetObjectAsJson<InscViewModel>("viewModelo", modelo);
 
@@ -348,16 +372,23 @@
                 if (respuesta.Existe)
                 {
                     var redirectUrl1 = Url.Action("GetPdfHome", "Bandeja");
-
                     return Json(new
                     {
                         redirectUrl = redirectUrl1,
                         isRedirect = true
                     });
+
+                    /*var redirectUrl1 = Url.Action("GetPdfHome", "Bandeja");
+
+                    return Json(new
+                    {
+                        redirectUrl = redirectUrl1,
+                        isRedirect = true
+                    });*/
                 }
                 else
                 {
-                    
+
                     return Json(new
                     {
                         redirectUrl = "",
@@ -365,8 +396,6 @@
                     });
                 }
             }
-
-            
             else
             {
                 return Json(new
@@ -378,7 +407,7 @@
             
 
             
-            if (service.IsSuccess)
+        /*    if (service.IsSuccess)
             {
                 var result = (UsuarioTitularViewModel)service.Result;
                 return Json(new
@@ -387,7 +416,7 @@
                     isRedirect = true
                 });
                 //return JsonResult("GetPdfHome", "../Bandeja/_Reporte.cshtml", result);
-            }
+            }*/
 
         }
     }
