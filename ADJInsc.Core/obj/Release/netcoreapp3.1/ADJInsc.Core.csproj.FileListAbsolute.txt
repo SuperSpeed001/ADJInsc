@@ -1096,3 +1096,4 @@ D:\Proyectos NET\ADInsc\ADJInsc.Core\obj\Release\netcoreapp3.1\ADJInsc.Core.pdb
 D:\Proyectos NET\ADInsc\ADJInsc.Core\obj\Release\netcoreapp3.1\ADJInsc.Core.genruntimeconfig.cache
 D:\Proyectos NET\ADInsc\ADJInsc.Core\obj\Release\netcoreapp3.1\Razor\Views\Shared\_Reporte.cshtml.g.cs
 D:\Proyectos NET\ADInsc\ADJInsc.Core\obj\Release\netcoreapp3.1\Razor\_Reporte.cshtml.g.cs
+D:\Proyectos NET\ADInsc\ADJInsc.Core\obj\Release\netcoreapp3.1\Razor\Views\Inscripcion\ExisteInsc.cshtml.g.cs

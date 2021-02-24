@@ -500,8 +500,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Models\DBInsc\Barrios.cs" />
     <Compile Include="Models\DBInsc\dbActuContext.cs" />
     <Compile Include="Models\DBInsc\Departamento.cs" />
+    <Compile Include="Models\DBInsc\Direccion.cs" />
     <Compile Include="Models\DBInsc\Inscriptos.cs" />
     <Compile Include="Models\DBInsc\InsDomici.cs" />
     <Compile Include="Models\DBInsc\InsFamilia.cs" />
@@ -512,6 +514,7 @@
     <Compile Include="Models\DBInsc\TipoFamilia.cs" />
     <Compile Include="Models\DBInsc\TipoIngreso.cs" />
     <Compile Include="Models\DBInsc\TipoRevista.cs" />
+    <Compile Include="Models\DBInsc\TitularAs.cs" />
     <Compile Include="Models\DBInsc\Usuario.cs" />
     <Compile Include="Models\Basic\Response.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

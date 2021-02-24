@@ -172,60 +172,68 @@
                                                      " WHERE ins_numdoc = " + inscViewModel.InsNumdoc;
 
             string queryInsertDomicilio = "INSERT INTO InsDomici " +
-                                                            " (insd_ficha , insd_direcc , insd_barrio , insd_depar" +
-                                                            ", insd_local , insd_refer  , insd_estado "+
+                                                            " (insd_ficha , insd_direcc, insd_barrio, insd_refer , insd_depar" +
+                                                            ", insd_local  , insd_estado "+
                                                             ", IdDepartamento , IdLocalidad)" +
                                                             "  VALUES (" +
-                                                            "  @ficha, @direccion, @codBarrio, @codDepto, " +
-                                                            "  @codLoc, @referencia, @estado, @codDepto1, @codLoc ); SELECT SCOPE_IDENTITY();";
+                                                            "  @ficha, @direccion, @barrio, @referencia, @codDepto, " +
+                                                            "  @codLoc,  @estado, @codDepto1, @codLoc ); SELECT SCOPE_IDENTITY();";
 
             string queryInsertLaboral = "INSERT INTO SituacionLaboral  (Nombre ,IngresoNeto ,TipoRevistaKey ,InscriptoId) " +
                                                 "VALUES ( @Nombre , @IngresoNeto, @TipoRevistaKey , @InscriptoId ); SELECT SCOPE_IDENTITY(); ";
-
-           /* 
-            * string queryConsultaGrupo = "SELECT insf_id FROM InsFamilia WHERE insf_numdoc = ";
-            * 
-            * string queryInsertGrupo = "INSERT INTO InsFamilia (insf_ficha, insf_tipflia, insf_nombre, insf_tipdoc, insf_numdoc, insf_estado, FechaNacimiento" + 
-                                                            " , ins_id, ParentescoKey, insf_discapacitado, insf_minero, insf_veterano) " +
-                                                "VALUES       (@insf_ficha, @insf_tipflia, @insf_nombre, @insf_tipdoc, @insf_numdoc, @insf_estado, @FechaNacimiento, " +
-                                                            "  @ins_id, @ParentescoKey, @insf_discapacitado, @insf_minero, @insf_veterano); SELECT SCOPE_IDENTITY();";
-            string queryUpdateGrupo = "UPDATE Inscriptos SET " +
-                                                                  "insf_ficha = @insf_ficha, insf_tipflia = @insf_tipflia, insf_nombre = @insf_nombre, " +
-                                                                  "insf_tipdoc = @insf_tipdoc, insf_numdoc = @insf_numdoc, insf_estado =  @insf_estado, " +
-                                                                  "FechaNacimiento = @FechaNacimiento, ins_id = @ins_id, ParentescoKey = @ParentescoKey, " +
-                                                                  "insf_discapacitado = @insf_discapacitado, insf_minero = @insf_minero, insf_veterano =  @insf_veterano " +
-                                                                  "WHERE  insf_numdoc = ";*/
-
+                      
             using (TransactionScope ts = new TransactionScope(TransactionScopeAsyncFlowOption.Enabled))
             {
                 try
                 {
                     var laboralId = 0m;
-                    
-                    //1_ insertar domicilio
+
+                    //1_ insertar domicilio o actualizar si 
+                    if (inscViewModel.IdDomicilio > 0)
+                    {
+                        queryInsertDomicilio = "UPDATE InsDomici " +
+                                             "  SET insd_ficha = @ficha, insd_direcc = @direccion, insd_barrio = @barrio, insd_refer = @referencia " +
+                                             "  , insd_depar = @codDepto, insd_local = @codLoc " +
+                                             "  , insd_estado = @estado, IdDepartamento =  @codDepto1 " +
+                                             "  , IdLocalidad = @codLoc, ins_id = @ins_id  WHERE insd_id = @insdId " ;
+
+                    }
                     using (SqlCommand cmdInsDomicilio = new SqlCommand(queryInsertDomicilio, con))
                     {
-                        cmdInsDomicilio.Parameters.Add(new SqlParameter("@ficha", inscViewModel.InsId));
+                        cmdInsDomicilio.Parameters.Add(new SqlParameter("@ficha", inscViewModel.InsFicha));
                         cmdInsDomicilio.Parameters.Add(new SqlParameter("@direccion", inscViewModel.Direccion.Trim()));
-                        cmdInsDomicilio.Parameters.Add(new SqlParameter("@codBarrio", "sin barrio"));
+                        cmdInsDomicilio.Parameters.Add(new SqlParameter("@barrio", inscViewModel.Barrio));
                         cmdInsDomicilio.Parameters.Add(new SqlParameter("@codDepto", inscViewModel.DepartamentoDesc.Trim()));
                         cmdInsDomicilio.Parameters.Add(new SqlParameter("@referencia", "sin referencia"));
-                        cmdInsDomicilio.Parameters.Add(new SqlParameter("@estado", "I"));  //insert
+                        
                         cmdInsDomicilio.Parameters.Add(new SqlParameter("@codDepto1", inscViewModel.DepartamentoKey));
                         cmdInsDomicilio.Parameters.Add(new SqlParameter("@codLoc", inscViewModel.LocalidadKey));
 
+                        if(inscViewModel.IdDomicilio > 0) 
+                        {
+                            cmdInsDomicilio.Parameters.Add(new SqlParameter("@insdId", inscViewModel.InsId));
+                            cmdInsDomicilio.Parameters.Add(new SqlParameter("@estado", "A"));  //Actualizado o update
+                        }
+                        else
+                        {
+                            cmdInsDomicilio.Parameters.Add(new SqlParameter("@estado", "I"));  //insert
+                        }
 
                         if (con.State == ConnectionState.Closed)
                             await con.OpenAsync();
+
                         var objetoId = await cmdInsDomicilio.ExecuteScalarAsync();
                         var domicilioId = (objetoId != null) ? (decimal)objetoId : 0;
+                                                
+                        //2_insertar situacion laboral, Primero hace un update, si devuelve menor a 0 => Insert
+                        queryInsertLaboral = "UPDATE SituacionLaboral SET Nombre = @Nombre, IngresoNeto = @IngresoNeto, " +
+                           " TipoRevistaKey = @TipoRevistaKey  WHERE InscriptoId = @InscriptoId ";
 
-                        //2_insertar situacion laboral
                         using (SqlCommand cmdInsLaboral = new SqlCommand(queryInsertLaboral, con))
-                        {                            
+                        {
                             cmdInsLaboral.Parameters.Add(new SqlParameter("@Nombre", inscViewModel.NombreEmpleo));
                             cmdInsLaboral.Parameters.Add(new SqlParameter("@IngresoNeto", inscViewModel.IngresoNeto));
-                            cmdInsLaboral.Parameters.Add(new SqlParameter("@TipoRevistaKey", inscViewModel.TipoEmpleoKey));
+                            cmdInsLaboral.Parameters.Add(new SqlParameter("@TipoRevistaKey", inscViewModel.TipoRevistaKey));
                             cmdInsLaboral.Parameters.Add(new SqlParameter("@InscriptoId", inscViewModel.InsId));
 
                             if (con.State == ConnectionState.Closed)
@@ -233,8 +241,27 @@
                             var objeto1Id = await cmdInsLaboral.ExecuteScalarAsync();
                             laboralId = (objeto1Id != null) ? (decimal)objeto1Id : 0;
 
-                        }              
-                        
+                        }
+                        if (laboralId < 1)
+                        {
+                            queryInsertLaboral = "INSERT INTO SituacionLaboral  (Nombre ,IngresoNeto ,TipoRevistaKey ,InscriptoId) " +
+                                           "VALUES ( @Nombre , @IngresoNeto, @TipoRevistaKey , @InscriptoId ); SELECT SCOPE_IDENTITY(); ";
+
+                            using (SqlCommand cmdInsLaboral = new SqlCommand(queryInsertLaboral, con))
+                            {
+                                cmdInsLaboral.Parameters.Add(new SqlParameter("@Nombre", inscViewModel.NombreEmpleo));
+                                cmdInsLaboral.Parameters.Add(new SqlParameter("@IngresoNeto", inscViewModel.IngresoNeto));
+                                cmdInsLaboral.Parameters.Add(new SqlParameter("@TipoRevistaKey", inscViewModel.TipoRevistaKey));
+                                cmdInsLaboral.Parameters.Add(new SqlParameter("@InscriptoId", inscViewModel.InsId));
+
+                                if (con.State == ConnectionState.Closed)
+                                    await con.OpenAsync();
+                                var objeto1Id = await cmdInsLaboral.ExecuteScalarAsync();
+                                laboralId = (objeto1Id != null) ? (decimal)objeto1Id : 0;
+
+                            }
+                        }
+
                         foreach (var item in inscViewModel.GrupoFamiliar)
                         {                       
 
@@ -251,9 +278,14 @@
                             cmdInsGrupo.Parameters.Add(new SqlParameter("@insf_tipdoc", item.InsfTipdoc));
                             cmdInsGrupo.Parameters.Add(new SqlParameter("@insf_numdoc", item.InsfNumdoc));
                             cmdInsGrupo.Parameters.Add(new SqlParameter("@insf_estado", item.InsfEstado));
-                            cmdInsGrupo.Parameters.Add(new SqlParameter("@FechaNacimiento", DateTime.Parse(item.FechaNacViewModel)));
+                            cmdInsGrupo.Parameters.Add(new SqlParameter("@FechaNacimiento", item.FechaNacimiento));
+                            //AGREGAR PARA PODER CONTINUAR
+                            cmdInsGrupo.Parameters.Add(new SqlParameter("@FecNacDia",item.FecNacDia));
+                            cmdInsGrupo.Parameters.Add(new SqlParameter("@FecNacMes", item.FecNacMes));
+                            cmdInsGrupo.Parameters.Add(new SqlParameter("@FecNacAnio", item.FecNacAnio));
                             cmdInsGrupo.Parameters.Add(new SqlParameter("@ins_id", inscViewModel.InsId));
                             cmdInsGrupo.Parameters.Add(new SqlParameter("@ParentescoKey", item.ParentescoKey));
+
                             cmdInsGrupo.Parameters.Add(new SqlParameter("@insf_discapacitado", item.InsfDiscapacitado));
                             cmdInsGrupo.Parameters.Add(new SqlParameter("@insf_minero", item.InsfMinero));
                             cmdInsGrupo.Parameters.Add(new SqlParameter("@insf_veterano", item.InsfVeterano));
@@ -315,7 +347,7 @@
                 catch(Exception ex)
                 {
                     ts.Dispose();
-                    
+                    modeloResponse.Observacion = ex.Message;
                 }
                 finally
                 {
@@ -327,14 +359,14 @@
             }
 
         }
-
+       
         public async Task<ResponseViewModel> PostServerModelo(ModeloCarga model)
         {
             Connection();
             var modeloResponse = new ResponseViewModel();
 
             string query = "SELECT Id FROM Usuario where NombreUsuario = @nombreUsuario";
-
+            var queryF = "SELECT ins_id FROM InsFamilia where insf_numdoc = @dni";
             string insertUsuario = "INSERT INTO Usuario (NombreUsuario, ClaveUsuario) VALUES " +
                 " ( @NombreUsuario, @ClaveUsuario ); SELECT SCOPE_IDENTITY();";
 
@@ -348,6 +380,21 @@
             {
                 try
                 {
+                    using (SqlCommand cmdConsulta = new SqlCommand(queryF, con))
+                    {
+                        //  *************************     1_ Consultar si existe el email
+                        cmdConsulta.CommandType = CommandType.Text;
+                        cmdConsulta.Parameters.Add(new SqlParameter("@dni", model.dni));
+
+                        if (con.State == ConnectionState.Closed)
+                            await con.OpenAsync();
+
+                        var result = await cmdConsulta.ExecuteScalarAsync();
+
+                        if (result != null)
+                            return new ResponseViewModel { Existe = true, InscriptoEnGrupoId = int.Parse(result.ToString()), InscriptoId = 0 };
+                    }
+
                     using (SqlCommand cmdConsulta = new SqlCommand(query, con))
                     {
                         //  *************************     1_ Consultar si existe el email
@@ -382,12 +429,12 @@
                             if (objetoId != null)
                             {
                                 //****     Si existe el Inscripto entonces debo hacer Update
-                                InscriptoId = (decimal)objetoId;
+                                InscriptoId = (int)objetoId;
                                 insertTitular = "UPDATE Inscriptos SET " +
                                                             "  ins_tipflia =  @ins_tipflia, IdTipoFamilia = @IdTipoFamilia, " + 
                                                             " ins_nombre = @ins_nombre, ins_numdoc = @ins_numdoc, " +
                                                             " ins_email = @ins_email, IdUsuario= @IdUsuario, ins_estado = 'A', " +
-                                                            " cuit_cuil = @cuit, cuit_cuil_uno = @cuitUno, cuit_cuil_dos = @cuitDos, ins_telf = @telefono " +
+                                                            " cuit_cuil = @cuit, cuit_cuil_uno = @cuitUno, cuit_cuil_dos = @cuitDos, ins_telef = @telefono " +
                                                      "WHERE ins_id = " + InscriptoId.ToString();
                                 
                                 //return new ResponseViewModel { Existe = true, InscriptoId = int.Parse(result), UsuarioId = 0 };
@@ -425,7 +472,7 @@
                                     //var nombreApellido = model.nombre.Trim() + ", " + model.apellido.Trim();
                                     int.TryParse(model.tipoFamilia, out int idTipoFlia);
 
-                                    cmd1.Parameters.Add(new SqlParameter("@ins_tipflia", model.tipoFamilia));
+                                    cmd1.Parameters.Add(new SqlParameter("@ins_tipflia", model.tipoFamilia));  //deberia ser descripcion
                                     cmd1.Parameters.Add(new SqlParameter("@IdTipoFamilia", idTipoFlia));
                                     cmd1.Parameters.Add(new SqlParameter("@ins_nombre", model.nombre.Trim()));
                                     cmd1.Parameters.Add(new SqlParameter("@ins_numdoc", model.dni));
@@ -494,15 +541,7 @@
                         }
 
                     }
-                    /*var act = (from entidad in db.Activities_activity
-                               group entidad by entidad.ActivitiesActivityName into resultDT
-                               select new
-                               {
-                                   ActivityName = resultDT.key,
-                                   SumaTotal = resultDT.Sum(x => x.ActivityQuantityTime)
-                               }
-                               );*/
-
+                   
                     return modeloResponse;
                 }
                 catch(Exception ex)
@@ -519,13 +558,238 @@
 
         }
 
+        private async Task<DataTable> GetDTSituacionLaboral(int insId)
+        {
+            try
+            {
+                Connection();
+
+                var query = "SELECT Id ,Nombre ,IngresoNeto ,TipoRevistaKey ,InscriptoId FROM SituacionLaboral " +
+                        " where InscriptoId = @insdId";
+
+                using SqlCommand cmdI = new SqlCommand(query, con)
+                {
+                    CommandType = CommandType.Text
+                };
+
+                cmdI.Parameters.Add(new SqlParameter("@insdId", insId));
+
+                var da1 = new SqlDataAdapter(cmdI);
+                var dt1 = new DataTable();
+
+                if (con.State == ConnectionState.Closed)
+                    await con.OpenAsync();
+                da1.Fill(dt1);
+
+                return dt1;
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+        }
+
+        private async Task<DataTable> GetDTInscripto(int dni, int insId)
+        {
+            try
+            {
+                Connection();
+
+                DataTable dt = new DataTable();
+                SqlCommand cmd = new SqlCommand();
+                SqlDataAdapter da = new SqlDataAdapter();
+
+                string query = "SELECT ins_id, ins_ficha ,ins_tipflia ,ins_fecins, ins_nombre, ins_tipdoc " +
+                                        ",ins_numdoc ,ins_email ,ins_telef ,ins_estado ,ins_fecalt, ins_discapacitado, ins_minero, " +
+                                        " ins_veterano, cuit_cuil, cuit_cuil_uno, cuit_cuil_dos, ins_telef FROM Inscriptos where ins_numdoc = @dni";
+
+                if (dni > 0)
+                {
+                    cmd = new SqlCommand(query, con)
+                    {
+                        CommandType = CommandType.Text
+                    };
+                    cmd.Parameters.Add(new SqlParameter("@dni", dni.ToString()));
+
+                }
+                else
+                {
+                    query = "SELECT ins_id, ins_ficha ,ins_tipflia ,ins_fecins, ins_nombre, ins_tipdoc " +
+                      ",ins_numdoc ,ins_email ,ins_telef ,ins_estado ,ins_fecalt, ins_discapacitado, ins_minero, " +
+                      " ins_veterano, cuit_cuil, cuit_cuil_uno, cuit_cuil_dos, ins_telef FROM Inscriptos where ins_id = @insId";
+                    cmd = new SqlCommand(query, con)
+                    {
+                        CommandType = CommandType.Text
+                    };
+                    cmd.Parameters.Add(new SqlParameter("@insId", insId));
+                }
+
+                da = new SqlDataAdapter(cmd);
+                if (con.State == ConnectionState.Closed)
+                    await con.OpenAsync();
+                da.Fill(dt);
+
+
+                return dt;
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+        }
+
+        private async Task<DataTable> GetDTDomicilio(int idDomicilio)
+        {
+            try
+            {
+                Connection();
+
+                var query = "SELECT insd_id ,insd_ficha ,insd_direcc ,insd_barrio ,insd_depar ,insd_local " +
+                                                        " ,insd_refer ,insd_estado ,insd_fecalt ,IdDepartamento ,IdLocalidad  FROM InsDomici " +
+                                                        "  where insd_id = @insdId";
+                using SqlCommand cmdD = new SqlCommand(query, con)
+                {
+                    CommandType = CommandType.Text
+                };
+
+                cmdD.Parameters.Add(new SqlParameter("@insdId", idDomicilio));
+
+                var da1 = new SqlDataAdapter(cmdD);
+                var dt1 = new DataTable();
+
+                if (con.State == ConnectionState.Closed)
+                    await con.OpenAsync();
+                da1.Fill(dt1);
+
+                return dt1;
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+        }
+
+        private async Task<List<GrupoFamiliarViewModel>> GetGrupoFamiliar(int insId, int dni)
+        {
+            try
+            {
+                Connection();
+                var grupoFamiliar = new List<GrupoFamiliarViewModel>();
+                var cmd1 = new SqlCommand();
+                if (insId > 0)
+                {
+                    string query1 = "SELECT insf_id , insf_nombre, insf_tipdoc, insf_numdoc, insf_estado, insf_fecalt, ins_id, insf_tipflia, P.ParentescoKey,  P.ParentescoDesc, " +
+                                   " insf_discapacitado, insf_minero, insf_veterano, FechaNacimiento " +
+                                       "FROM InsFamilia F INNER JOIN Parentesco P ON P.ParentescoKey = F.Parentescokey  WHERE  ins_id = @InsId ";
+
+
+                    cmd1 = new SqlCommand(query1, con)
+                    {
+                        CommandType = CommandType.Text
+                    };
+
+                    cmd1.Parameters.Add(new SqlParameter("@InsId", insId));
+
+                   
+                }
+                else
+                {
+                    string query1 = "SELECT insf_id , insf_nombre, insf_tipdoc, insf_numdoc, insf_estado, insf_fecalt, ins_id, insf_tipflia, P.ParentescoKey,  P.ParentescoDesc, " +
+                                   " insf_discapacitado, insf_minero, insf_veterano, FechaNacimiento " +
+                                       "FROM InsFamilia F INNER JOIN Parentesco P ON P.ParentescoKey = F.Parentescokey  WHERE  insf_numdoc = @dni ";
+
+
+                    cmd1 = new SqlCommand(query1, con)
+                    {
+                        CommandType = CommandType.Text
+                    };
+
+                    cmd1.Parameters.Add(new SqlParameter("@dni", dni));
+                }
+
+                SqlDataAdapter da1 = new SqlDataAdapter(cmd1);
+                DataTable dt1 = new DataTable();
+
+                if (con.State == ConnectionState.Closed)
+                    await con.OpenAsync();
+                da1.Fill(dt1);
+
+                //pList.GrupoFamiliar = new List<GrupoFamiliarViewModel>();
+                if (dt1.Rows.Count > 0)
+                {
+                    foreach (DataRow item in dt1.Rows)
+                    {
+                        var grupo = MapToFamilia(item);
+                        grupoFamiliar.Add(grupo);
+                    }
+                }
+                return grupoFamiliar;
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+            
+            
+        }
+
         public async Task<UsuarioTitularViewModel> GetInscripto(int dni)
         {
-            Connection();
+            var grupoFamiliarExiste = await GetGrupoFamiliar(0, dni);
+            var pList = new UsuarioTitularViewModel();
+            var idtitular = 0;
+
+            if (grupoFamiliarExiste.Count > 0)
+            {
+                foreach (var item in grupoFamiliarExiste)
+                {
+                    idtitular = item.InsId;
+                }
+
+                DataTable dt111 = await GetDTInscripto(0, idtitular);
+                if (dt111.Rows.Count > 0)
+                {
+                    foreach (DataRow item in dt111.Rows)
+                    {
+                        pList.InsId = 0;
+                        pList.InsEmail = ConvertFromReader<string>(item["ins_email"]);
+                        pList.InsEstado = ConvertFromReader<string>(item["ins_estado"]);
+                        pList.InsFecalt = (DateTime)item["ins_fecalt"];
+                        pList.InsFecins = ConvertFromReader<string>(item["ins_fecins"]);
+                        pList.InsFicha = ConvertFromReader<int>(item["ins_ficha"]);
+                        pList.InsNombre = ConvertFromReader<string>(item["ins_nombre"]);
+                        pList.InsNumdoc = ConvertFromReader<string>(item["ins_numdoc"]);
+                        pList.InsTelef = ConvertFromReader<string>(item["ins_telef"]);
+                        pList.InsTipdoc = ConvertFromReader<string>(item["ins_tipdoc"]);
+                        pList.InsTipflia = ConvertFromReader<string>(item["ins_tipflia"]);
+                        pList.InsDiscapacitado = ConvertFromReader<int>(item["ins_discapacitado"]);
+                        pList.InsMinero = ConvertFromReader<int>(item["ins_minero"]);
+                        pList.InsVeterano = ConvertFromReader<int>(item["ins_veterano"]);
+                        pList.CuitCuil = ConvertFromReader<string>(item["cuit_cuil"]);
+                        pList.CuitCuilUno = ConvertFromReader<string>(item["cuit_cuil_uno"]);
+                        pList.CuitCuilDos = ConvertFromReader<string>(item["cuit_cuil_dos"]);
+                        pList.InsTelef = ConvertFromReader<string>(item["ins_telef"]);
+
+                                              
+
+                    }
+                    pList.GrupoFamiliar = grupoFamiliarExiste;
+                }
+
+                return pList;
+            }
+
+           // Connection();
+            
             var idDomicilio = 0;
-            string query = "SELECT ins_id, ins_ficha ,ins_tipflia ,ins_fecins, ins_nombre, ins_tipdoc " +
+            /*string query = "SELECT ins_id, ins_ficha ,ins_tipflia ,ins_fecins, ins_nombre, ins_tipdoc " +
                 ",ins_numdoc ,ins_email ,ins_telef ,ins_estado ,ins_fecalt, ins_discapacitado, ins_minero, " + 
                 " ins_veterano, cuit_cuil, cuit_cuil_uno, cuit_cuil_dos, ins_telef FROM Inscriptos where ins_numdoc = @dni";
+
 
             using SqlCommand cmd = new SqlCommand(query, con)
             {
@@ -538,10 +802,12 @@
             if (con.State == ConnectionState.Closed)
                 await con.OpenAsync();
             da.Fill(dt);
+            */
 
+            DataTable dt = await GetDTInscripto(dni, 0);
             if (dt.Rows.Count > 0)
             {
-                var pList = new UsuarioTitularViewModel();
+                
                 var insId = 0;
                 
                 foreach (DataRow item in dt.Rows)
@@ -573,10 +839,10 @@
                                 
                 if (insId > 0)
                 {
-                    string query1 = "SELECT insf_id , insf_nombre, insf_tipdoc, insf_numdoc, insf_estado, insf_fecalt, ins_id, insf_tipflia, P.ParentescoKey,  P.ParentescoDesc, " +
+                    /*string query1 = "SELECT insf_id , insf_nombre, insf_tipdoc, insf_numdoc, insf_estado, insf_fecalt, ins_id, insf_tipflia, P.ParentescoKey,  P.ParentescoDesc, " +
                                    " insf_discapacitado, insf_minero, insf_veterano, FechaNacimiento " +
                                        "FROM InsFamilia F INNER JOIN Parentesco P ON P.ParentescoKey = F.Parentescokey  WHERE  ins_id = @InsId ";
-                    
+
                     
                     using SqlCommand cmd1 = new SqlCommand(query1, con)
                     {
@@ -600,10 +866,15 @@
                             pList.GrupoFamiliar.Add(grupo);
                         }
                     }
+                    */
+                    pList.GrupoFamiliar = await GetGrupoFamiliar(insId, 0);
+
+                    SqlDataAdapter da1 = new SqlDataAdapter();
+                    DataTable dt1 = new DataTable();
 
                     if (idDomicilio > 0)
                     {
-                        query = "SELECT insd_id ,insd_ficha ,insd_direcc ,insd_barrio ,insd_depar ,insd_local " +
+                        /*query = "SELECT insd_id ,insd_ficha ,insd_direcc ,insd_barrio ,insd_depar ,insd_local " +
                                                         " ,insd_refer ,insd_estado ,insd_fecalt ,IdDepartamento ,IdLocalidad  FROM InsDomici " +
                                                         "  where insd_id = @insdId";
                         using SqlCommand cmdD = new SqlCommand(query, con)
@@ -611,7 +882,7 @@
                             CommandType = CommandType.Text
                         };
 
-                        cmdD.Parameters.Add(new SqlParameter("@insdId", idDomicilio));
+                        cmdD.Parameters.Add(new SqlParameter("@insdId", idDomicilio));                        
 
                         da1 = new SqlDataAdapter(cmdD);
                         dt1 = new DataTable();
@@ -619,6 +890,9 @@
                         if (con.State == ConnectionState.Closed)
                             await con.OpenAsync();
                         da1.Fill(dt1);
+                        */
+                        dt1 = await GetDTDomicilio(idDomicilio);
+
                         if (dt1.Rows.Count > 0)
                         {
                             foreach (DataRow item in dt1.Rows)
@@ -630,7 +904,7 @@
                         }
 
                     }
-
+                    /*
                     query = "SELECT Id ,Nombre ,IngresoNeto ,TipoRevistaKey ,InscriptoId FROM SituacionLaboral " +
                         " where InscriptoId = @insdId";
 
@@ -643,6 +917,13 @@
 
                     da1 = new SqlDataAdapter(cmdI);
                     dt1 = new DataTable();
+
+                    if (con.State == ConnectionState.Closed)
+                        await con.OpenAsync();
+                    da1.Fill(dt1);
+                    */
+
+                    dt1 = await GetDTSituacionLaboral(insId);
 
                     if (dt1.Rows.Count > 0)
                     {
@@ -657,12 +938,12 @@
 
 
 
-                    await con.CloseAsync();
+                    //await con.CloseAsync();
                     return pList;
                 }
                 else
                 {
-                    await con.CloseAsync();
+                    //await con.CloseAsync();
                     //return new UsuarioTitularViewModel();
                     return pList;
                 }
@@ -677,6 +958,9 @@
 
         }
         #endregion
+
+
+
         #region Login
         public async Task<bool> VerificarGuid(Guid guid)
         {
@@ -784,7 +1068,7 @@
                // 1_ obtener datos del titular junto al usuario y clave
                         query =
                             "SELECT ins_id, ins_ficha ,ins_tipflia ,ins_fecins, ins_nombre, ins_tipdoc " +
-                                   " ,ins_numdoc ,ins_email ,ins_telef ,ins_estado ,ins_fecalt, cuit_cuil, cuit_cuil_uno, cuit_cuil_dos  FROM Inscriptos as I " +
+                                   " ,ins_numdoc ,ins_email ,ins_telef ,ins_estado ,ins_fecalt, cuit_cuil, cuit_cuil_uno, cuit_cuil_dos, IdDomicilio  FROM Inscriptos as I " +
                             " INNER JOIN Usuario as U on I.IdUsuario = U.Id " +
                             " WHERE U.NombreUsuario = @usuario and U.ClaveUsuario = @clave and I.ins_estado = 'E' ";
 
@@ -888,8 +1172,9 @@
                                 foreach (DataRow item in dt2.Rows)
                                 {
                                     pList.Direccion = ConvertFromReader<string>(item["insd_direcc"]);
-                                    pList.DomDepartamentoKey = ConvertFromReader<int>(item["IdDepartamento"]);
-                                    pList.DomLocalidadKey = ConvertFromReader<int>(item["IdLocalidad"]);
+                                    pList.DepartamentoKey = ConvertFromReader<int>(item["IdDepartamento"]);
+                                    pList.LocalidadKey = ConvertFromReader<int>(item["IdLocalidad"]);
+                                    pList.DomLocalidadKey = pList.DepartamentoKey + "-" + pList.LocalidadKey;
                                 }
                             }                            
 
@@ -907,6 +1192,10 @@
 
                         da2 = new SqlDataAdapter(cmdI);
                         dt2 = new DataTable();
+
+                        if (con.State == ConnectionState.Closed)
+                            await con.OpenAsync();
+                        da2.Fill(dt2);
 
                         if (dt2.Rows.Count > 0)
                         {
@@ -1087,7 +1376,7 @@
 
                 return pList;
             }
-            catch
+            catch(Exception ex)
             {
                 return pList;
             }
@@ -1125,22 +1414,37 @@
 
         private GrupoFamiliarViewModel MapToFamilia(DataRow reader)
         {
+            /*var InsId = (int)reader["ins_id"];
+            var InsfNombre = reader["insf_nombre"] is DBNull ? " " : (string)reader["insf_nombre"];
+            var InsfTipdoc = reader["insf_tipdoc"] is DBNull ? " " : (string)reader["insf_tipdoc"];
+            var InsfNumdoc = (int)reader["insf_numdoc"];
+            var InsfEstado = reader["insf_estado"] is DBNull ? " " : (string)reader["insf_estado"];
+            var InsfFecalt = (DateTime)reader["insf_fecalt"];
+            var InsfId = (int)reader["insf_id"];
+            var InsfTipflia = reader["insf_tipflia"] is DBNull ? " " : (string)reader["insf_tipflia"];
+            var ParentescoKey = (int)reader["ParentescoKey"];
+            var ParentescoDesc = reader["ParentescoDesc"] is DBNull ? " " : (string)reader["ParentescoDesc"];
+            var InsfDiscapacitado = reader["insf_discapacitado"] is DBNull ? 0 : (int)reader["insf_discapacitado"];
+            var InsfMinero = reader["insf_minero"] is DBNull ? 0 : (int)reader["insf_minero"];
+            var InsfVeterano = reader["insf_veterano"] is DBNull ? 0 : (int)reader["insf_veterano"];
+            var FechaNacimiento = reader["FechaNacimiento"] is DBNull ? " " : (string)reader["FechaNacimiento"];
+            */
             var grupo = new GrupoFamiliarViewModel
             {
                 InsId = (int)reader["ins_id"],
-                InsfNombre = (string)reader["insf_nombre"],
-                InsfTipdoc = (string)reader["insf_tipdoc"],
+                InsfNombre = reader["insf_nombre"] is DBNull ? " " : (string)reader["insf_nombre"],
+                InsfTipdoc = reader["insf_tipdoc"] is DBNull ? " " : (string)reader["insf_tipdoc"],
                 InsfNumdoc = (int)reader["insf_numdoc"],
-                InsfEstado = (string)reader["insf_estado"],
+                InsfEstado = reader["insf_estado"] is DBNull ? " " : (string)reader["insf_estado"],
                 InsfFecalt = (DateTime)reader["insf_fecalt"],
                 InsfId = (int)reader["insf_id"],
-                InsfTipflia = (string)reader["insf_tipflia"],
+                InsfTipflia = reader["insf_tipflia"] is DBNull ? " " : (string)reader["insf_tipflia"],
                 ParentescoKey = (int)reader["ParentescoKey"],
-                ParentescoDesc = (string)reader["ParentescoDesc"],
-                InsfDiscapacitado = (int)reader["insf_discapacitado"],
-                InsfMinero = (int)reader["insf_minero"],
-                InsfVeterano = (int)reader["insf_veterano"],
-                FechaNacimiento = (DateTime)reader["FechaNacimiento"]
+                ParentescoDesc = reader["ParentescoDesc"] is DBNull ? " " : (string)reader["ParentescoDesc"],
+                InsfDiscapacitado = reader["insf_discapacitado"] is DBNull ? 0 : (int)reader["insf_discapacitado"],
+                InsfMinero = reader["insf_minero"] is DBNull ? 0 : (int)reader["insf_minero"],
+                InsfVeterano = reader["insf_veterano"] is DBNull ? 0 : (int)reader["insf_veterano"],
+                FechaNacimiento = reader["FechaNacimiento"] is DBNull ? " " : (string)reader["FechaNacimiento"]
             };
 
             return grupo;

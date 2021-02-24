@@ -124,6 +124,13 @@
                     }
                     else
                     {
+                        if (result.InsId == 0)
+                        {
+                            return View("ExisteInsc", result);
+                            //si insId e menor que cero significa que eldni ya existe en base de grupoFamiliar
+                            //se debe mostrar mensaje o un popup que diga que se debe hacercar al ivuj
+                        }
+                        
                         result.InsNumdoc = numDni;
                         result.Existe = false;                       
                     }
@@ -220,6 +227,10 @@
 
                     if (modeloResponse.Existe)
                     {
+                        if (modeloResponse.InscriptoEnGrupoId > 0)
+                        {
+                            return Json("Usted Pertenece a un grupo familiar, por favor dirigirse al I.V.U.J. para regularizar su situación.");
+                        }
                         if (modeloResponse.UsuarioId > 0)
                         {
                             return Json("El Correo Electrónico ya esta en uso, por favor elija otro!");

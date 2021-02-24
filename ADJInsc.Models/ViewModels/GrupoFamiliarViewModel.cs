@@ -32,10 +32,11 @@
         {
             get
             {
-                return FechaNacimiento?.ToShortDateString();
+                return FechaNacimiento;
             }
         }
 
         public string FechaNacViewModel { get; set; }
+        
     }
 }

@@ -1586,3 +1586,4 @@ D:\Proyectos NET\ADInsc\ADJInsc.Core\obj\Debug\netcoreapp3.1\Razor\Views\Bandeja
 D:\Proyectos NET\ADInsc\ADJInsc.Core\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Reporte.cshtml.g.cs
 D:\Proyectos NET\ADInsc\ADJInsc.Core\obj\Debug\netcoreapp3.1\Razor\_Reporte.cshtml.g.cs
 D:\Proyectos NET\ADInsc\ADJInsc.Core\obj\Debug\netcoreapp3.1\ADJInsc.Core.MvcApplicationPartsAssemblyInfo.cs
+D:\Proyectos NET\ADInsc\ADJInsc.Core\obj\Debug\netcoreapp3.1\Razor\Views\Inscripcion\ExisteInsc.cshtml.g.cs

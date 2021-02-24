@@ -55,8 +55,9 @@
                 var modelo = (InscViewModel)service.Result;
                 if (modelo.InsNumdoc != null)
                 {
+                   
                     HttpContext.Session.SetObjectAsJson<InscViewModel>("viewModelo", modelo);
-                    //TempData["data"] = modelo;
+                    
                     return View("Index", modelo);
                 }
                 else
@@ -133,14 +134,17 @@
                     item.InsfNumdoc = _dni;
                     item.ParentescoKey = pKey;
                     item.ParentescoDesc = pDesc;
-                    item.FechaNacimiento = fecha;
+                    item.FechaNacimiento = fecha.ToShortDateString();
                     item.InsfDiscapacitado = pDisc;
                     item.InsfMinero = pMinero;
                     item.InsfVeterano = pVeterano;
                     item.InsfTipflia = modelo.InsTipflia;
                     item.InsfTipdoc = "0";
                     existe = true;
-                    item.FechaNacViewModel = fecha.ToShortDateString();  // fecha.Year + "-" + fecha.Day + "-" + fecha.Month;
+                    item.FechaNacViewModel = fecha.Day + "/" + fecha.Month + "/" + fecha.Year;
+                    item.FecNacDia = fecha.Day.ToString().Trim();
+                    item.FecNacMes = fecha.Month.ToString().Trim();
+                    item.FecNacAnio = fecha.Year.ToString().Trim();
 
                     individuo = new GrupoFamiliarViewModel
                     {
@@ -148,14 +152,17 @@
                         InsfNumdoc = _dni,
                         ParentescoKey = pKey,
                         ParentescoDesc = pDesc,
-                        FechaNacimiento = fecha,
+                        FechaNacimiento = fecha.ToShortDateString(),
                         InsfDiscapacitado = pDisc,
                         InsfMinero = pMinero,
                         InsfVeterano = pVeterano,
                         InsfTipflia = modelo.InsTipflia,
                         InsfTipdoc = "0",
-                        FechaNacViewModel = fecha.ToShortDateString()  // fecha.Year + "-" + fecha.Day + "-" + fecha.Month
-                };
+                        FechaNacViewModel = fecha.Day + "/" + fecha.Month + "/" + fecha.Year,
+                        FecNacDia = fecha.Day.ToString().Trim(),
+                        FecNacMes = fecha.Month.ToString().Trim(),
+                        FecNacAnio = fecha.Year.ToString().Trim()
+                    };
 
                   
                     break;
@@ -180,14 +187,17 @@
                     InsfNumdoc = _dni,
                     ParentescoKey = pKey,
                     ParentescoDesc = pDesc,
-                    FechaNacimiento = fecha,
+                    FechaNacimiento = fecha.ToShortDateString(),
                     InsfDiscapacitado = pDisc,
                     InsfMinero = pMinero,
                     InsfVeterano = pVeterano,
                     InsfTipflia = modelo.InsTipflia,
                     InsfTipdoc = "0",
-                    FechaNacViewModel = fecha.ToShortDateString()  // fecha.Year + "-" + fecha.Day + "-" + fecha.Month
-            };
+                    FechaNacViewModel = fecha.Day + "/" + fecha.Month + "/" + fecha.Year,
+                    FecNacDia = fecha.Day.ToString().Trim(),
+                    FecNacMes = fecha.Month.ToString().Trim(),
+                    FecNacAnio = fecha.Year.ToString().Trim()
+                };
                 modelo.GrupoFamiliar.Add(individuo);
 
                 HttpContext.Session.SetObjectAsJson<InscViewModel>("viewModelo", modelo);
@@ -332,8 +342,8 @@
             modelo.TipoRevistaKey = int.Parse(revista);
             modelo.IngresoNeto = neto;
             modelo.InsTelef = telefono;
-            modelo.InsFecalt = DateTime.Now;
-            modelo.InsFicha = 0;
+            modelo.Barrio = "0";
+            
 
             foreach (var item in modelo.GrupoFamiliar)
             {
@@ -341,11 +351,14 @@
                 item.InsfFicha = 0;
                 if (item.InsfEstado == "B")
                 {
-                    item.FechaNacViewModel = DateTime.Now.ToShortTimeString();
+                    item.FechaNacViewModel = DateTime.Now.ToShortDateString();
                 }
                 else
                 {
-                    item.FechaNacViewModel = fecha.ToShortDateString();
+                    //item.FechaNacViewModel = fecha.Day + "/" + fecha.Month + "/" + fecha.Year;
+                    item.FecNacDia = fecha.Day.ToString().Trim();
+                    item.FecNacMes = fecha.Month.ToString().Trim();
+                    item.FecNacAnio = fecha.Year.ToString().Trim();
                 }
             }
 
@@ -375,7 +388,8 @@
                     return Json(new
                     {
                         redirectUrl = redirectUrl1,
-                        isRedirect = true
+                        isRedirect = true,
+                        ob = respuesta.Observacion
                     });
 
                     /*var redirectUrl1 = Url.Action("GetPdfHome", "Bandeja");
@@ -392,7 +406,8 @@
                     return Json(new
                     {
                         redirectUrl = "",
-                        isRedirect = false
+                        isRedirect = false,
+                        ob = respuesta.Observacion
                     });
                 }
             }
@@ -401,7 +416,8 @@
                 return Json(new
                 {
                     redirectUrl = "",
-                    isRedirect = false
+                    isRedirect = false,
+                    ob = "no llego respuesta"
                 });
             }
             

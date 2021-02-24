@@ -16,5 +16,6 @@ namespace ADJInsc.Models.Models.DBInsc
         public DateTime InsdFecalt { get; set; }
         public int? IdDepartamento { get; set; }
         public int? IdLocalidad { get; set; }
+        public int? InsId { get; set; }
     }
 }

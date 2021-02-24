@@ -15,7 +15,9 @@ namespace ADJInsc.Models.Models.DBInsc
         {
         }
 
+        public virtual DbSet<Barrios> Barrios { get; set; }
         public virtual DbSet<Departamento> Departamento { get; set; }
+        public virtual DbSet<Direccion> Direccion { get; set; }
         public virtual DbSet<InsDomici> InsDomici { get; set; }
         public virtual DbSet<InsFamilia> InsFamilia { get; set; }
         public virtual DbSet<Inscriptos> Inscriptos { get; set; }
@@ -26,6 +28,7 @@ namespace ADJInsc.Models.Models.DBInsc
         public virtual DbSet<TipoFamilia> TipoFamilia { get; set; }
         public virtual DbSet<TipoIngreso> TipoIngreso { get; set; }
         public virtual DbSet<TipoRevista> TipoRevista { get; set; }
+        public virtual DbSet<TitularAs> TitularAs { get; set; }
         public virtual DbSet<Usuario> Usuario { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
@@ -39,6 +42,21 @@ namespace ADJInsc.Models.Models.DBInsc
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            modelBuilder.Entity<Barrios>(entity =>
+            {
+                entity.HasNoKey();
+
+                entity.Property(e => e.Barbar).HasColumnName("barbar");
+
+                entity.Property(e => e.Bardep).HasColumnName("bardep");
+
+                entity.Property(e => e.Bardes)
+                    .HasColumnName("bardes")
+                    .HasMaxLength(255);
+
+                entity.Property(e => e.Barloc).HasColumnName("barloc");
+            });
+
             modelBuilder.Entity<Departamento>(entity =>
             {
                 entity.HasKey(e => e.DepartamentoKey)
@@ -53,11 +71,52 @@ namespace ADJInsc.Models.Models.DBInsc
                     .IsFixedLength();
             });
 
+            modelBuilder.Entity<Direccion>(entity =>
+            {
+                entity.HasNoKey();
+
+                entity.Property(e => e.Dombar).HasColumnName("DOMBAR");
+
+                entity.Property(e => e.Domcal)
+                    .HasColumnName("DOMCAL")
+                    .HasMaxLength(255);
+
+                entity.Property(e => e.Domdep)
+                    .HasColumnName("DOMDEP")
+                    .HasMaxLength(255);
+
+                entity.Property(e => e.Domdto).HasColumnName("DOMDTO");
+
+                entity.Property(e => e.Domloc).HasColumnName("DOMLOC");
+
+                entity.Property(e => e.Domlot)
+                    .HasColumnName("DOMLOT")
+                    .HasMaxLength(255);
+
+                entity.Property(e => e.Dommza)
+                    .HasColumnName("DOMMZA")
+                    .HasMaxLength(255);
+
+                entity.Property(e => e.Dompis)
+                    .HasColumnName("DOMPIS")
+                    .HasMaxLength(255);
+
+                entity.Property(e => e.Dompue).HasColumnName("DOMPUE");
+
+                entity.Property(e => e.Domref)
+                    .HasColumnName("DOMREF")
+                    .HasMaxLength(255);
+
+                entity.Property(e => e.Flific).HasColumnName("FLIFIC");
+            });
+
             modelBuilder.Entity<InsDomici>(entity =>
             {
                 entity.HasKey(e => e.InsdId);
 
                 entity.Property(e => e.InsdId).HasColumnName("insd_id");
+
+                entity.Property(e => e.InsId).HasColumnName("ins_id");
 
                 entity.Property(e => e.InsdBarrio)
                     .IsRequired()
@@ -111,7 +170,28 @@ namespace ADJInsc.Models.Models.DBInsc
 
                 entity.Property(e => e.InsfId).HasColumnName("insf_id");
 
-                entity.Property(e => e.FechaNacimiento).HasColumnType("date");
+                entity.Property(e => e.FecNacAnio)
+                    .HasColumnName("fecNacAnio")
+                    .HasMaxLength(4)
+                    .IsUnicode(false)
+                    .IsFixedLength();
+
+                entity.Property(e => e.FecNacDia)
+                    .HasColumnName("fecNacDia")
+                    .HasMaxLength(4)
+                    .IsUnicode(false)
+                    .IsFixedLength();
+
+                entity.Property(e => e.FecNacMes)
+                    .HasColumnName("fecNacMes")
+                    .HasMaxLength(4)
+                    .IsUnicode(false)
+                    .IsFixedLength();
+
+                entity.Property(e => e.FechaNacimiento)
+                    .HasMaxLength(50)
+                    .IsUnicode(false)
+                    .IsFixedLength();
 
                 entity.Property(e => e.InsId).HasColumnName("ins_id");
 
@@ -332,6 +412,57 @@ namespace ADJInsc.Models.Models.DBInsc
                     .HasMaxLength(300)
                     .IsUnicode(false)
                     .IsFixedLength();
+            });
+
+            modelBuilder.Entity<TitularAs>(entity =>
+            {
+                entity.HasNoKey();
+
+                entity.ToTable("TitularAS");
+
+                entity.Property(e => e.Fliapn)
+                    .HasColumnName("FLIAPN")
+                    .HasMaxLength(255);
+
+                entity.Property(e => e.Flicfi).HasColumnName("FLICFI");
+
+                entity.Property(e => e.Flicom).HasColumnName("FLICOM");
+
+                entity.Property(e => e.Flicui).HasColumnName("FLICUI");
+
+                entity.Property(e => e.Flidep).HasColumnName("FLIDEP");
+
+                entity.Property(e => e.Flidis).HasColumnName("FLIDIS");
+
+                entity.Property(e => e.Flieci).HasColumnName("FLIECI");
+
+                entity.Property(e => e.Flific).HasColumnName("FLIFIC");
+
+                entity.Property(e => e.Flifin).HasColumnName("FLIFIN");
+
+                entity.Property(e => e.Flifna).HasColumnName("FLIFNA");
+
+                entity.Property(e => e.Flilcm).HasColumnName("FLILCM");
+
+                entity.Property(e => e.Fliloc).HasColumnName("FLILOC");
+
+                entity.Property(e => e.Flinac).HasColumnName("FLINAC");
+
+                entity.Property(e => e.Flindo).HasColumnName("FLINDO");
+
+                entity.Property(e => e.Flipai).HasColumnName("FLIPAI");
+
+                entity.Property(e => e.Flipro).HasColumnName("FLIPRO");
+
+                entity.Property(e => e.Flisex).HasColumnName("FLISEX");
+
+                entity.Property(e => e.Flisfi).HasColumnName("FLISFI");
+
+                entity.Property(e => e.Flitdo).HasColumnName("FLITDO");
+
+                entity.Property(e => e.Flitef)
+                    .HasColumnName("FLITEF")
+                    .HasMaxLength(255);
             });
 
             modelBuilder.Entity<Usuario>(entity =>

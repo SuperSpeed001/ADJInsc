@@ -66,11 +66,11 @@
         <h5 class="card-header text-light bg-info"> Dirección</h5>
         <div class="form-row card-body">
             <div class="form-group col-md-12">
-                <input type="text" multiple class="form-control" id="inputAddress" placeholder="Dirección"  value="@Model.Direccion.Trim()">
+                <input type="text" multiple class="form-control" id="inputAddress" placeholder="Dirección"  value="@Model.Direccion">
             </div>
 
             <div class="form-group col-md-4">
-                @Html.DropDownListFor(x => Model.DomDepartamentoKey, Model.DepartamentosList ?? new List<SelectListItem>(), htmlAttributes: new { @class = "form-control", id = "ddDepartamentoId" })
+                @Html.DropDownListFor(x => Model.DepartamentoKey, Model.DepartamentosList ?? new List<SelectListItem>(), htmlAttributes: new { @class = "form-control", id = "ddDepartamentoId" })
 
             </div>
             <div class="form-group col-md-6">
@@ -149,6 +149,7 @@
 
     <div class="form-group">
         <div class="col-md-offset-2 col-md-10">
+            <img id="AjaxLoader" alt="Enviando ..." style="display:none; width:60px; height:60px;" src="~/image/loader.gif" />
             <input id="btnCreate" type="submit" value="Actualizar Ficha" class="btn btn-primary" />
         </div>
     </div>
@@ -642,7 +643,7 @@
             var revistaT = $('#ddTipoRevistaId').val();
 
             var neto = $('#inputIngresoNeto').val();
-
+            $("#AjaxLoader").show("fast");
             $.ajax({
                 url: '@Url.Action("GuardarData", "Bandeja")',
                 data: {
@@ -665,6 +666,7 @@
                 type: "get",
                 success: function (result) {
                     console.log(result);
+                    $("#AjaxLoader").delay(2000).hide("slow");
                     if (result.isRedirect) {
                         $('#hrefsuces').val(result.redirectUrl);
                         $("#modalSuccess").modal('show');
@@ -673,10 +675,11 @@
                     }
                 },
                 error: function (errormessage) {
+                    $("#AjaxLoader").delay(2000).hide("slow");
                     alert(errormessage.responseText);
                 }
             }).done(function (result) {
-
+                $("#AjaxLoader").delay(2000).hide("slow");
 
             });
 

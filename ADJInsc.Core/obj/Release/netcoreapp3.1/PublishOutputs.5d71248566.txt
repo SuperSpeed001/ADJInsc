@@ -8,6 +8,7 @@ D:\Proyectos NET\ADInsc\ADJInsc.Core\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroo
 D:\Proyectos NET\ADInsc\ADJInsc.Core\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\debug.log
 D:\Proyectos NET\ADInsc\ADJInsc.Core\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\favicon.ico
 D:\Proyectos NET\ADInsc\ADJInsc.Core\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\image\loader.gif
+D:\Proyectos NET\ADInsc\ADJInsc.Core\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\image\loading.gif
 D:\Proyectos NET\ADInsc\ADJInsc.Core\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\js\bootbox\bootbox.all.js
 D:\Proyectos NET\ADInsc\ADJInsc.Core\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\js\bootbox\bootbox.all.min.js
 D:\Proyectos NET\ADInsc\ADJInsc.Core\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\js\bootbox\bootbox.js

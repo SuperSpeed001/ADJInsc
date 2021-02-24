@@ -1,0 +1,85 @@
+﻿@model ADJInsc.Models.ViewModels.UsuarioTitularViewModel
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Advertencia</title>
+</head>
+<body>
+
+
+    <div class="modal fade in" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="gridSystemModalLabel">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Login</h5>
+                </div>
+                <div class="modal-body card">
+                   
+                        <p>Usted pertenece a un grupo familiar</p>
+                            <div>
+                                <div class="modal-body card">
+
+
+                                    <h4>
+                                        Usted está inscripto al grupo familiar del titular <strong>@Model.InsNombre</strong>  con D.N.I.: <strong>@Model.InsNumdoc</strong>  <br/>
+                                        Debe acercarse al I.V.U.Ju. para actualizar sus datos.
+                                    </h4>
+                                </div>
+                                <div class="modal-footer">
+
+                                    <button type="button" id="btnHideModal" class="btn btn-outline-info">
+                                        Volver
+                                    </button>
+                                </div>
+                            </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+
+</html>
+
+@section scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+
+    <style type="text/css">
+        .span3 {
+            position: relative;
+            height: 200px;
+            overflow: auto;
+        }
+
+        .card-body {
+            padding-bottom: 0rem;
+        }
+    </style>
+
+    <script type="text/javascript">
+        $(function () {
+            $("#loginModal").modal();
+        });
+
+        $(function () {
+
+            $("#btnLogin").click(function () {
+                $("#AjaxLoaderLogin").show("fast");
+                $("#loginModal").modal('show');
+            });
+
+            $("#btnHideModal").click(function () {
+                $("#loginModal").modal('hide');
+                history.back();
+            });
+        });
+
+
+    </script>
+}

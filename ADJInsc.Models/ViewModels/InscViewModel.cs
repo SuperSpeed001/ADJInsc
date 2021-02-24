@@ -29,8 +29,8 @@
 
         public string Direccion { get; set; }
         public string Barrio { get; set; }
-        public int DomDepartamentoKey { get; set; }
-        public int DomLocalidadKey { get; set; }
+       // public int DomDepartamentoKey { get; set; }
+        public string DomLocalidadKey { get; set; }
 
         public int SituacionLaboralId { get; set; }
         public int TipoEmpleoKey { get; set; }

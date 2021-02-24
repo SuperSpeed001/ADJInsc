@@ -18,6 +18,9 @@ namespace ADJInsc.Models.Models.DBInsc
         public int? InsfDiscapacitado { get; set; }
         public int? InsfMinero { get; set; }
         public int? InsfVeterano { get; set; }
-        public DateTime? FechaNacimiento { get; set; }
+        public string FechaNacimiento { get; set; }
+        public string FecNacDia { get; set; }
+        public string FecNacMes { get; set; }
+        public string FecNacAnio { get; set; }
     }
 }
