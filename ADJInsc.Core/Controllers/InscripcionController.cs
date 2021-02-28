@@ -146,7 +146,7 @@
                 // TODO: Add update logic here
 
             }
-            catch
+            catch(Exception ex)
             {
                 return View();
             }

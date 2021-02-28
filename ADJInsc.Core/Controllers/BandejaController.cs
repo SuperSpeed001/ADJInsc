@@ -141,6 +141,7 @@
                     item.InsfTipflia = modelo.InsTipflia;
                     item.InsfTipdoc = "0";
                     existe = true;
+                    item.InsfEstado = "A";
                     item.FechaNacViewModel = fecha.Day + "/" + fecha.Month + "/" + fecha.Year;
                     item.FecNacDia = fecha.Day.ToString().Trim();
                     item.FecNacMes = fecha.Month.ToString().Trim();
@@ -158,6 +159,7 @@
                         InsfVeterano = pVeterano,
                         InsfTipflia = modelo.InsTipflia,
                         InsfTipdoc = "0",
+                        InsfEstado = "M",
                         FechaNacViewModel = fecha.Day + "/" + fecha.Month + "/" + fecha.Year,
                         FecNacDia = fecha.Day.ToString().Trim(),
                         FecNacMes = fecha.Month.ToString().Trim(),
@@ -193,6 +195,7 @@
                     InsfVeterano = pVeterano,
                     InsfTipflia = modelo.InsTipflia,
                     InsfTipdoc = "0",
+                    InsfEstado = "A",
                     FechaNacViewModel = fecha.Day + "/" + fecha.Month + "/" + fecha.Year,
                     FecNacDia = fecha.Day.ToString().Trim(),
                     FecNacMes = fecha.Month.ToString().Trim(),
@@ -250,6 +253,7 @@
             {
                 if (item.InsfNumdoc == id)
                 {
+                    item.InsfEstado = "M";
                     individuo = item;
                     break;
                 }
@@ -282,18 +286,7 @@
             return Json(modelo.GrupoFamiliar);
         }
                
-        public IActionResult GuardarData1(InscViewModel modelo)
-        {
-            if (ModelState.IsValid)
-            {
-                var modelo1 = HttpContext.Session.GetObjectFromJson<InscViewModel>("viewModelo");
-
-                modelo1 = modelo;
-
-                HttpContext.Session.SetObjectAsJson<InscViewModel>("viewModelo", modelo1);
-            }
-            return View();
-        }
+       
         public JsonResult GuardarData(string dni, string nombre, string tipoFamilia, int disc,int minero, int veterano, string cuitUno, string cuitTres,
                                       string direccion, string departamento,string localidad, string lugarTrabajo, string revista, string neto, string telefono)
         {
@@ -302,7 +295,17 @@
             var keyLoc = localidad.Split("-");
             var desKeyLoc = string.Empty;
             var desKeyDep = string.Empty;
-            
+            var tipoFamiliaDesc = string.Empty;
+
+            foreach (var item in modelo.TipoFamiliaList)
+            {
+                if (tipoFamilia == item.Value.ToString())
+                {
+                    tipoFamiliaDesc = item.Text.Trim();
+                    break;
+                }
+            }
+
             foreach (var item in modelo.LocalidadesList)
             {
                 if (localidad == item.Value.ToString())
@@ -321,10 +324,13 @@
                 }
             }
 
+            modelo.InsTipflia = tipoFamiliaDesc;
+            modelo.IdTipoFamilia = int.Parse(tipoFamilia);
+
             modelo.InsNumdoc = dni;
             modelo.InsTipdoc = "0";
             modelo.InsNombre = nombre;
-            modelo.IdTipoFamilia = int.Parse(tipoFamilia);
+            
             modelo.InsDiscapacitado = disc;
             modelo.InsMinero = minero;
             modelo.InsVeterano = veterano;
@@ -338,27 +344,36 @@
             modelo.DepartamentoDesc = desKeyDep;
             modelo.LocalidadKey = int.Parse(keyLoc[1]);  //1-12  ES EL 12
             modelo.LocalidadDesc = desKeyLoc;
-            modelo.NombreEmpleo = lugarTrabajo;
+            modelo.NombreEmpleo = lugarTrabajo.Trim();
             modelo.TipoRevistaKey = int.Parse(revista);
             modelo.IngresoNeto = neto;
             modelo.InsTelef = telefono;
             modelo.Barrio = "0";
-            
+
+            modelo.InsFecins = DateTime.Now.ToShortDateString();
 
             foreach (var item in modelo.GrupoFamiliar)
             {
-                DateTime.TryParse(item.FechaNacimiento.ToString(), out DateTime fecha);
-                item.InsfFicha = 0;
+                
+                item.InsfFicha = modelo.InsFicha;   //no importa, vuelvo a copiar el numero de ficha
                 if (item.InsfEstado == "B")
                 {
                     item.FechaNacViewModel = DateTime.Now.ToShortDateString();
                 }
                 else
                 {
-                    //item.FechaNacViewModel = fecha.Day + "/" + fecha.Month + "/" + fecha.Year;
-                    item.FecNacDia = fecha.Day.ToString().Trim();
-                    item.FecNacMes = fecha.Month.ToString().Trim();
-                    item.FecNacAnio = fecha.Year.ToString().Trim();
+                    if (item.FecNacDia == null)
+                    {
+                        item.FecNacDia = DateTime.Now.Day.ToString();
+                    }
+                    if (item.FecNacMes == null)
+                    {
+                        item.FecNacMes = DateTime.Now.Month.ToString();
+                    }
+                    if (item.FecNacAnio == null)
+                    {
+                        item.FecNacAnio = DateTime.Now.Year.ToString();
+                    }                    
                 }
             }
 

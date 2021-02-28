@@ -18,6 +18,8 @@ namespace ADJInsc.Models.Models.DBInsc
         public virtual DbSet<Barrios> Barrios { get; set; }
         public virtual DbSet<Departamento> Departamento { get; set; }
         public virtual DbSet<Direccion> Direccion { get; set; }
+        public virtual DbSet<Familia1> Familia1 { get; set; }
+        public virtual DbSet<Familia2> Familia2 { get; set; }
         public virtual DbSet<InsDomici> InsDomici { get; set; }
         public virtual DbSet<InsFamilia> InsFamilia { get; set; }
         public virtual DbSet<Inscriptos> Inscriptos { get; set; }
@@ -108,6 +110,104 @@ namespace ADJInsc.Models.Models.DBInsc
                     .HasMaxLength(255);
 
                 entity.Property(e => e.Flific).HasColumnName("FLIFIC");
+            });
+
+            modelBuilder.Entity<Familia1>(entity =>
+            {
+                entity.HasNoKey();
+
+                entity.Property(e => e.Fliapn)
+                    .HasColumnName("FLIAPN")
+                    .HasMaxLength(255);
+
+                entity.Property(e => e.Flicfi).HasColumnName("FLICFI");
+
+                entity.Property(e => e.Flicom).HasColumnName("FLICOM");
+
+                entity.Property(e => e.Flicui).HasColumnName("FLICUI");
+
+                entity.Property(e => e.Flidep).HasColumnName("FLIDEP");
+
+                entity.Property(e => e.Flidis).HasColumnName("FLIDIS");
+
+                entity.Property(e => e.Flieci).HasColumnName("FLIECI");
+
+                entity.Property(e => e.Flific).HasColumnName("FLIFIC");
+
+                entity.Property(e => e.Flifin).HasColumnName("FLIFIN");
+
+                entity.Property(e => e.Flifna).HasColumnName("FLIFNA");
+
+                entity.Property(e => e.Flilcm).HasColumnName("FLILCM");
+
+                entity.Property(e => e.Fliloc).HasColumnName("FLILOC");
+
+                entity.Property(e => e.Flinac).HasColumnName("FLINAC");
+
+                entity.Property(e => e.Flindo).HasColumnName("FLINDO");
+
+                entity.Property(e => e.Flipai).HasColumnName("FLIPAI");
+
+                entity.Property(e => e.Flipro).HasColumnName("FLIPRO");
+
+                entity.Property(e => e.Flisex).HasColumnName("FLISEX");
+
+                entity.Property(e => e.Flisfi).HasColumnName("FLISFI");
+
+                entity.Property(e => e.Flitdo).HasColumnName("FLITDO");
+
+                entity.Property(e => e.Flitef)
+                    .HasColumnName("FLITEF")
+                    .HasMaxLength(255);
+            });
+
+            modelBuilder.Entity<Familia2>(entity =>
+            {
+                entity.HasNoKey();
+
+                entity.Property(e => e.Fliapn)
+                    .HasColumnName("FLIAPN")
+                    .HasMaxLength(255);
+
+                entity.Property(e => e.Flicfi).HasColumnName("FLICFI");
+
+                entity.Property(e => e.Flicom).HasColumnName("FLICOM");
+
+                entity.Property(e => e.Flicui).HasColumnName("FLICUI");
+
+                entity.Property(e => e.Flidep).HasColumnName("FLIDEP");
+
+                entity.Property(e => e.Flidis).HasColumnName("FLIDIS");
+
+                entity.Property(e => e.Flieci).HasColumnName("FLIECI");
+
+                entity.Property(e => e.Flific).HasColumnName("FLIFIC");
+
+                entity.Property(e => e.Flifin).HasColumnName("FLIFIN");
+
+                entity.Property(e => e.Flifna).HasColumnName("FLIFNA");
+
+                entity.Property(e => e.Flilcm).HasColumnName("FLILCM");
+
+                entity.Property(e => e.Fliloc).HasColumnName("FLILOC");
+
+                entity.Property(e => e.Flinac).HasColumnName("FLINAC");
+
+                entity.Property(e => e.Flindo).HasColumnName("FLINDO");
+
+                entity.Property(e => e.Flipai).HasColumnName("FLIPAI");
+
+                entity.Property(e => e.Flipro).HasColumnName("FLIPRO");
+
+                entity.Property(e => e.Flisex).HasColumnName("FLISEX");
+
+                entity.Property(e => e.Flisfi).HasColumnName("FLISFI");
+
+                entity.Property(e => e.Flitdo).HasColumnName("FLITDO");
+
+                entity.Property(e => e.Flitef)
+                    .HasColumnName("FLITEF")
+                    .HasMaxLength(255);
             });
 
             modelBuilder.Entity<InsDomici>(entity =>

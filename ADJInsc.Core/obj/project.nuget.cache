@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NfDRy7dXGuceLJKGOCM+9nle4JSZ+/wYkzcbMBmGzw4Uhsw1XqYfI4fO2RW5KfRu4LU0tdBEV5IUJ5x40hwl/Q==",
+  "dgSpecHash": "v/Oj8Lm9k6rOV6rrrlTtDCplaLhgAA1fWTzi+du+e4NC5DAbiMLQ5km0sgv3aDf2b3SR36njojBphqJMw0WFfg==",
   "success": true,
-  "projectFilePath": "D:\\Proyectos NET\\ADInsc\\ADJInsc.Core\\ADJInsc.Core.csproj",
+  "projectFilePath": "D:\\Proyectos NET\\Temp\\ADJInsc.Core\\ADJInsc.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Sistemas\\.nuget\\packages\\bootstrap\\4.5.3\\bootstrap.4.5.3.nupkg.sha512",
     "C:\\Users\\Sistemas\\.nuget\\packages\\common.logging\\3.4.1\\common.logging.3.4.1.nupkg.sha512",

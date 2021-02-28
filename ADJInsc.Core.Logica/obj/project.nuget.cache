@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ib7r5vY342JT88O0+YjJlxudHD9vr5pyOKwh3FcpzNflAYEJXtWplWcNbE/qzx1OdBuPwZmEWBaCOIJAT8EuPQ==",
+  "dgSpecHash": "wSFywvtMpbXDrwUkurK8XtbD5lTFxKOtFp+qTfw9nynlWVGVDZE8WqYyoFJigo+eU7BNk3pV2gcNxRRkHYk5HA==",
   "success": true,
-  "projectFilePath": "D:\\Proyectos NET\\ADInsc\\ADJInsc.Core.Logica\\ADJInsc.Core.Logica.csproj",
+  "projectFilePath": "D:\\Proyectos NET\\Temp\\ADJInsc.Core.Logica\\ADJInsc.Core.Logica.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Sistemas\\.nuget\\packages\\mailkit\\2.9.0\\mailkit.2.9.0.nupkg.sha512",
     "C:\\Users\\Sistemas\\.nuget\\packages\\microsoft.aspnetcore.antiforgery\\2.2.0\\microsoft.aspnetcore.antiforgery.2.2.0.nupkg.sha512",

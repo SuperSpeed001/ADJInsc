@@ -12066,11 +12066,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Proyectos NET\\ADInsc\\ADJInsc.Core\\ADJInsc.Core.csproj",
+      "projectUniqueName": "D:\\Proyectos NET\\Temp\\ADJInsc.Core\\ADJInsc.Core.csproj",
       "projectName": "ADJInsc.Core",
-      "projectPath": "D:\\Proyectos NET\\ADInsc\\ADJInsc.Core\\ADJInsc.Core.csproj",
+      "projectPath": "D:\\Proyectos NET\\Temp\\ADJInsc.Core\\ADJInsc.Core.csproj",
       "packagesPath": "C:\\Users\\Sistemas\\.nuget\\packages\\",
-      "outputPath": "D:\\Proyectos NET\\ADInsc\\ADJInsc.Core\\obj\\",
+      "outputPath": "D:\\Proyectos NET\\Temp\\ADJInsc.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -12091,8 +12091,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\Proyectos NET\\ADInsc\\ADJInsc.Models\\ADJInsc.Models.csproj": {
-              "projectPath": "D:\\Proyectos NET\\ADInsc\\ADJInsc.Models\\ADJInsc.Models.csproj"
+            "D:\\Proyectos NET\\Temp\\ADJInsc.Models\\ADJInsc.Models.csproj": {
+              "projectPath": "D:\\Proyectos NET\\Temp\\ADJInsc.Models\\ADJInsc.Models.csproj"
             }
           }
         }

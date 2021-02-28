@@ -504,6 +504,8 @@
     <Compile Include="Models\DBInsc\dbActuContext.cs" />
     <Compile Include="Models\DBInsc\Departamento.cs" />
     <Compile Include="Models\DBInsc\Direccion.cs" />
+    <Compile Include="Models\DBInsc\Familia1.cs" />
+    <Compile Include="Models\DBInsc\Familia2.cs" />
     <Compile Include="Models\DBInsc\Inscriptos.cs" />
     <Compile Include="Models\DBInsc\InsDomici.cs" />
     <Compile Include="Models\DBInsc\InsFamilia.cs" />

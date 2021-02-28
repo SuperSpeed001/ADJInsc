@@ -15,6 +15,7 @@
         public string Barrio { get; set; }
         public int DomDepartamentoKey { get; set; }
         public int DomLocalidadKey { get; set; }
+        public string DomEstado { get; set; }
 
         public int SituacionLaboralId { get; set; }
         public int TipoEmpleoKey { get; set; }

@@ -9873,11 +9873,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Proyectos NET\\ADInsc\\ADJInsc.Core.Api\\ADJInsc.Core.Api.csproj",
+      "projectUniqueName": "D:\\Proyectos NET\\Temp\\ADJInsc.Core.Api\\ADJInsc.Core.Api.csproj",
       "projectName": "ADJInsc.Core.Api",
-      "projectPath": "D:\\Proyectos NET\\ADInsc\\ADJInsc.Core.Api\\ADJInsc.Core.Api.csproj",
+      "projectPath": "D:\\Proyectos NET\\Temp\\ADJInsc.Core.Api\\ADJInsc.Core.Api.csproj",
       "packagesPath": "C:\\Users\\Sistemas\\.nuget\\packages\\",
-      "outputPath": "D:\\Proyectos NET\\ADInsc\\ADJInsc.Core.Api\\obj\\",
+      "outputPath": "D:\\Proyectos NET\\Temp\\ADJInsc.Core.Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -9898,11 +9898,11 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\Proyectos NET\\ADInsc\\ADJInsc.Core.Logica\\ADJInsc.Core.Logica.csproj": {
-              "projectPath": "D:\\Proyectos NET\\ADInsc\\ADJInsc.Core.Logica\\ADJInsc.Core.Logica.csproj"
+            "D:\\Proyectos NET\\Temp\\ADJInsc.Core.Logica\\ADJInsc.Core.Logica.csproj": {
+              "projectPath": "D:\\Proyectos NET\\Temp\\ADJInsc.Core.Logica\\ADJInsc.Core.Logica.csproj"
             },
-            "D:\\Proyectos NET\\ADInsc\\ADJInsc.Models\\ADJInsc.Models.csproj": {
-              "projectPath": "D:\\Proyectos NET\\ADInsc\\ADJInsc.Models\\ADJInsc.Models.csproj"
+            "D:\\Proyectos NET\\Temp\\ADJInsc.Models\\ADJInsc.Models.csproj": {
+              "projectPath": "D:\\Proyectos NET\\Temp\\ADJInsc.Models\\ADJInsc.Models.csproj"
             }
           }
         }
