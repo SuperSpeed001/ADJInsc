@@ -47,7 +47,7 @@
             </div>
             <br />
             <div class="form-inline col-md-6" style="width:auto; margin-bottom:1px;">
-                .
+                
 
 
                 Cuit / Cuil
@@ -83,11 +83,12 @@
         <h5 class="card-header text-light bg-info"> Situación Laboral</h5>
         <div class="form-row card-body">
             <div class="form-group col-md-12">
+                <label for="inputLugar">Lugar de trabajo (Titular)</label>
                 <input type="text" multiple class="form-control" id="inputLugar" placeholder="Lugar donde trabaja" value="@Model.NombreEmpleo">
             </div>
 
             <div class="form-group col-md-4">
-                <label for="ddTipoRevistaId">Situación de empleo</label>
+                <label for="ddTipoRevistaId">Situación de empleo (Titular)</label>
                 @Html.DropDownListFor(x => Model.TipoRevistaKey, Model.TipoRevistaList ?? new List<SelectListItem>(), htmlAttributes: new { @class = "form-control", id = "ddTipoRevistaId" })
 
             </div>
@@ -103,7 +104,7 @@
 
         <h5 class="card-header text-light bg-info">Datos del Grupo Familiar</h5>
         <div class="card-body">
-            <button type="button" class="btn btn-info float-right" data-toggle="modal" data-target="#modalInicialFamilia">Agregar integrante al grupo familiar <i class="fas fa-plus-circle"></i></button>
+            <button id="btnModalInicial" type="button" class="btn btn-info float-right" data-toggle="modal" data-target="#modalInicialFamilia">Agregar integrante al grupo familiar <i class="fas fa-plus-circle"></i></button>
             <div></div>
             <table id="tablaFamilia" class="table table-striped table-responsive" cellspacing="0" width="100%">
                 <!--table table-sm table-striped table-hover border-bottom table table-bordered mb-0-->
@@ -251,20 +252,20 @@
             <div></div>
 
 
-                <div class="modal-body card">
-                    <p>Desea imprimir formulario?</p>
-                </div>
-                
-                <div class="modal-footer">
-                    <input hidden id="hrefsuces" />
-                        <button type="submit" id="aceptarSuccess" class="btn btn-danger btnModal">Aceptar</button>
-                </div>
-                <div class="modal-footer">
-                    <form asp-controller="Inscripcion" asp-action="GoHome">
-                        <button type="submit" id="cerrarSuccess" class="btn btn-danger btnModal">Salir y Cerrar</button>
-                    </form>
-                </div>
+            <div class="modal-body card">
+                <p>Desea imprimir formulario?</p>
             </div>
+
+
+            <div class="modal-footer">
+                <input hidden id="hrefsuces" />
+                <button type="submit" id="aceptarSuccess" class="btn btn-danger btnModal">Aceptar</button>
+                <form asp-controller="Inscripcion" asp-action="GoHome">
+                    <button type="submit" id="cerrarSuccess" class="btn btn-danger btnModal">Salir y Cerrar</button>
+                </form>
+            </div>
+           
+        </div>
         </div>
     </div>
 
@@ -502,6 +503,12 @@
             $("#modalBorrar").modal('show');
         };
 
+    $(function () {
+        $('#btnModalInicial').click(function () {
+            limpiarModal();
+        })
+    });
+
          $(function () {
             $("#delPersonaModal").click(function (e) {
                 e.preventDefault();
@@ -516,7 +523,7 @@
                     //$("#idFormFamilia").show();
                     //$("#tablaFamilia").html(result);
                     loadData();
-                    $("#inputNombreInicial").val("");
+                    /*$("#inputNombreInicial").val("");
                     $("#inputDniInicial").val("");
                     $("#ddParentescoInicialId").val(0);
                     $('#idDisInicial').prop('checked', false);
@@ -529,8 +536,8 @@
                     $('#idDisInicial').css('border-color', 'lightgrey');
                     $('#idMinInicial').css('border-color', 'lightgrey');
                     $('#idVetInicial').css('border-color', 'lightgrey');
-                    $('#ddParentescoInicialId').css('border-color', 'lightgrey');
-
+                    $('#ddParentescoInicialId').css('border-color', 'lightgrey');*/
+                    limpiarModal();
                 }).fail(function (data) {
                     bootbox.alert({
                         size: "small",
@@ -544,6 +551,24 @@
                 $("#modalBorrar").modal('hide');
             })
          });
+
+    function limpiarModal() {
+        $("#inputNombreInicial").val("");
+        $("#inputDniInicial").val("");
+        $('#inputDniInicial').prop('disabled', false);
+        $("#ddParentescoInicialId").val(0);
+        $('#idDisInicial').prop('checked', false);
+        $('#idVetInicial').prop('checked', false);
+        $('#idMinInicial').prop('checked', false);
+
+        $('#inputNombreInicial').css('border-color', 'lightgrey');
+        $('#inputDniInicial').css('border-color', 'lightgrey');
+        $('#inputFecNacInicial').css('border-color', 'lightgrey');
+        $('#idDisInicial').css('border-color', 'lightgrey');
+        $('#idMinInicial').css('border-color', 'lightgrey');
+        $('#idVetInicial').css('border-color', 'lightgrey');
+        $('#ddParentescoInicialId').css('border-color', 'lightgrey');
+    }
 
 
     //este metodo solo recupera los datos del individuo

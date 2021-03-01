@@ -161,16 +161,15 @@
             {
                 Existe = false
             };
-            var pensamiento = string.Empty;
 
             using (TransactionScope ts = new TransactionScope(TransactionScopeAsyncFlowOption.Enabled))
             {
-               
-                object  objetoId = string.Empty;
+
+                object objetoId = string.Empty;
 
                 try
                 {
-                    
+
                     var queryDomicilio = "sp_insert_update_Domicilio";
                     using (SqlCommand cmdInsDomicilio = new SqlCommand(queryDomicilio, con))
                     {
@@ -220,12 +219,12 @@
 
                             if (con.State == ConnectionState.Closed)
                                 await con.OpenAsync();
-                           var resultLaboral = await cmdInsLaboral.ExecuteScalarAsync();
+                            var resultLaboral = await cmdInsLaboral.ExecuteScalarAsync();
                             if (resultLaboral != null)
                             {
                                 ts.Dispose();
                                 modeloResponse.Observacion = "Error en Laboral " + (string)resultLaboral;
-                               await  con.CloseAsync();
+                                await con.CloseAsync();
                                 return modeloResponse;
                             }
                             else
@@ -237,7 +236,7 @@
 
                         var cont = 0;
                         foreach (var item in inscViewModel.GrupoFamiliar)
-                        {                       
+                        {
 
                             var querySP = "sp_insert_update_Familiar";
 
@@ -254,7 +253,7 @@
                             cmdInsGrupo.Parameters.Add(new SqlParameter("@insf_estado", item.InsfEstado));
                             cmdInsGrupo.Parameters.Add(new SqlParameter("@FechaNacimiento", item.FechaNacimiento));
                             //AGREGAR PARA PODER CONTINUAR
-                            cmdInsGrupo.Parameters.Add(new SqlParameter("@FecNacDia",item.FecNacDia));
+                            cmdInsGrupo.Parameters.Add(new SqlParameter("@FecNacDia", item.FecNacDia));
                             cmdInsGrupo.Parameters.Add(new SqlParameter("@FecNacMes", item.FecNacMes));
                             cmdInsGrupo.Parameters.Add(new SqlParameter("@FecNacAnio", item.FecNacAnio));
                             cmdInsGrupo.Parameters.Add(new SqlParameter("@ins_id", inscViewModel.InsId));
@@ -279,66 +278,63 @@
                             {
                                 modeloResponse.Observacion += "Grupo";
                             }
-                        }                       
+                        }
 
-                        
-                            var query = "sp_update_Titular";
-                            //insertar o actualizar el Titular
-                            using (SqlCommand cmd = new SqlCommand(query, con))
+
+                        var query = "sp_update_Titular";
+                        //insertar o actualizar el Titular
+                        using (SqlCommand cmd = new SqlCommand(query, con))
+                        {
+                            cmd.CommandType = CommandType.StoredProcedure;
+
+                            cmd.CommandText = query;
+                            cmd.Parameters.Add(new SqlParameter("@ins_ficha", inscViewModel.InsFicha));
+                            cmd.Parameters.Add(new SqlParameter("@ins_tipflia", inscViewModel.InsTipflia));   //descripcion de tipo familia 
+                            cmd.Parameters.Add(new SqlParameter("@ins_nombre", inscViewModel.InsNombre));
+                            cmd.Parameters.Add(new SqlParameter("@ins_numdoc", inscViewModel.InsNumdoc));
+                            cmd.Parameters.Add(new SqlParameter("@ins_email", inscViewModel.InsEmail));
+                            cmd.Parameters.Add(new SqlParameter("@ins_telef", inscViewModel.InsTelef));
+                            cmd.Parameters.Add(new SqlParameter("@ins_estado", inscViewModel.InsEstado));
+                            cmd.Parameters.Add(new SqlParameter("@IdDomicilio", inscViewModel.IdDomicilio));
+                            cmd.Parameters.Add(new SqlParameter("@IdTipoFamilia", inscViewModel.IdTipoFamilia));
+                            cmd.Parameters.Add(new SqlParameter("@cuit_cuil", inscViewModel.CuitCuilUno.Trim() + inscViewModel.InsNumdoc.Trim() + inscViewModel.CuitCuilDos.Trim()));
+                            cmd.Parameters.Add(new SqlParameter("@cuit_cuil_uno", inscViewModel.CuitCuilUno));
+                            cmd.Parameters.Add(new SqlParameter("@cuit_cuil_dos", inscViewModel.CuitCuilDos));
+                            cmd.Parameters.Add(new SqlParameter("@ins_discapacitado", inscViewModel.Discapacitado));
+                            cmd.Parameters.Add(new SqlParameter("@ins_minero", inscViewModel.Minero));
+                            cmd.Parameters.Add(new SqlParameter("@ins_veterano", inscViewModel.Veterano));
+
+                            if (con.State == ConnectionState.Closed)
+                                await con.OpenAsync();
+
+                            var resultInscripto = await cmd.ExecuteScalarAsync();
+                            if (resultInscripto != null)
                             {
-                                cmd.CommandType = CommandType.StoredProcedure;
-                              
-                                cmd.CommandText = query;
-                                cmd.Parameters.Add(new SqlParameter("@ins_ficha", inscViewModel.InsFicha));
-                                cmd.Parameters.Add(new SqlParameter("@ins_tipflia", inscViewModel.InsTipflia));   //descripcion de tipo familia 
-                                cmd.Parameters.Add(new SqlParameter("@ins_nombre", inscViewModel.InsNombre));
-                                cmd.Parameters.Add(new SqlParameter("@ins_numdoc", inscViewModel.InsNumdoc));
-                                cmd.Parameters.Add(new SqlParameter("@ins_email", inscViewModel.InsEmail));
-                                cmd.Parameters.Add(new SqlParameter("@ins_telef", inscViewModel.InsTelef));
-                                cmd.Parameters.Add(new SqlParameter("@ins_estado", inscViewModel.InsEstado));
-                                cmd.Parameters.Add(new SqlParameter("@IdDomicilio", inscViewModel.IdDomicilio));
-                                cmd.Parameters.Add(new SqlParameter("@IdTipoFamilia", inscViewModel.IdTipoFamilia));
-                                cmd.Parameters.Add(new SqlParameter("@cuit_cuil", inscViewModel.CuitCuilUno.Trim() + inscViewModel.InsNumdoc.Trim() + inscViewModel.CuitCuilDos.Trim()));
-                                cmd.Parameters.Add(new SqlParameter("@cuit_cuil_uno", inscViewModel.CuitCuilUno));
-                                cmd.Parameters.Add(new SqlParameter("@cuit_cuil_dos", inscViewModel.CuitCuilDos));
-                                cmd.Parameters.Add(new SqlParameter("@ins_discapacitado", inscViewModel.Discapacitado));
-                                cmd.Parameters.Add(new SqlParameter("@ins_minero", inscViewModel.Minero));
-                                cmd.Parameters.Add(new SqlParameter("@ins_veterano", inscViewModel.Veterano));
-                                
-                               
-                                                                    
+                                ts.Dispose();
+                                await con.CloseAsync();
+                                modeloResponse.Observacion = "Error en individuo " + (string)resultInscripto;
+                                return modeloResponse;
 
-                                if (con.State == ConnectionState.Closed)
-                                    await con.OpenAsync();
-
-                                 var resultInscripto = await cmd.ExecuteScalarAsync();
-                                if (resultInscripto != null)
-                                {
-                                    ts.Dispose();
-                                    await con.CloseAsync();
-                                    modeloResponse.Observacion = "Error en individuo " + (string)resultInscripto;
-                                    return modeloResponse;
-
-                                }
-                                else
-                                {
-                                    modeloResponse.Observacion += "Titular";
-                                }
-                                    ts.Complete();
-                                    modeloResponse.Existe = true;
                             }
-                       
+                            else
+                            {
+                                modeloResponse.Observacion += "Titular";
+                            }
+                            ts.Complete();
+                            modeloResponse.Existe = true;
+                        }
+
                     }
-                   
+
                 }
-                catch(Exception ex)
+                catch (Exception ex)
                 {
                     ts.Dispose();
                     modeloResponse.Observacion = modeloResponse.Observacion + " ___" + ex.Message;
                 }
                 finally
                 {
-                    
+
                     await con.CloseAsync();
                 }
 

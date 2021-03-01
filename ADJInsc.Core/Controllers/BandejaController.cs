@@ -3,7 +3,6 @@
     using System;
     using System.Collections.Generic;
     using System.Threading;
-    using System.Threading.Tasks;
     using ADJInsc.Core.Helper;
    
     using ADJInsc.Core.Service.Interface;
@@ -20,7 +19,7 @@
         public IConfiguration Configuration { get; }
         public string _connectionString { get; set; }
         private readonly IApiService _apiService;
-        readonly IGeneratePdf _generatePdf;
+        //readonly IGeneratePdf _generatePdf;
 
         public BandejaController(IConfiguration configuration, IApiService apiService, IGeneratePdf generatePdf)
         {
@@ -28,7 +27,7 @@
             _connectionString = Configuration["ConnectionStrings:DefaultConnection"];
             _apiService = apiService;
 
-            _generatePdf = generatePdf;
+            //_generatePdf = generatePdf;
         }
 
         [HttpPost]
@@ -268,8 +267,7 @@
         public IActionResult GetPdfHome()
         {
             var modelo = HttpContext.Session.GetObjectFromJson<InscViewModel>("viewModelo");
-
-            //return new ViewAsPdf("_Reporte.cshtml", modelo);
+                       
             return new ViewAsPdf("_Reporte", modelo);
             
         }
@@ -296,6 +294,7 @@
             var desKeyLoc = string.Empty;
             var desKeyDep = string.Empty;
             var tipoFamiliaDesc = string.Empty;
+            var tipoRevistaDesc = string.Empty;
 
             foreach (var item in modelo.TipoFamiliaList)
             {
@@ -324,6 +323,15 @@
                 }
             }
 
+            foreach (var item in modelo.TipoRevistaList)
+            {
+                if (revista == item.Value)
+                {
+                    tipoRevistaDesc = item.Text.Trim();
+                    break;
+                }
+            }
+
             modelo.InsTipflia = tipoFamiliaDesc;
             modelo.IdTipoFamilia = int.Parse(tipoFamilia);
 
@@ -345,7 +353,9 @@
             modelo.LocalidadKey = int.Parse(keyLoc[1]);  //1-12  ES EL 12
             modelo.LocalidadDesc = desKeyLoc;
             modelo.NombreEmpleo = lugarTrabajo.Trim();
+
             modelo.TipoRevistaKey = int.Parse(revista);
+            modelo.TipoRevistaDesc = tipoRevistaDesc;
             modelo.IngresoNeto = neto;
             modelo.InsTelef = telefono;
             modelo.Barrio = "0";
@@ -399,6 +409,18 @@
 
                 if (respuesta.Existe)
                 {
+                    var modeloNuevo = HttpContext.Session.GetObjectFromJson<InscViewModel>("viewModelo");
+                    var grupoNuevo = new List<GrupoFamiliarViewModel>();
+                    foreach (var item in modeloNuevo.GrupoFamiliar)
+                    {
+                        if (item.InsfEstado != "B")
+                        {
+                            grupoNuevo.Add(item);
+                        }
+                    }
+                    modeloNuevo.GrupoFamiliar = grupoNuevo;
+                    HttpContext.Session.SetObjectAsJson<InscViewModel>("viewModelo", modeloNuevo);
+
                     var redirectUrl1 = Url.Action("GetPdfHome", "Bandeja");
                     return Json(new
                     {

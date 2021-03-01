@@ -34,6 +34,7 @@
 
         public int SituacionLaboralId { get; set; }
         public int TipoEmpleoKey { get; set; }
+        public string TipoRevistaDesc { get; set; }
         public int TipoRevistaKey { get; set; }
         public string IngresoNeto { get; set; }
         public string NombreEmpleo { get; set; }

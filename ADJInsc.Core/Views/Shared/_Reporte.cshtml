@@ -74,66 +74,76 @@
                     {
                         foreach (var item in Model.GrupoFamiliar)
                         {
-                    <tr>
-                        @Html.HiddenFor(modelItem => item.InsfNumdoc, new { id = "idEscondido" })
+                            if (item.InsfEstado == "B")
+                            {
 
-                        <td id="valorNombre">
-                            @Html.DisplayFor(modelItem => item.InsfNombre)
-                        </td>
-                        <td id="valorDoc">
-                            @Html.DisplayFor(modelItem => item.InsfNumdoc)
-                        </td>
-                        <td id="valorFec">
-                            @Html.DisplayFor(modelItem => item.FechaNacimiento)
-                        </td>
+                            }
+                            else
+                            {
+                                <tr>
+                                    @Html.HiddenFor(modelItem => item.InsfNumdoc, new { id = "idEscondido" })
 
-                        <td>
-                            @if (item.InsfDiscapacitado == 1)
-                                {
-                            <p>Si</p>
-                                }
-                                else
-                                {
-                            <p>No</p>
-                                }
+                                    <td id="valorNombre">
+                                        @Html.DisplayFor(modelItem => item.InsfNombre)
+                                    </td>
+                                    <td id="valorDoc">
+                                        @Html.DisplayFor(modelItem => item.InsfNumdoc)
+                                    </td>
+                                    <td id="valorFec">
+                                        @Html.DisplayFor(modelItem => item.FechaNacimiento)
+                                    </td>
 
-                        </td>
-                        <td>
-                            @if (item.InsfVeterano == 1)
-                                {
-                            <p>Si</p>
-                                }
-                                else
-                                {
-                            <p>No</p>
-                                }
+                                    <td>
+                                        @if (item.InsfDiscapacitado == 1)
+                                        {
+                                            <p>Si</p>
+                                        }
+                                        else
+                                        {
+                                            <p>No</p>
+                                        }
 
-                        </td>
-                        <td>
-                            @if (item.InsfMinero == 1)
-                                {
-                            <p>Si</p>
-                                }
-                                else
-                                {
-                            <p>No</p>
-                                }
+                                    </td>
+                                    <td>
+                                        @if (item.InsfVeterano == 1)
+                                        {
+                                            <p>Si</p>
+                                        }
+                                        else
+                                        {
+                                            <p>No</p>
+                                        }
 
-                        </td>
-                        <td id="valorP">
-                            @Html.DisplayFor(modelItem => item.ParentescoDesc, new { id = "idSoloParentesco" })
-                        </td>
+                                    </td>
+                                    <td>
+                                        @if (item.InsfMinero == 1)
+                                        {
+                                            <p>Si</p>
+                                        }
+                                        else
+                                        {
+                                            <p>No</p>
+                                        }
 
-                    </tr>
+                                    </td>
+                                    <td id="valorP">
+                                        @Html.DisplayFor(modelItem => item.ParentescoDesc, new { id = "idSoloParentesco" })
+                                    </td>
+
+                                </tr>
+                            }
+
                         }
-                    }else{
+                    }
+                    else
+                    {
                         <tr>
                             <td>
                                 Sin Datos
                             </td>
                         </tr>
                     }
-                   
+
                 </tbody>
             </table>
 
