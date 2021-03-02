@@ -9,6 +9,7 @@ D:\Proyectos NET\Temp\ADJInsc.Core\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\
 D:\Proyectos NET\Temp\ADJInsc.Core\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\favicon.ico
 D:\Proyectos NET\Temp\ADJInsc.Core\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\image\loader.gif
 D:\Proyectos NET\Temp\ADJInsc.Core\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\image\loading.gif
+D:\Proyectos NET\Temp\ADJInsc.Core\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\image\turno.png
 D:\Proyectos NET\Temp\ADJInsc.Core\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\js\bootbox\bootbox.all.js
 D:\Proyectos NET\Temp\ADJInsc.Core\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\js\bootbox\bootbox.all.min.js
 D:\Proyectos NET\Temp\ADJInsc.Core\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\js\bootbox\bootbox.js

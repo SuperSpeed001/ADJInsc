@@ -107,6 +107,7 @@
                             // si el estado es E => esta validado
                             // si el estado es nulo => esta migrado y hay que actualizar y no tiene usuario
                             //mostrar para que ingrese con correo contraseña
+                            // en utlimo caso si no existe debo cargar el formulario porque es nuevo y InsEstado == "N"
 
                         }
                         else
@@ -120,19 +121,34 @@
                                 };
                                 return View("Login", model1);
                             }
+                            else
+                            {
+                                if (result.InsEstado == "N")
+                                {
+                                     result.InsNumdoc = numDni;
+                                    result.Existe = false;
+                                        return View("ExisteInsc", result);
+                                        // ya existe en base de grupoFamiliar
+                                        //se debe mostrar mensaje o un popup que diga que se debe hacercar al ivuj
+                                    
+                                }
+                            }
                         }
                     }
                     else
                     {
-                        if (result.InsId == 0)
+                        /*
+                         * Esto es viejo porque 
+                         * if (result.InsId == 0)
                         {
                             return View("ExisteInsc", result);
                             //si insId e menor que cero significa que eldni ya existe en base de grupoFamiliar
                             //se debe mostrar mensaje o un popup que diga que se debe hacercar al ivuj
                         }
-                        
+                         */
                         result.InsNumdoc = numDni;
-                        result.Existe = false;                       
+                        result.Existe = false;     
+                        
                     }
                
                     HttpContext.Session.SetObjectAsJson<UsuarioTitularViewModel>("viewTitularModelo", result); //cargo en cache el resultado

@@ -188,20 +188,28 @@
                         cmdInsDomicilio.Parameters.Add(new SqlParameter("@ins_id", inscViewModel.InsId));
                         cmdInsDomicilio.Parameters.Add(new SqlParameter("@insdId", inscViewModel.IdDomicilio));
 
+                        cmdInsDomicilio.Parameters.Add("@new_identity", SqlDbType.Int, 8);
+                        cmdInsDomicilio.Parameters["@new_identity"].Direction = ParameterDirection.Output;
 
                         if (con.State == ConnectionState.Closed)
                             await con.OpenAsync();
 
                         var resultDireccion = await cmdInsDomicilio.ExecuteScalarAsync();
+
+                        string direccionId = cmdInsDomicilio.Parameters["@new_identity"].Value.ToString();
+
                         if (resultDireccion != null)
                         {
                             ts.Dispose();
                             modeloResponse.Observacion = "Error en direccion " + (string)resultDireccion;
                             await con.CloseAsync();
                             return modeloResponse;
+                            
                         }
                         else
                         {
+                            inscViewModel.IdDomicilio = int.Parse(direccionId);
+
                             modeloResponse.Observacion += "Direccion";
                         }
                         //2_insertar situacion laboral, Primero hace un update, si devuelve menor a 0 => Insert
@@ -726,6 +734,7 @@
             var pList = new UsuarioTitularViewModel();
             var idtitular = 0;
 
+            //si existe entonces devuelve informacion a Existe le pongo true
             if (grupoFamiliarExiste.Count > 0)
             {
                 foreach (var item in grupoFamiliarExiste)
@@ -738,9 +747,9 @@
                 {
                     foreach (DataRow item in dt111.Rows)
                     {
-                        pList.InsId = 0;
+                        pList.InsEstado = "N";
                         pList.InsEmail = ConvertFromReader<string>(item["ins_email"]);
-                        pList.InsEstado = ConvertFromReader<string>(item["ins_estado"]);
+                        //pList.InsEstado = ConvertFromReader<string>(item["ins_estado"]);
                         pList.InsFecalt = (DateTime)item["ins_fecalt"];
                         pList.InsFecins = ConvertFromReader<string>(item["ins_fecins"]);
                         pList.InsFicha = ConvertFromReader<int>(item["ins_ficha"]);
