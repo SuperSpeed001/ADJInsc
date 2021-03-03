@@ -409,6 +409,7 @@
 
                 if (respuesta.Existe)
                 {
+                    
                     var modeloNuevo = HttpContext.Session.GetObjectFromJson<InscViewModel>("viewModelo");
                     var grupoNuevo = new List<GrupoFamiliarViewModel>();
                     foreach (var item in modeloNuevo.GrupoFamiliar)

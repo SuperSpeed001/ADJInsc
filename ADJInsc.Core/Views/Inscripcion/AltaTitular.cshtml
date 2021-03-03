@@ -4,7 +4,12 @@
     <h2>Sistema de Inscripción / Actualización</h2>
 </p>
 
-
+<p style="background-color: yellow;color: red;font-weight: bold;">
+    @if (Model.MensajeModel != string.Empty)
+    {
+        @Model.MensajeModel
+    }
+</p>
 
 <div id="formTitular">
     <div class="form-group card border-info">

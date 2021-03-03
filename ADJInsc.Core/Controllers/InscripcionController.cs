@@ -59,6 +59,7 @@
             return View("Inscripcion");
         }
 
+       
 
         [HttpPost]
         [AllowAnonymous]
@@ -125,12 +126,28 @@
                             {
                                 if (result.InsEstado == "N")
                                 {
-                                     result.InsNumdoc = numDni;
-                                    result.Existe = false;
-                                        return View("ExisteInsc", result);
-                                        // ya existe en base de grupoFamiliar
-                                        //se debe mostrar mensaje o un popup que diga que se debe hacercar al ivuj
+                                    var existeT = new UsuarioTitularViewModel();
+                                    existeT.TipoFamiliaList = model.GetListado().Select
+                     (r => new SelectListItem
+                     {
+                         Value = $"{r.TipoFamiliaKey}",
+                         Text = r.TipoFamiliaDesc
+                     })
+                     .OrderBy(o => o.Text)
+                     .ToList();
+                                    existeT.InsNumdoc = numDni;
                                     
+                                    existeT.MensajeModel = "Usted está inscripto a un grupo familiar, desea crear un nuevo grupo como Titular? " +
+                                        "Si la respuesta es afirmativa ya dejará de pertenecer al grupo familiar de " + result.InsNombre + " con D.N.I.: " + result.InsNumdoc; 
+                                    HttpContext.Session.SetObjectAsJson<UsuarioTitularViewModel>("viewTitularModelo", existeT); //cargo en cache el resultado
+                                    
+                                    ViewBag.Header ="Usted está inscripto a un grupo familiar, desea crear un nuevo grupo como Titular? " +
+                                        "Si la respuesta es afirmativa ya dejará de pertenecer al grupo familiar de " + result.InsNombre + " con D.N.I.: " + result.InsNumdoc +
+                                         "De lo contrario debe acercarse al I.V.U.Ju.para actualizar sus datos.";
+                                    return RedirectToAction("AltaTitular");
+                                    // ya existe en base de grupoFamiliar
+                                    //se debe mostrar mensaje o un popup que diga que se debe hacercar al ivuj
+
                                 }
                             }
                         }
@@ -152,6 +169,7 @@
                     }
                
                     HttpContext.Session.SetObjectAsJson<UsuarioTitularViewModel>("viewTitularModelo", result); //cargo en cache el resultado
+                    ViewBag.Header = string.Empty;
                     return RedirectToAction("AltaTitular");
                     //return View("AltaTitular", result); 
                 }
@@ -322,6 +340,12 @@
             {
                 return View(new UsuarioTitularViewModel());
             }
+        }
+
+        
+        public IActionResult AltaNuevoTitular()
+        {
+            return LocalRedirect("/Inscripcion/AltaTitular");
         }
     }
 }

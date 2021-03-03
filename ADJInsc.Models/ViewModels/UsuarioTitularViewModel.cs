@@ -30,6 +30,7 @@
         public IEnumerable<SelectListItem> TipoFamiliaList { get; set; }
         public IList<GrupoFamiliarViewModel> GrupoFamiliar { get; set; }
 
+        public string MensajeModel { get; set; }
         public List<TipoFamilia> GetListado()
         {
             var tipoFamiliaList = new List<TipoFamilia>();

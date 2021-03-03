@@ -169,7 +169,25 @@
 
                 try
                 {
+                   /*para consultar si el integrnte de grupo familair ya existe en otro grupo
+                    * using (SqlCommand cmdConsult = new SqlCommand())
+                    {
+                        foreach (var item in inscViewModel.GrupoFamiliar)
+                        {
+                            var miNumDni = item.InsfNumdoc;
+                            var grupoExiste = await GetGrupoFamiliar(0, item.InsfNumdoc);
+                            if (grupoExiste.Count > 0)
+                            {
+                                return new ResponseViewModel
+                                {
+                                    Existe = true,
+                                    Observacion = "Pertenece",
+                                    InscriptoId = grupoExiste.Find(x => x.InsfNumdoc == miNumDni).InsId
+                                };
 
+                            }
+                        }
+                    }*/
                     var queryDomicilio = "sp_insert_update_Domicilio";
                     using (SqlCommand cmdInsDomicilio = new SqlCommand(queryDomicilio, con))
                     {
@@ -371,6 +389,7 @@
             {
                 try
                 {
+                    
                     using (SqlCommand cmdConsulta = new SqlCommand(queryF, con))
                     {
                         //  *************************     1_ Consultar si existe el email
@@ -492,6 +511,20 @@
                                     }                                        
 
                                     if (InscriptoId == 0) { ts.Dispose(); return new ResponseViewModel { Existe = false, UsuarioId = 0, InscriptoId = 0 }; }
+
+
+                                    //en caso de que exista en grupo familiar, entonces debo eliminar
+                                    //TODO: para probar
+                                    var queryDelete = "delete from InsFamilia where insf_numdoc = @numDoc";
+                                    using (SqlCommand cmdDelete = new SqlCommand(queryDelete, con))
+                                    {
+                                        cmdDelete.Parameters.Add(new SqlParameter("@numDoc", model.dni));
+
+                                        if (con.State == ConnectionState.Closed)
+                                            await con.OpenAsync();
+                                        await cmdDelete.ExecuteNonQueryAsync();
+                                    }
+
 
                                     //************  Si Todo salio Bien =>   obtengo el codigoVerificador
                                     query = "SELECT CodigoVerificador FROM Inscriptos WHERE ins_id = @ins_id ";
@@ -723,8 +756,7 @@
             {
 
                 throw ex;
-            }
-            
+            }            
             
         }
 
@@ -733,6 +765,7 @@
             var grupoFamiliarExiste = await GetGrupoFamiliar(0, dni);
             var pList = new UsuarioTitularViewModel();
             var idtitular = 0;
+            var idDomicilio = 0;
 
             //si existe entonces devuelve informacion a Existe le pongo true
             if (grupoFamiliarExiste.Count > 0)
@@ -748,13 +781,17 @@
                     foreach (DataRow item in dt111.Rows)
                     {
                         pList.InsEstado = "N";
+
+                        /*
                         pList.InsEmail = ConvertFromReader<string>(item["ins_email"]);
                         //pList.InsEstado = ConvertFromReader<string>(item["ins_estado"]);
                         pList.InsFecalt = (DateTime)item["ins_fecalt"];
                         pList.InsFecins = ConvertFromReader<string>(item["ins_fecins"]);
                         pList.InsFicha = ConvertFromReader<int>(item["ins_ficha"]);
+                        */
                         pList.InsNombre = ConvertFromReader<string>(item["ins_nombre"]);
                         pList.InsNumdoc = ConvertFromReader<string>(item["ins_numdoc"]);
+                        /*
                         pList.InsTelef = ConvertFromReader<string>(item["ins_telef"]);
                         pList.InsTipdoc = ConvertFromReader<string>(item["ins_tipdoc"]);
                         pList.InsTipflia = ConvertFromReader<string>(item["ins_tipflia"]);
@@ -765,7 +802,10 @@
                         pList.CuitCuilUno = ConvertFromReader<string>(item["cuit_cuil_uno"]);
                         pList.CuitCuilDos = ConvertFromReader<string>(item["cuit_cuil_dos"]);
                         pList.InsTelef = ConvertFromReader<string>(item["ins_telef"]);
+                        */
+                      
 
+                        pList.InsId = idtitular;
                                               
 
                     }
@@ -775,7 +815,7 @@
                 return pList;
             }
             
-            var idDomicilio = 0;
+            
            
 
             DataTable dt = await GetDTInscripto(dni, 0);

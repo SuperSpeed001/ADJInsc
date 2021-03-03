@@ -23,16 +23,18 @@
                                 <div class="modal-body card">
 
 
-                                    <h4>
-                                        Usted está inscripto al grupo familiar del titular <strong>@Model.InsNombre</strong>  con D.N.I.: <strong>@Model.InsNumdoc</strong>  <br/>
-                                        Debe acercarse al I.V.U.Ju. para actualizar sus datos.
+                                    <h4>Usted está inscripto a un grupo familiar, desea crear un nuevo grupo como Titular? 
+                                        Si la respuesta es afirmativa ya dejará de pertenecer al grupo familiar de <strong>@Model.InsNombre</strong>  con D.N.I.: <strong>@Model.InsNumdoc</strong>  <br/>
+                                        De lo contrario debe acercarse al I.V.U.Ju. para actualizar sus datos.
                                     </h4>
                                 </div>
                                 <div class="modal-footer">
-
-                                    <button type="button" id="btnHideModal" class="btn btn-outline-info">
-                                        Volver
-                                    </button>
+                                    <form asp-controller="Inscripcion" asp-action="AltaNuevoTitular" >
+                                        <button type="button" id="btnIrAlta" class="btn btn-outline-primary">Si, crear nuevo grupo</button>
+                                        </form>
+                                        <button type="button" id="btnHideModal" class="btn btn-outline-info">
+                                            Volver
+                                        </button>
                                 </div>
                             </div>
 
@@ -78,8 +80,14 @@
                 $("#loginModal").modal('hide');
                 history.back();
             });
+
+            $("#btnIrAlta").click(function () {
+                $("#loginModal").modal('hide');
+               
+            })
         });
 
+       
 
     </script>
 }
