@@ -14,6 +14,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ADJInsc.Core.Logica\ADJInsc.Core.Logica.csproj" />
+    <ProjectReference Include="..\ADJInsc.Helper\ADJInsc.Helper.csproj" />
     <ProjectReference Include="..\ADJInsc.Models\ADJInsc.Models.csproj" />
   </ItemGroup>
 

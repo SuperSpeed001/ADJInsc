@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ADJInsc.Core", "ADJInsc.Cor
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ADJInsc.Core.Api", "ADJInsc.Core.Api\ADJInsc.Core.Api.csproj", "{61CDF8BB-533A-4CD7-ADFB-739A13F8D6E4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADJInsc.Core.Logica", "ADJInsc.Core.Logica\ADJInsc.Core.Logica.csproj", "{050C0399-17EA-47B6-AFF1-90EF8DBEDB1A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ADJInsc.Core.Logica", "ADJInsc.Core.Logica\ADJInsc.Core.Logica.csproj", "{050C0399-17EA-47B6-AFF1-90EF8DBEDB1A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADJInsc.Helper", "ADJInsc.Helper\ADJInsc.Helper.csproj", "{D1EA9661-FAA0-49B9-ACAD-D1B28F986C5A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{050C0399-17EA-47B6-AFF1-90EF8DBEDB1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{050C0399-17EA-47B6-AFF1-90EF8DBEDB1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{050C0399-17EA-47B6-AFF1-90EF8DBEDB1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1EA9661-FAA0-49B9-ACAD-D1B28F986C5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1EA9661-FAA0-49B9-ACAD-D1B28F986C5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1EA9661-FAA0-49B9-ACAD-D1B28F986C5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1EA9661-FAA0-49B9-ACAD-D1B28F986C5A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,6 @@
+D:\Proyectos NET\Temp\ADJInsc.Helper\bin\Debug\ADJInsc.Helper.dll
+D:\Proyectos NET\Temp\ADJInsc.Helper\bin\Debug\ADJInsc.Helper.pdb
+D:\Proyectos NET\Temp\ADJInsc.Helper\obj\Debug\ADJInsc.Helper.csprojAssemblyReference.cache
+D:\Proyectos NET\Temp\ADJInsc.Helper\obj\Debug\ADJInsc.Helper.csproj.CoreCompileInputs.cache
+D:\Proyectos NET\Temp\ADJInsc.Helper\obj\Debug\ADJInsc.Helper.dll
+D:\Proyectos NET\Temp\ADJInsc.Helper\obj\Debug\ADJInsc.Helper.pdb

@@ -35,6 +35,9 @@
               "D:\\Proyectos NET\\Temp\\ADJInsc.Core.Logica\\ADJInsc.Core.Logica.csproj": {
                 "projectPath": "D:\\Proyectos NET\\Temp\\ADJInsc.Core.Logica\\ADJInsc.Core.Logica.csproj"
               },
+              "D:\\Proyectos NET\\Temp\\ADJInsc.Helper\\ADJInsc.Helper.csproj": {
+                "projectPath": "D:\\Proyectos NET\\Temp\\ADJInsc.Helper\\ADJInsc.Helper.csproj"
+              },
               "D:\\Proyectos NET\\Temp\\ADJInsc.Models\\ADJInsc.Models.csproj": {
                 "projectPath": "D:\\Proyectos NET\\Temp\\ADJInsc.Models\\ADJInsc.Models.csproj"
               }
@@ -180,6 +183,16 @@
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
         }
+      }
+    },
+    "D:\\Proyectos NET\\Temp\\ADJInsc.Helper\\ADJInsc.Helper.csproj": {
+      "restore": {
+        "projectUniqueName": "D:\\Proyectos NET\\Temp\\ADJInsc.Helper\\ADJInsc.Helper.csproj",
+        "projectName": "ADJInsc.Helper",
+        "projectPath": "D:\\Proyectos NET\\Temp\\ADJInsc.Helper\\ADJInsc.Helper.csproj"
+      },
+      "frameworks": {
+        "net472": {}
       }
     },
     "D:\\Proyectos NET\\Temp\\ADJInsc.Models\\ADJInsc.Models.csproj": {

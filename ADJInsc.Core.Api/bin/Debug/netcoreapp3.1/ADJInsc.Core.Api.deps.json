@@ -25,6 +25,7 @@
       "ADJInsc.Core.Api/1.0.0": {
         "dependencies": {
           "ADJInsc.Core.Logica": "1.0.0",
+          "ADJInsc.Helper": "1.0.0",
           "ADJInsc.Models": "1.0.0",
           "MailKit": "2.9.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.9",
@@ -2411,6 +2412,14 @@
         },
         "compile": {
           "ADJInsc.Core.Logica.dll": {}
+        }
+      },
+      "ADJInsc.Helper/1.0.0": {
+        "runtime": {
+          "ADJInsc.Helper.dll": {}
+        },
+        "compile": {
+          "ADJInsc.Helper.dll": {}
         }
       },
       "ADJInsc.Models/1.0.0": {
@@ -5508,6 +5517,11 @@
       "hashPath": "system.xml.xpath.xdocument.4.3.0.nupkg.sha512"
     },
     "ADJInsc.Core.Logica/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ADJInsc.Helper/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

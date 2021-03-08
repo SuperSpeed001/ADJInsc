@@ -3182,6 +3182,15 @@
           "bin/placeholder/ADJInsc.Core.Logica.dll": {}
         }
       },
+      "ADJInsc.Helper/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/ADJInsc.Helper.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ADJInsc.Helper.dll": {}
+        }
+      },
       "ADJInsc.Models/1.0.0": {
         "type": "project",
         "compile": {
@@ -9849,6 +9858,11 @@
       "path": "../ADJInsc.Core.Logica/ADJInsc.Core.Logica.csproj",
       "msbuildProject": "../ADJInsc.Core.Logica/ADJInsc.Core.Logica.csproj"
     },
+    "ADJInsc.Helper/1.0.0": {
+      "type": "project",
+      "path": "../ADJInsc.Helper/ADJInsc.Helper.csproj",
+      "msbuildProject": "../ADJInsc.Helper/ADJInsc.Helper.csproj"
+    },
     "ADJInsc.Models/1.0.0": {
       "type": "project",
       "path": "../ADJInsc.Models/ADJInsc.Models.csproj",
@@ -9858,6 +9872,7 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "ADJInsc.Core.Logica >= 1.0.0",
+      "ADJInsc.Helper >= 1.0.0",
       "ADJInsc.Models >= 1.0.0",
       "MailKit >= 2.9.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 3.1.9",
@@ -9900,6 +9915,9 @@
           "projectReferences": {
             "D:\\Proyectos NET\\Temp\\ADJInsc.Core.Logica\\ADJInsc.Core.Logica.csproj": {
               "projectPath": "D:\\Proyectos NET\\Temp\\ADJInsc.Core.Logica\\ADJInsc.Core.Logica.csproj"
+            },
+            "D:\\Proyectos NET\\Temp\\ADJInsc.Helper\\ADJInsc.Helper.csproj": {
+              "projectPath": "D:\\Proyectos NET\\Temp\\ADJInsc.Helper\\ADJInsc.Helper.csproj"
             },
             "D:\\Proyectos NET\\Temp\\ADJInsc.Models\\ADJInsc.Models.csproj": {
               "projectPath": "D:\\Proyectos NET\\Temp\\ADJInsc.Models\\ADJInsc.Models.csproj"

@@ -16,15 +16,15 @@
     {
         public IConfiguration Configuration { get; }
         public string _connectionString { get; set; }
-        private readonly IMailService _mailService;
+        //private readonly IMailService _mailService;
         private readonly LoginService loginService;
 
-        public LoginController(IConfiguration configuration, IMailService mailService)
+        public LoginController(IConfiguration configuration)
         {
             Configuration = configuration;
             _connectionString = Configuration["ConnectionStrings:DefaultConnection"];
-            _mailService = mailService;
-            loginService = new LoginService(_connectionString, _mailService);
+            //_mailService = mailService;
+            loginService = new LoginService(_connectionString);
         }
 
         [HttpPost("/login/GetLogin")]

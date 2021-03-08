@@ -336,3 +336,5 @@ D:\Proyectos NET\Temp\ADJInsc.Core.Api\obj\Release\netcoreapp3.1\ADJInsc.Core.Ap
 D:\Proyectos NET\Temp\ADJInsc.Core.Api\obj\Release\netcoreapp3.1\ADJInsc.Core.Api.dll
 D:\Proyectos NET\Temp\ADJInsc.Core.Api\obj\Release\netcoreapp3.1\ADJInsc.Core.Api.pdb
 D:\Proyectos NET\Temp\ADJInsc.Core.Api\obj\Release\netcoreapp3.1\ADJInsc.Core.Api.genruntimeconfig.cache
+D:\Proyectos NET\Temp\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\ADJInsc.Helper.dll
+D:\Proyectos NET\Temp\ADJInsc.Core.Api\bin\Release\netcoreapp3.1\ADJInsc.Helper.pdb

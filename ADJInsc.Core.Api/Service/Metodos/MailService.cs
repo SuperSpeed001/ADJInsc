@@ -44,8 +44,12 @@
             builder.HtmlBody = mailRequest.Body;
             email.Body = builder.ToMessageBody();
             using var smtp = new SmtpClient();
+
+            //agregado    *******************
+            smtp.ServerCertificateValidationCallback = (s, c, h, e) => true;
+            smtp.AuthenticationMechanisms.Remove("XOAUTH2");
             
-            smtp.Connect(_mailSettings.Host, _mailSettings.Port, SecureSocketOptions.StartTls);
+            smtp.Connect(_mailSettings.Host, _mailSettings.Port, false);
             smtp.Authenticate(_mailSettings.Mail, _mailSettings.Password);
             await smtp.SendAsync(email);
             smtp.Disconnect(true);

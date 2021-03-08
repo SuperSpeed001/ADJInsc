@@ -2,15 +2,14 @@
 {
     using System.Linq;
     using System.Threading.Tasks;
-    using ADJInsc.Core.Logica.Service.Interface;
-    using ADJInsc.Core.Logica.Service.Inscripcion;
+    using ADJInsc.Core.Api.Service.Interface;
     using ADJInsc.Models.ViewModels;
     using Microsoft.AspNetCore.Http;
     using Microsoft.AspNetCore.Mvc;
     using Microsoft.AspNetCore.Mvc.Rendering;
     using Microsoft.Extensions.Configuration;
+    using ADJInsc.Core.Api.Service.Inscripcion;
 
-    
     [ApiController]
     [Route("[controller]")]
     public class HelperController : ControllerBase

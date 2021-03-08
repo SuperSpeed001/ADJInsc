@@ -1,8 +1,8 @@
 namespace ADJInsc.Core.Api
 {
-    using ADJInsc.Core.Logica.Service.Interface;
-    using ADJInsc.Core.Logica.Service.Metodos;
-    using ADJInsc.Core.Logica.Service.Settings;
+    using ADJInsc.Core.Api.Service.Interface;
+    using ADJInsc.Core.Api.Service.Metodos;
+    using ADJInsc.Core.Api.Service.Settings;
     using ADJInsc.Models.Models.DBInsc;
     using Microsoft.AspNetCore.Builder;
     using Microsoft.AspNetCore.Hosting;

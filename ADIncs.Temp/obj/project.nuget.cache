@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "QSh46pW+jWsJRSssBvzAB2xs0sExmJKrR39wR5cC0cxRytVNtiwt0J5gZAr9zaDewN1d5t0BYaIgnqenxBn0nw==",
+  "success": true,
+  "projectFilePath": "D:\\Proyectos NET\\Temp\\ADIncs.Temp\\ADIncs.Temp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Sistemas\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Sistemas\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

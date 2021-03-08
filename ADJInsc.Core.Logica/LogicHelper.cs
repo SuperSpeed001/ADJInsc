@@ -18,12 +18,12 @@
     {
         public string _connectionString { get; set; }
         private SqlConnection con;
-        IMailService _mailService;
+       
 
-        public LogicHelper(string ConnectioonString, IMailService mailService)
+        public LogicHelper(string ConnectioonString)
         {
             _connectionString = ConnectioonString;
-            _mailService = mailService;
+         
         }
         private void Connection()
         {
@@ -557,7 +557,7 @@
                                     modeloResponse.Existe = false;
                                     ts.Complete();
 
-                                    await SendEmail(_mailService, modeloResponse, model.email);
+                                    //await SendEmail(_mailService, modeloResponse, model.email);
 
                                 }
 
@@ -1353,7 +1353,7 @@
         #endregion
 
         #region Metodos varios
-        private async Task<bool> SendEmail(IMailService mailService, ResponseViewModel model, string email)
+       /* private async Task<bool> SendEmail(IMailService mailService, ResponseViewModel model, string email)
         {
             try
             {
@@ -1374,7 +1374,7 @@
                 return false;
             }
 
-        }
+        }*/
 
         private GrupoFamiliarViewModel MapToFamilia(DataRow reader)
         {

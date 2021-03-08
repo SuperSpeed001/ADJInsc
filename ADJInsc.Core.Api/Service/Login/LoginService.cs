@@ -14,13 +14,13 @@
         public string _connectionString { get; set; }
         private SqlConnection con;
         private LogicHelper helper;
-        private readonly IMailService _mailService;
+        //private readonly IMailService _mailService;
 
-        public LoginService(string connectionString, IMailService mailService)
+        public LoginService(string connectionString)
         {
             _connectionString = connectionString;
-            _mailService = mailService;
-            helper = new LogicHelper(_connectionString, _mailService);
+           // _mailService = mailService;
+            helper = new LogicHelper(_connectionString);
         }
         private void Connection()
         {

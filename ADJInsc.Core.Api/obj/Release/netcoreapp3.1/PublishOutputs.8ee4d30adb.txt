@@ -68,7 +68,9 @@ D:\Proyectos NET\Temp\ADJInsc.Core.Api\obj\Release\netcoreapp3.1\PubTmp\Out\runt
 D:\Proyectos NET\Temp\ADJInsc.Core.Api\obj\Release\netcoreapp3.1\PubTmp\Out\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 D:\Proyectos NET\Temp\ADJInsc.Core.Api\obj\Release\netcoreapp3.1\PubTmp\Out\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 D:\Proyectos NET\Temp\ADJInsc.Core.Api\obj\Release\netcoreapp3.1\PubTmp\Out\ADJInsc.Core.Logica.dll
+D:\Proyectos NET\Temp\ADJInsc.Core.Api\obj\Release\netcoreapp3.1\PubTmp\Out\ADJInsc.Helper.dll
 D:\Proyectos NET\Temp\ADJInsc.Core.Api\obj\Release\netcoreapp3.1\PubTmp\Out\ADJInsc.Models.dll
 D:\Proyectos NET\Temp\ADJInsc.Core.Api\obj\Release\netcoreapp3.1\PubTmp\Out\ADJInsc.Core.Logica.pdb
+D:\Proyectos NET\Temp\ADJInsc.Core.Api\obj\Release\netcoreapp3.1\PubTmp\Out\ADJInsc.Helper.pdb
 D:\Proyectos NET\Temp\ADJInsc.Core.Api\obj\Release\netcoreapp3.1\PubTmp\Out\ADJInsc.Models.pdb
 D:\Proyectos NET\Temp\ADJInsc.Core.Api\obj\Release\netcoreapp3.1\PubTmp\Out\ADJInsc.Models.dll.config
